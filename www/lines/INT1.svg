@@ -607,6 +607,9 @@ state=$'name'.StCode;</desc>
        stroke-miterlimit="4"
        id="g5170-42-8-4-0-5-5"
        style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
+      <desc>
+      {"name": "A_1303_BSA12","type":"FB14","ptype":"7177","DB":"160","OFFSET":"210"}
+      </desc>
       <path
          d="m 2649.5,196.5 c 0,2.209 -1.79,4 -4,4 -2.21,0 -4,-1.791 -4,-4 0,-2.209 1.79,-4 4,-4 2.21,0 4,1.791 4,4 z"
          id="path5172-30-7-2-7-3-5"
