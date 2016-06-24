@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Beira Grain Terminal</title>
+    <link rel="stylesheet" href="/lib/angular-material-icons/angular-material-icons.css">
+    <link rel="stylesheet" href="/lib/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-app="app">
+    <!-- Angular Material requires Angular.js Libraries -->
+    <script src="/lib/angular/angular.min.js"></script>
+    <script src="/lib/angular-animate/angular-animate.min.js"></script>
+    <script src="/lib/angular-aria/angular-aria.min.js"></script>
+    <script src="/lib/angular-messages/angular-messages.min.js"></script>
+    <script src="/lib/angular-material/angular-material.min.js"></script>
+    <script src="/lib/angular-material-icons/angular-material-icons.min.js"></script>
+    <script src="/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/lib/d3/d3.min.js"></script>
+    <!-- Your application bootstrap  -->
+    <script src="/app/app.js"></script> 
+    <div ng-controller="app" layout="row" layout-fill>
+      <section layout="row" ng-controller="MenuCtrl">
+        <md-sidenav
+          class="md-sidenav-left"
+          md-component-id="left"
+          md-is-locked-open="$mdMedia('gt-md')"
+          md-disable-backdrop
+          md-whiteframe="4">
+            <img src="/images/Logo_Buhler.png" width="80%" style="margin:5%"/>
+            <md-divider></md-divider>
+          <md-content flex role="navigation">
+            <md-list>
+              <md-list-item ng-href="#/INT1">
+                <ng-md-icon icon="label_outline" size="22"></ng-md-icon> 
+                <p> Wheat Intake</p>
+              </md-list-item>
+              <md-list-item ng-href="#/WTR1">
+                <ng-md-icon icon="label_outline" size="22"></ng-md-icon> 
+                <p> Wheat Transfer</p>
+              </md-list-item>
+              <md-list-item ng-href="#/PTR1">
+                <ng-md-icon icon="label_outline" size="22"></ng-md-icon> 
+                <p> Product Transfer 1</p>
+              </md-list-item>
+              <md-list-item ng-href="#/PTR2">
+                <ng-md-icon icon="label_outline" size="22"></ng-md-icon> 
+                <p> Product Transfer 2</p>
+              </md-list-item>
+              <md-divider></md-divider>
+              <md-list-item ng-href="#/SETTINGS">
+                <ng-md-icon icon="settings" size="22"></ng-md-icon> 
+                <p> Settings</p>
+              </md-list-item>
+            </md-list>
+          </md-content>
+        </md-sidenav>  
+      </section>
+      <div layout="column" class="back" flex>
+        <md-toolbar>     
+        </md-toolbar>
+        <div class="fill-height">
+          <div ui-view=""></div>
+        </div>
+        <div class="lock-size fab" layout="row" ng-controller="WindowCtrl">
+          <md-fab-speed-dial md-open="isOpen" 
+          md-direction="{{selectedDirection}}"
+          ng-class="selectedMode">
+            <md-fab-trigger>
+              <md-button aria-label="menu" class="md-fab md-warn">
+                <ng-md-icon icon="list" size="24"></ng-md-icon> 
+              </md-button>
+            </md-fab-trigger>
+            <md-fab-actions>
+              <md-button aria-label="Twitter" class="md-fab md-raised md-mini md-primary">
+                <ng-md-icon icon="play_arrow" size="24"></ng-md-icon> 
+              </md-button>
+              <md-button aria-label="Facebook" class="md-fab md-raised md-mini md-primary">
+                <ng-md-icon icon="pause" size="24"></ng-md-icon> 
+              </md-button>
+              <md-button aria-label="Google Hangout" class="md-fab md-raised md-mini md-primary">
+                <ng-md-icon icon="stop" size="24"></ng-md-icon> 
+              </md-button>
+            </md-fab-actions>
+          </md-fab-speed-dial>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
