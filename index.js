@@ -8,7 +8,7 @@ var s7client = new snap7.S7Client();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(morgan('dev'));
+//app.use(morgan('dev'));
 app.use(express.static('www'));
 
 app.get('/', function (req, res) {
@@ -23,7 +23,7 @@ app.post('/getStatus', function(req, res){
     var element = req.body;
     s7client.DBRead(parseInt(element.DB),parseInt(element.OFFSET),2,function(err,data){
       if(err)
-            return console.log(' >> ABRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+            return console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));
       else
         var status = data.readUIntBE(0, 2);
         elementInfo.getStatus(element,status,function(data){

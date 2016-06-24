@@ -4748,6 +4748,9 @@ state=$'name'.StCode;</desc>
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
        id="g8461-6-2-1"
        stroke-miterlimit="4">
+      <desc>
+      {"name": "A_1303_BSA12","type":"FB12","ptype":"7053","DB":"141","OFFSET":"230"}
+      </desc>
       <path
          style="stroke-width:1;stroke-linecap:square"
          inkscape:connector-curvature="0"
