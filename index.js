@@ -16,7 +16,10 @@ app.get('/', function (req, res) {
 });
 
 app.listen(3000, function () {
-  console.log('Control System started on port 3000.');
+    console.log('====================================');
+    console.log('Control System started on port 3000.');
+    console.log('Written with love by H.Potgieter');
+    console.log('====================================');
 });
 
 app.post('/getStatus', function(req, res){    
@@ -29,6 +32,16 @@ app.post('/getStatus', function(req, res){
         elementInfo.getStatus(element,status,function(data){
             res.send(data);
         });
+    });
+});
+
+app.post('/setBit', function(req, res){ 
+    var element = req.body;   
+    s7client.WriteArea(s7client.S7AreaDB,parseInt(element.DB), (parseInt(element.OFFSET)*8+parseInt(element.BIT)), 1, s7client.S7WLBit, new Buffer([0x01]) , function(err) {
+        if(err)
+            return console.log(' >> WriteArea failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+            else
+        res.send(200);
     });
 });
 

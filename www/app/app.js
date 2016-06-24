@@ -4,7 +4,7 @@ angular
     }).controller('MenuCtrl', function ($scope) {
 
     })
-    .controller('WindowCtrl', function ($scope) {
+    .controller('WindowCtrl', function ($scope,$http) {
       $scope.topDirections = ['left', 'up'];
       $scope.bottomDirections = ['down', 'right'];
       $scope.isOpen = false;
@@ -12,17 +12,44 @@ angular
       $scope.selectedMode = 'md-fling';
       $scope.availableDirections = ['up', 'down', 'left', 'right'];
       $scope.selectedDirection = 'left';
+
+      $scope.start = function(){
+        var object = {
+            DB:'600',
+            OFFSET:'241',
+            BIT:'1'
+        };
+        $http.post("/setBit", object)
+        .success(function (data) {
+            console.log('done');
+        }); 
+      }
+
+      $scope.stop = function(){
+        var object = {
+            DB:'600',
+            OFFSET:'69',
+            BIT:'7'
+        };
+        $http.post("/setBit", object)
+        .success(function (data) {
+            console.log('done');
+        }); 
+      }
+
     })
+
     .controller('SettingsCtrl', function ($scope) {
         $scope.plc = {
             ip:'10.0.0.2'
         }
     })
+
     .controller('LineCtrl', function ($scope,$http) {
         function changeColor() {
             var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
             if(sel.empty()) {
-                console.log('hello');
+                //console.log('hello');
                 setTimeout(changeColor, 100);
             } else {
                 
@@ -30,13 +57,12 @@ angular
                         if(isJsonString(this.textContent))
                         {    
                             var object = JSON.parse(this.textContent);
-                            console.log(object)
+                            //console.log(object)
                             object.node = this;
                             $http.post("/getStatus", object)
                             .success(function (data) {
                                 d3.select(object.node.parentNode).style('fill',data.color);
                             });  
-                            //d3.select(this.parentNode).style('fill','green');
                         };
                     });
                     
@@ -56,6 +82,7 @@ angular
         }
           
     })
+
     .config(['$stateProvider', '$urlRouterProvider',
         function($stateProvider, $urlRouterProvider){
             $urlRouterProvider.otherwise("/");
