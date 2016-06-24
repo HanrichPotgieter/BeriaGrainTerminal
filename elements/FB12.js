@@ -41,6 +41,16 @@ module.exports = {
                     response.color = "cyan";
                     callback(response);
                     break;
+                case 9:
+                // StStartRequest
+                    response.color = "gray";
+                    callback(response);
+                    break;
+                case 513:
+                // StStopped
+                    response.color = "gray";
+                    callback(response);
+                    break;
                 case 32:
                 // StFault
                     response.color = "red";
@@ -78,6 +88,16 @@ module.exports = {
                 case 7:
                 // StStopping
                     response.color = "cyan";
+                    callback(response);
+                    break;
+                case 9:
+                // StStartRequest
+                    response.color = "gray";
+                    callback(response);
+                    break;
+                case 513:
+                // StStopped
+                    response.color = "gray";
                     callback(response);
                     break;
                 case 32:

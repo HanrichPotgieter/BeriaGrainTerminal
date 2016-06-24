@@ -35,6 +35,11 @@ module.exports = {
                     response.color = "lightgreen";
                     callback(response);
                     break;
+                case 515:
+                // StTrue
+                    response.color = "green";
+                    callback(response);
+                    break;
                 case 32:
                 // StFault
                     response.color = "red";
