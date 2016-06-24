@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-animate": "^1.5.7",
+    "angular-aria": "^1.5.7",
+    "angular-material": "^1.1.0-rc.5",
+    "angular-material-icons": "^0.7.0",
+    "angular-messages": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "body-parser": "^1.15.2",
+    "d3": "^3.5.17",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "node-gyp": "^3.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
