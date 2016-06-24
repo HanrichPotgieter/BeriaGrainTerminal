@@ -34,9 +34,7 @@ angular
                             object.node = this;
                             $http.post("/getStatus", object)
                             .success(function (data) {
-                                console.log(data);
                                 d3.select(object.node.parentNode).style('fill',data.color);
-                                
                             });  
                             //d3.select(this.parentNode).style('fill','green');
                         };
