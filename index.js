@@ -3,6 +3,7 @@ var app = express();
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var snap7 = require('node-snap7');
+var elementInfo = require('./elements/getStatus');
 
 var s7client = new snap7.S7Client();
 
@@ -10,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(morgan('dev'));
 app.use(express.static('www'));
+
 
 app.get('/', function (req, res) {
   res.sendfile(__dirname+'/www/index.html');
@@ -22,30 +24,16 @@ app.listen(3000, function () {
 app.post('/getStatus', function(req, res){    
     //console.log(req.body); 
     var element = req.body;
-    console.log(element);
 
-    var response = {
-      color:'yellow',
-      status:'started'
-    }
-    
     s7client.DBRead(parseInt(element.DB),parseInt(element.OFFSET),2,function(err,data){
       if(err)
             return console.log(' >> ABRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));
       else
         var status = data.readUIntBE(0, 2);
-        if(status === 513){
-            response.color = "gray";
-            res.send(response);
-        }
-        else if(status === 3){
-            response.color = "green";
-            res.send(response);
-        }
-        else{
-            res.send(response);
-        }
-    })
+        elementInfo.getStatus(element,status,function(data){
+            res.send(data);
+        });
+    });
 
 });
 
