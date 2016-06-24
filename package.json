@@ -20,7 +20,8 @@
     "d3": "^3.5.17",
     "express": "^4.14.0",
     "morgan": "^1.7.0",
-    "node-gyp": "^3.3.1"
+    "node-gyp": "^3.3.1",
+    "node-snap7": "^0.2.3"
   },
   "devDependencies": {
     "gulp": "^3.9.1"
