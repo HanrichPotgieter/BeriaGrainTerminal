@@ -1,22 +1,13 @@
 module.exports = {
   getStatus: function (data,status,callback) {
-
-    var response = {
-    color:'yellow',
-    status:'started'
+    
+    try {
+        var FB = require('./' + data.type);
+        FB.getStatus(data,status,callback);
     }
-
-    if(status === 513){
-        response.color = "gray";
-        callback(response);
+    catch(err) {
+        console.log(err);
+        console.log('Could not find fnction block file.');
     }
-    else if(status === 3){
-        response.color = "green";
-        callback(response);
-    }
-    else{
-        callback(response);
-    }
-
   },
 };
