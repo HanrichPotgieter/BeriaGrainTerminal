@@ -4362,6 +4362,10 @@ state=$'name'.StCode;</desc>
        id="g3962"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-dasharray:none"
        class="dynShape">
+       <desc
+      id="desc13518">
+      {"name": "=A-1006-MXZ01","type":"FB12","ptype":"7056","DB":"151","OFFSET":"434"}
+      </desc>
       <path
          sodipodi:nodetypes="ccccc"
          transform="translate(506,15)"

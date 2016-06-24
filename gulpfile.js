@@ -14,7 +14,7 @@ gulp.task('start', function () {
   gulp.start('copy');
   nodemon({
     script: 'index.js'
-  , ext: 'js html'
+  , ext: ''
   , env: { 'NODE_ENV': 'development' }
   })
 })

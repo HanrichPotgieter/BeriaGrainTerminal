@@ -8,7 +8,7 @@ var s7client = new snap7.S7Client();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-//app.use(morgan('dev'));
+app.use(morgan('dev'));
 app.use(express.static('www'));
 
 app.get('/', function (req, res) {
