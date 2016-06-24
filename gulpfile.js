@@ -3,7 +3,7 @@ var nodemon = require('nodemon');
 
 gulp.task('default', function() {
   // place code for your default task here
-  gulp.start('copy');
+  gulp.start('start');
 });
 
 gulp.task('copy',function() {
@@ -11,6 +11,7 @@ gulp.task('copy',function() {
 })
 
 gulp.task('start', function () {
+  gulp.start('copy');
   nodemon({
     script: 'index.js'
   , ext: 'js html'
