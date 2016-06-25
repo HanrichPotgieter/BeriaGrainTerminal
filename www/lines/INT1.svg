@@ -5822,17 +5822,14 @@ state=$'name'.StCode;</desc>
      onclick="this.visualization.click(event)"
      Library="GM_2.2.0.1438.0"
      Symbol="Symbol: v0.0">
-    <desc
-       id="desc2272-9-7">[Visualization]
-name=A_1303_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+
     <g
        class="dynShape"
        id="g8499-0-0"
        style="fill:#c0c0c0;stroke:#000000">
+      <desc>
+       {"name": "=A-1222-MXZ01","type":"FB12","ptype":"7056","DB":"160","OFFSET":"500","description":"Chain conveyor silos"}
+       </desc>
       <path
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0"
          d="m 2173.5,371.5 685,0 0,8 -685,0 z"
