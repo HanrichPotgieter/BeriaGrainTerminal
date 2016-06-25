@@ -74,26 +74,52 @@ app.post('/getIoState', function(req, res){
     }
 
     if(s7client.Connected()){
-        s7client.EBRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
-            if(err){
-                res.sendStatus(200);
-                return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
-            }
-            else{
-                //console.log(data.readUIntBE(0, 1));
-                if(data.readUIntBE(0, 1) == 254){
-                    status.color="green";
-                    status.description="ON"
-                    res.send(status);
+        if(element.type === "Q")
+        {
+            s7client.ABRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
+                if(err){
+                    res.sendStatus(200);
+                    return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
                 }
                 else{
-                    status.color="red";
-                    status.description="OFF"
-                    res.send(status);
+                    //console.log(data.readUIntBE(0, 1));
+                    if(data.readUIntBE(0, 1) == 254){
+                        status.color="green";
+                        status.description="ON"
+                        res.send(status);
+                    }
+                    else{
+                        status.color="red";
+                        status.description="OFF"
+                        res.send(status);
+                    }
                 }
-            }
 
-        })
+            });
+        }
+        if(element.type === "I")
+        {
+            s7client.EBRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
+                if(err){
+                    res.sendStatus(200);
+                    return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+                }
+                else{
+                    //console.log(data.readUIntBE(0, 1));
+                    if(data.readUIntBE(0, 1) == 254){
+                        status.color="green";
+                        status.description="ON"
+                        res.send(status);
+                    }
+                    else{
+                        status.color="red";
+                        status.description="OFF"
+                        res.send(status);
+                    }
+                }
+
+            });
+        }
 
     }else{
         res.send(status);
