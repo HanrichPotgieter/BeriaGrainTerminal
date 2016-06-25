@@ -71,8 +71,18 @@ app.post('/getIoState', function(req, res){
         color:'orange',
         id:element.id
     }
-    
+
     if(s7client.Connected()){
+        s7client.EBRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
+            if(err){
+                res.sendStatus(200);
+                return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+            }
+            else{
+                console.log(data);
+            }
+
+        })
 
     }else{
         res.send(status);
