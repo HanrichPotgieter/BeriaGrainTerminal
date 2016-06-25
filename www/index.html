@@ -52,12 +52,23 @@
                 <ng-md-icon icon="settings" size="22"></ng-md-icon> 
                 <p> Settings</p>
               </md-list-item>
+              <md-divider></md-divider>
+              <md-list-item hide-gt-md ng-click="toggleLeft()">
+                <ng-md-icon icon="close" size="22"></ng-md-icon> 
+                <p> Close</p>
+              </md-list-item>
+              <md-divider></md-divider>
             </md-list>
           </md-content>
         </md-sidenav>  
       </section>
       <div layout="column" class="back" flex>
-        <md-toolbar>     
+        <md-toolbar>
+          <div class="md-toolbar-tools">
+              <md-button class="md-icon-button" aria-label="More" hide-gt-md ng-click="toggleLeft()">
+                <ng-md-icon icon="list" size="30"></ng-md-icon> 
+              </md-button> 
+          </div> 
         </md-toolbar>
         <div class="fill-height">
           <div ui-view=""></div>

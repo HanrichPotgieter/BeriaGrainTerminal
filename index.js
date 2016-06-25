@@ -24,30 +24,39 @@ app.listen(3000, function () {
 
 app.post('/getStatus', function(req, res){    
     var element = req.body;
-    s7client.DBRead(parseInt(element.DB),parseInt(element.OFFSET),2,function(err,data){
-      if(err)
-            return console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));
-      else
-        var status = data.readUIntBE(0, 2);
-        elementInfo.getStatus(element,status,function(data){
-            res.send(data);
+    if(s7client.Connected()){
+        s7client.DBRead(parseInt(element.DB),parseInt(element.OFFSET),2,function(err,data){
+        if(err){
+                res.send(200);
+                return console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+                
+        }
+        else
+            var status = data.readUIntBE(0, 2);
+            elementInfo.getStatus(element,status,function(data){
+                res.send(data);
+            });
         });
-    });
+    }
+    res.send(404);
 });
 
 app.post('/setBit', function(req, res){ 
     var element = req.body;   
-    s7client.WriteArea(s7client.S7AreaDB,parseInt(element.DB), (parseInt(element.OFFSET)*8+parseInt(element.BIT)), 1, s7client.S7WLBit, new Buffer([0x01]) , function(err) {
-        if(err)
-            return console.log(' >> WriteArea failed. Code #' + err + ' - ' + s7client.ErrorText(err));
-            else
-        res.send(200);
-    });
+    if(s7client.Connected()){
+        s7client.WriteArea(s7client.S7AreaDB,parseInt(element.DB), (parseInt(element.OFFSET)*8+parseInt(element.BIT)), 1, s7client.S7WLBit, new Buffer([0x01]) , function(err) {
+            if(err)
+                return console.log(' >> WriteArea failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+                else
+            res.send(200);
+        });
+    }
+    res.send(404);
 });
 
 s7client.ConnectTo('10.0.0.70', 0, 2, function(err) {
     if(err)
-        return console.log(' >> Connection failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+      console.log(' >> Connection failed. Code #' + err + ' - ' + s7client.ErrorText(err));
     else
       console.log('Connection Successful');
 });
