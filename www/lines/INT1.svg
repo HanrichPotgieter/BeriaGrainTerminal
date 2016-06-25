@@ -5827,8 +5827,8 @@ state=$'name'.StCode;</desc>
        class="dynShape"
        id="g8499-0-0"
        style="fill:#c0c0c0;stroke:#000000">
-      <desc>
-       {"name": "=A-1222-MXZ01","type":"FB12","ptype":"7056","DB":"160","OFFSET":"500","description":"Chain conveyor silos"}
+        <desc>
+       {"name":"=A-1222-MXZ01","type":"FB12","ptype":"7056","DB":"160","OFFSET":"500","description":"Chain conveyor above silos"}
        </desc>
       <path
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0"
