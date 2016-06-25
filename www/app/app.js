@@ -68,7 +68,39 @@ angular
         }
     })
 
-    .controller('LineCtrl', function ($scope,$http) {
+    .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia) {
+        function DialogController($scope,$http, item) {
+            $scope.item = item;
+            $scope.item.style = {
+                "background-color" : "white",
+            }
+
+            $http.post("/getStatus", item)
+            .success(function (data) {
+                console.log(data);
+                $scope.item.style['background-color'] = data.color;
+                $scope.item.status = data.status;
+            });   
+
+        }
+
+        $scope.showAdvanced = function(object) {
+            var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'))  && $scope.customFullscreen;
+            $mdDialog.show({
+            controller: DialogController,
+            templateUrl: './view/elementDialog.tmpl.html',
+            parent: angular.element(document.body),
+            clickOutsideToClose:true,
+            locals: {
+                item: object
+            }
+            });
+        };
+
+        function itemClicked(object){
+            $scope.showAdvanced(object);
+        };
+
         function changeColor() {
             var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
             if(sel.empty()) {
@@ -81,6 +113,10 @@ angular
                             var object = JSON.parse(this.textContent);
                             //console.log(object)
                             object.node = this;
+                            d3.select(object.node.parentNode).on("click", function($event) {
+                                itemClicked(object,$event);
+                            });
+
                             $http.post("/getStatus", object)
                             .success(function (data) {
                                 d3.select(object.node.parentNode).style('fill',data.color);

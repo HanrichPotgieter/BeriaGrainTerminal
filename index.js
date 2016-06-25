@@ -21,20 +21,28 @@ var connectToPlc = function(){
             console.log(' >> Connection failed. Code #' + err + ' - ' + s7client.ErrorText(err));
             setTimeout(connectToPlc, 5000);
         }
-        else
-        console.log('Connection Successful');
+        else{
+            console.log('Connection Successful');
+            checkConnection();
+        }
     });
-    
 }
 
+var checkConnection = function(){
+    if(!s7client.Connected()){
+        connectToPlc();
+    }
+    else{
+        setTimeout(checkConnection, 5000);
+    }
+}
 
 app.listen(3000, function () {
     console.log('====================================');
     console.log('Control System started on port 3000.');
     console.log('Written with love by H.Potgieter');
     console.log('====================================');
-    connectToPlc();
-    
+    checkConnection();  
 });
 
 app.post('/getStatus', function(req, res){    
@@ -52,7 +60,7 @@ app.post('/getStatus', function(req, res){
             });
         });
     }
-    res.sendStatus(404);
+    res.send({color:'orange',status:'PLC Disconnected'});
 });
 
 app.post('/setBit', function(req, res){ 
