@@ -4889,7 +4889,26 @@ state=$'name'.StCode;</desc>
        id="g11342-6-7-4"
        stroke-miterlimit="4">
       <desc>
-      {"name": "=A-1300-MXZ01","type":"FB12","ptype":"7056","DB":"141","OFFSET":"668"}
+      {"name":"=A-1300-MXZ01",
+       "type":"FB12",
+       "ptype":"7056",
+       "DB":"141",
+       "OFFSET":"668",
+       "description":"Aspiration Blower",
+       "ios":[
+        {
+        "type":"I",
+        "pos":"1",
+        "offset":"2",
+        "description":"Running"
+        },
+        {
+        "type":"Q",
+        "pos":"1",
+        "offset":"2",
+        "description":"Start"
+        }
+        ]}
       </desc>
       <path
          style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4"
