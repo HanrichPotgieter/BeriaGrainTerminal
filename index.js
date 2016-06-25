@@ -69,7 +69,8 @@ app.post('/getIoState', function(req, res){
     var element = req.body;
     var status = {
         color:'orange',
-        id:element.id
+        id:element.id,
+        description:"PLC Disconnected"
     }
 
     if(s7client.Connected()){
@@ -79,7 +80,17 @@ app.post('/getIoState', function(req, res){
                 return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
             }
             else{
-                console.log(data);
+                //console.log(data.readUIntBE(0, 1));
+                if(data.readUIntBE(0, 1) == 254){
+                    status.color="green";
+                    status.description="ON"
+                    res.send(status);
+                }
+                else{
+                    status.color="red";
+                    status.description="OFF"
+                    res.send(status);
+                }
             }
 
         })
