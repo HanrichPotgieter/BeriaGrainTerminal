@@ -13,7 +13,8 @@ gulp.task('copy',function() {
 gulp.task('start', function () {
   gulp.start('copy');
   nodemon({
-    script: 'index.js'
+    script: 'index.js',
+    ignore: ['node_modules/**','lib/**']
   , ext: ''
   , env: { 'NODE_ENV': 'development' }
   })
