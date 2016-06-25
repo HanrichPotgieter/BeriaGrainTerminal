@@ -24,7 +24,6 @@ angular
             }, wait || 10);
         };
         }
-
     }).controller('MenuCtrl', function ($scope) {
 
     })
@@ -76,7 +75,6 @@ angular
                 //console.log('hello');
                 setTimeout(changeColor, 100);
             } else {
-                
                 var tmp = sel.selectAll("*").select("desc").each(function () {
                         if(isJsonString(this.textContent))
                         {    
@@ -89,9 +87,7 @@ angular
                             });  
                         };
                     });
-                    
                 setTimeout(changeColor, 1000);
-                
             }
         }
         changeColor();
