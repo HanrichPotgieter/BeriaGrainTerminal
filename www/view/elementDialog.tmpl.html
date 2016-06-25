@@ -18,10 +18,10 @@
             <div ng-repeat="io in ios">
                 <md-list-item class="md-2-line">   
                 <div class="md-list-item-text">
-                    <h3>{{io.description}}</h3>
-                    <p>{{io.type}} {{io.pos}}.{{io.offset}}</p>
+                    <h3 ng-style="io.style">{{io.description}}</h3>
+                    <p ng-style="io.style">{{io.type}} {{io.pos}}.{{io.offset}}</p>
                 </div>
-                <ng-md-icon icon="power_settings_new" size="24"></ng-md-icon> 
+                <ng-md-icon icon="power_settings_new" size="24" ng-style="io.style"></ng-md-icon> 
                 </md-list-item>
             </div>
             <md-divider></md-divider>

@@ -76,15 +76,26 @@ angular
             }
             $scope.ios = item.ios;
             function getStatus(){
+                //Update the status of the element
                 $http.post("/getStatus", item)
                 .success(function (data) {
                     console.log(data);
                     $scope.item.style['background-color'] = data.color;
                     $scope.item.status = data.status;
                 });  
+                //Read the status of the io
+                for (x in $scope.ios) {
+                    $scope.ios[x].id = x;
+                    $http.post("/getIoState", $scope.ios[x])
+                    .success(function (data) {
+                        console.log($scope.ios[x]);
+                        $scope.ios[data.id].style = {
+                            "fill" : data.color
+                        }
+                    }); 
+                }
                 setTimeout(getStatus, 200);               
             }  
-
             getStatus();
 
         }

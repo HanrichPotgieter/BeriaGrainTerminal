@@ -65,6 +65,20 @@ app.post('/getStatus', function(req, res){
     }
 });
 
+app.post('/getIoState', function(req, res){  
+    var element = req.body;
+    var status = {
+        color:'orange',
+        id:element.id
+    }
+    
+    if(s7client.Connected()){
+
+    }else{
+        res.send(status);
+    }
+});
+
 app.post('/setBit', function(req, res){ 
     var element = req.body;   
     if(s7client.Connected()){
