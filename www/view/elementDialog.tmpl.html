@@ -13,6 +13,7 @@
                 {{item.status}}
             </md-list-item>
             <md-divider></md-divider>
+            <md-subheader class="md-no-sticky" ng-hide="ios">IO Elements not avaliable</md-subheader>
             <md-subheader class="md-no-sticky" ng-show="ios">IO Elements</md-subheader>
             <md-divider ng-show="ios"></md-divider>
             <div ng-repeat="io in ios">
