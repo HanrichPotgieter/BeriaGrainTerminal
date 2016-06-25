@@ -15,6 +15,17 @@ app.get('/', function (req, res) {
   res.sendfile(__dirname+'/www/index.html');
 });
 
+var connectToPlc = function(){
+    s7client.ConnectTo('10.0.0.70', 0, 2, function(err) {
+        if(err){
+            console.log(' >> Connection failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+            setTimeout(connectToPlc, 5000);
+        }
+        else
+        console.log('Connection Successful');
+    });
+    
+}
 
 
 app.listen(3000, function () {
@@ -22,13 +33,7 @@ app.listen(3000, function () {
     console.log('Control System started on port 3000.');
     console.log('Written with love by H.Potgieter');
     console.log('====================================');
-
-    s7client.ConnectTo('10.0.0.70', 0, 2, function(err) {
-        if(err)
-        console.log(' >> Connection failed. Code #' + err + ' - ' + s7client.ErrorText(err));
-        else
-        console.log('Connection Successful');
-    });
+    connectToPlc();
     
 });
 
