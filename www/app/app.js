@@ -74,7 +74,7 @@ angular
             $scope.item.style = {
                 "background-color" : "white",
             }
-
+            $scope.ios = item.ios;
             function getStatus(){
                 $http.post("/getStatus", item)
                 .success(function (data) {
