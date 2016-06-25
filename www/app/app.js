@@ -75,12 +75,17 @@ angular
                 "background-color" : "white",
             }
 
-            $http.post("/getStatus", item)
-            .success(function (data) {
-                console.log(data);
-                $scope.item.style['background-color'] = data.color;
-                $scope.item.status = data.status;
-            });   
+            function getStatus(){
+                $http.post("/getStatus", item)
+                .success(function (data) {
+                    console.log(data);
+                    $scope.item.style['background-color'] = data.color;
+                    $scope.item.status = data.status;
+                });  
+                setTimeout(getStatus, 200);               
+            }  
+
+            getStatus();
 
         }
 
