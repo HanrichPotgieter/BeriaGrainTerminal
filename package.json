@@ -21,10 +21,12 @@
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "node-gyp": "^3.3.1",
-    "node-snap7": "^0.2.3"
+    "node-snap7": "^0.2.3",
+    "gulp": "^3.9.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-nodemon": "^2.1.0"
+    "gulp-nodemon": "^2.1.0",
+    "nodemon": "^1.9.2"
   }
 }

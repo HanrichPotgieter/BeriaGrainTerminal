@@ -11,7 +11,7 @@ gulp.task('copy',function() {
 })
 
 gulp.task('start', function () {
-  //gulp.start('copy');
+  gulp.start('copy');
   nodemon({
     script: 'index.js'
   , ext: ''
