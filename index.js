@@ -60,7 +60,9 @@ app.post('/getStatus', function(req, res){
             });
         });
     }
-    res.send({color:'orange',status:'PLC Disconnected'});
+    else{
+        res.send({color:'orange',status:'PLC Disconnected'});
+    }
 });
 
 app.post('/setBit', function(req, res){ 
@@ -72,6 +74,8 @@ app.post('/setBit', function(req, res){
             else
             res.sendStatus(200);
         });
+    }else{
+        res.sendStatus(404);
     }
-    res.sendStatus(404);
+    
 });
