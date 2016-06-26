@@ -33,7 +33,7 @@ angular
 
         object = {
             DB:parseInt(lines.selectedLine.DB),
-            OFFSET:'72',
+            OFFSET:'67',
             BIT:'1'
         };
         $http.post("/setBit", object)
@@ -43,7 +43,7 @@ angular
 
         object = {
             DB:parseInt(lines.selectedLine.DB),
-            OFFSET:'72',
+            OFFSET:'67',
             BIT:'2'
         };
         $http.post("/setBit", object)
