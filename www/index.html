@@ -18,7 +18,18 @@
     <script src="/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="/lib/d3/d3.min.js"></script>
     <!-- Your application bootstrap  -->
+   
     <script src="/app/app.js"></script> 
+    
+    <!-- App Routes --> 
+    <script src="/app/routes/routes.config.js"></script> 
+    
+    <!-- App Controllers -->
+    <script src="/app/controllers/window.controller.js"></script> 
+    <script src="/app/controllers/line.controller.js"></script> 
+    <script src="/app/controllers/menu.controller.js"></script>
+    <script src="/app/controllers/settings.controller.js"></script> 
+
     <div ng-controller="app" layout="row" layout-fill>
       <section layout="row" ng-controller="MenuCtrl">
         <md-sidenav
