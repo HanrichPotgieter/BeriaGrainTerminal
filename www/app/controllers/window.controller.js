@@ -10,6 +10,7 @@ angular
       $scope.selectedDirection = 'left';
 
       $scope.start = function(){
+          
         var object = {
             DB:parseInt(lines.selectedLine.DB),
             OFFSET:'241',
@@ -19,6 +20,17 @@ angular
         .success(function (data) {
             console.log('done');
         }); 
+
+        object = {
+            DB:parseInt(lines.selectedLine.DB),
+            OFFSET:'67',
+            BIT:'0'
+        };
+        $http.post("/setBit", object)
+        .success(function (data) {
+            console.log('done');
+        }); 
+
       };
 
       $scope.stop = function(){
