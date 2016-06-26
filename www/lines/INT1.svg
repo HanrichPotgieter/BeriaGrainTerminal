@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="610.72602"
-     inkscape:cy="526.65216"
+     inkscape:zoom="7.2407734"
+     inkscape:cx="503.98175"
+     inkscape:cy="624.04824"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -589,13 +589,9 @@
          sodipodi:role="line">Image Properties</tspan></text>
   </g>
   <g
-     style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
-     id="g5170-42-8-4-0-5-5"
-     stroke-miterlimit="4"
-     class="dynShape"
-     transform="translate(-2168.5,154.74894)">
+     id="g7808">
     <desc
-       id="desc3421">{&quot;name&quot;: &quot;=A-1006-BST13&quot;,
+       id="desc7816">{&quot;name&quot;: &quot;=A-1006-BST13&quot;,
 &quot;type&quot;:&quot;FB14&quot;,
 &quot;ptype&quot;:&quot;7177&quot;,
 &quot;DB&quot;:&quot;160&quot;,
@@ -609,26 +605,48 @@
 &quot;description&quot;:&quot;Speed Monitor Input&quot;
 }
 ]}</desc>
+    <g
+       transform="translate(-2168.5,154.74894)"
+       class="dynShape"
+       stroke-miterlimit="4"
+       id="g5170-42-8-4-0-5-5"
+       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
+      <desc
+         id="desc3421">{&quot;name&quot;: &quot;=A-1006-BST13&quot;,
+&quot;type&quot;:&quot;FB14&quot;,
+&quot;ptype&quot;:&quot;7177&quot;,
+&quot;DB&quot;:&quot;160&quot;,
+&quot;OFFSET&quot;:&quot;210&quot;,
+&quot;description&quot;:&quot;Chain conveyor&quot;,
+&quot;ios&quot;:[
+{
+&quot;type&quot;:&quot;I&quot;,
+&quot;pos&quot;:&quot;41&quot;,
+&quot;offset&quot;:&quot;5&quot;,
+&quot;description&quot;:&quot;Speed Monitor Input&quot;
+}
+]}</desc>
+      <path
+         d="m 2649.5,196.5 c 0,2.209 -1.79,4 -4,4 -2.21,0 -4,-1.791 -4,-4 0,-2.209 1.79,-4 4,-4 2.21,0 4,1.791 4,4 z"
+         id="path5172-30-7-2-7-3-5"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5180-14-9-7-0-4-1"
+         d="m 2662,196.5 -12,0"
+         sodipodi:nodetypes="cc" />
+    </g>
     <path
-       inkscape:connector-curvature="0"
-       id="path5172-30-7-2-7-3-5"
-       d="m 2649.5,196.5 c 0,2.209 -1.79,4 -4,4 -2.21,0 -4,-1.791 -4,-4 0,-2.209 1.79,-4 4,-4 2.21,0 4,1.791 4,4 z" />
+       style="stroke:#000000;stroke-opacity:1"
+       d="m 477,352.24894 0,-4.953"
+       id="path5176-6-4-5-8-4-1"
+       inkscape:connector-curvature="0" />
     <path
-       sodipodi:nodetypes="cc"
-       d="m 2662,196.5 -12,0"
-       id="path5180-14-9-7-0-4-1"
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       d="m 478,353.24894 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
+       id="path5178-6-3-6-6-1-1"
        inkscape:connector-curvature="0" />
   </g>
-  <path
-     inkscape:connector-curvature="0"
-     id="path5176-6-4-5-8-4-1"
-     d="m 477,352.24894 0,-4.953"
-     style="stroke:#000000;stroke-opacity:1" />
-  <path
-     inkscape:connector-curvature="0"
-     id="path5178-6-3-6-6-1-1"
-     d="m 478,353.24894 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
-     style="fill:none;stroke:#000000;stroke-opacity:1" />
   <g
      style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
      id="g13520"
@@ -1369,7 +1387,8 @@ state=$'name'.StCode;</desc>
      Library="GM_2.2.1447.1"
      onclick="this.visualization.click(event)"
      transform="translate(287,-340.50064)"
-     id="g5128-1-9-17-2-1">
+     id="g5128-1-9-17-2-1"
+     > 
     <desc
        id="desc5130-7-3-4-4-5">[Visualization]
 name=A_1024;

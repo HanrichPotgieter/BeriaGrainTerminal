@@ -30,6 +30,7 @@ angular
                     $http.post("/getIoState", $scope.ios[x])
                     .success(function (data) {
                         //console.log($scope.ios[x]);
+
                         $scope.ios[data.id].stateDescription = data.description;
                         $scope.ios[data.id].style = {
                             "fill" : data.color
