@@ -1,9 +1,12 @@
-<md-dialog aria-label="Mango (Fruit)"  ng-cloak id="dialog">
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak id="elementDialog">
   <form>
     <md-toolbar>
         <div class="md-toolbar-tools">
             <h2>{{item.name}} : {{item.description}}</h2>
             <span flex></span>
+            <md-button class="md-icon-button" ng-click="cancel()">
+                <ng-md-icon icon="close" size="24" ng-style="io.style"></ng-md-icon> 
+            </md-button>
         </div>
     </md-toolbar>
     <md-dialog-content>

@@ -2,12 +2,21 @@ angular
     .module('app')
     .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia) {
         function DialogController($scope,$http, item, $mdDialog) {
+
+            $scope.open = true;
+
+            $scope.cancel = function() {
+                $scope.open = false;
+                $mdDialog.cancel();
+            };
+
             $scope.item = item;
             $scope.item.style = {
                 "background-color" : "white",
             }
             $scope.ios = item.ios;
-            function getStatus(counter){
+
+            function getStatus(){
                 //Update the status of the element
                 $http.post("/getStatus", item)
                 .success(function (data) {
@@ -27,14 +36,14 @@ angular
                         }
                     }); 
                 }
-                if(counter<100){
-                    setTimeout(function() {getStatus(counter+1);}, 200);
+                if($scope.open){
+                    setTimeout(function() {getStatus();}, 200);
                 }
                 else{
                     $mdDialog.cancel();
                 }         
             }  
-            getStatus(1);
+            getStatus();
 
         }
 
@@ -44,7 +53,6 @@ angular
             controller: DialogController,
             templateUrl: './view/elementDialog.tmpl.html',
             parent: angular.element(document.body),
-            clickOutsideToClose:true,
             locals: {
                 item: object
             }
