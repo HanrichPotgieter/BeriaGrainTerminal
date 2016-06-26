@@ -19,7 +19,7 @@ angular
         .success(function (data) {
             console.log('done');
         }); 
-      }
+      };
 
       $scope.stop = function(){
         var object = {
@@ -31,6 +31,30 @@ angular
         .success(function (data) {
             console.log('done');
         }); 
-      }
+      };
+
+      $scope.pause = function(){
+        var object = {
+            DB:parseInt(lines.selectedLine.DB),
+            OFFSET:'69',
+            BIT:'2'
+        };
+        $http.post("/setBit", object)
+        .success(function (data) {
+            console.log('done');
+        }); 
+      };
+
+      $scope.reset = function(){
+        var object = {
+            DB:parseInt(lines.selectedLine.DB),
+            OFFSET:'68',
+            BIT:'2'
+        };
+        $http.post("/setBit", object)
+        .success(function (data) {
+            console.log('done');
+        }); 
+      };
 
     })
