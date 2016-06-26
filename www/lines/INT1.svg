@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.481547"
-     inkscape:cx="482.83428"
-     inkscape:cy="603.83465"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="610.72602"
+     inkscape:cy="526.65216"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -4952,12 +4952,20 @@ state=$'name'.StCode;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v2.0">
     <desc
-       id="desc2580-6-2-7-0">[Visualization]
-name=A_1320_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc2580-6-2-7-0">{&quot;name&quot;: &quot;=A-1006-BST13&quot;,
+&quot;type&quot;:&quot;FB14&quot;,
+&quot;ptype&quot;:&quot;7177&quot;,
+&quot;DB&quot;:&quot;160&quot;,
+&quot;OFFSET&quot;:&quot;210&quot;,
+&quot;description&quot;:&quot;Chain conveyor&quot;,
+&quot;ios&quot;:[
+{
+&quot;type&quot;:&quot;I&quot;,
+&quot;pos&quot;:&quot;41&quot;,
+&quot;offset&quot;:&quot;5&quot;,
+&quot;description&quot;:&quot;Speed Monitor Input&quot;
+}
+]}</desc>
     <g
        class="dynShape"
        stroke-miterlimit="4"
