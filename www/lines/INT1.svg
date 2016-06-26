@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.56"
-     inkscape:cx="513.24995"
-     inkscape:cy="573.74943"
+     inkscape:zoom="14.481547"
+     inkscape:cx="482.83428"
+     inkscape:cy="603.83465"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -595,7 +595,20 @@
      class="dynShape"
      transform="translate(-2168.5,154.74894)">
     <desc
-       id="desc3421">{&quot;name&quot;:&quot;A_1303_BSA12&quot;,&quot;type&quot;:&quot;FB14&quot;,&quot;ptype&quot;:&quot;7177&quot;,&quot;DB&quot;:&quot;160&quot;,&quot;OFFSET&quot;:&quot;210&quot;}</desc>
+       id="desc3421">{&quot;name&quot;: &quot;=A-1006-BST13&quot;,
+&quot;type&quot;:&quot;FB14&quot;,
+&quot;ptype&quot;:&quot;7177&quot;,
+&quot;DB&quot;:&quot;160&quot;,
+&quot;OFFSET&quot;:&quot;210&quot;,
+&quot;description&quot;:&quot;Chain conveyor&quot;,
+&quot;ios&quot;:[
+{
+&quot;type&quot;:&quot;I&quot;,
+&quot;pos&quot;:&quot;41&quot;,
+&quot;offset&quot;:&quot;5&quot;,
+&quot;description&quot;:&quot;Speed Monitor Input&quot;
+}
+]}</desc>
     <path
        inkscape:connector-curvature="0"
        id="path5172-30-7-2-7-3-5"
@@ -606,20 +619,16 @@
        id="path5180-14-9-7-0-4-1"
        inkscape:connector-curvature="0" />
   </g>
-  <g
-     id="g5174-8-4-7-9-6-7"
-     transform="translate(-2168.5,154.74894)">
-    <path
-       style="stroke:#000000;stroke-opacity:1"
-       d="m 2645.5,197.5 0,-4.953"
-       id="path5176-6-4-5-8-4-1"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-opacity:1"
-       d="m 2646.5,198.5 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
-       id="path5178-6-3-6-6-1-1"
-       inkscape:connector-curvature="0" />
-  </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path5176-6-4-5-8-4-1"
+     d="m 477,352.24894 0,-4.953"
+     style="stroke:#000000;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path5178-6-3-6-6-1-1"
+     d="m 478,353.24894 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
+     style="fill:none;stroke:#000000;stroke-opacity:1" />
   <g
      style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
      id="g13520"
