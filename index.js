@@ -82,8 +82,8 @@ app.post('/getIoState', function(req, res){
                     return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
                 }
                 else{
-                    console.log(data.readUIntBE(0, 1));
-                    if(data.readUIntBE(0, 1) == 254){
+                    //console.log(data.readUIntBE(0, 1));
+                    if(data.readUIntBE(0, 1) != 0){
                         status.color="green";
                         status.description="ON"
                         res.send(status);
@@ -106,7 +106,7 @@ app.post('/getIoState', function(req, res){
                 }
                 else{
                     //console.log(data.readUIntBE(0, 1));
-                    if(data.readUIntBE(0, 1) == 254){
+                    if(data.readUIntBE(0, 1) != 0){
                         status.color="green";
                         status.description="ON"
                         res.send(status);
