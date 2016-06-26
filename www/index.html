@@ -23,7 +23,8 @@
 
     <!-- App Routes --> 
     <script src="/app/routes/routes.config.js"></script> 
-    
+    <!-- App Services --> 
+    <script src="/app/services/lines.service.js"></script> 
     <!-- App Controllers -->
     <script src="/app/controllers/window.controller.js"></script> 
     <script src="/app/controllers/line.controller.js"></script> 
@@ -82,6 +83,7 @@
               <md-button class="md-icon-button" aria-label="More" hide-gt-md ng-click="toggleLeft()">
                 <ng-md-icon icon="list" size="30"></ng-md-icon> 
               </md-button> 
+              <h2>{{line.name}}</h2>
           </div> 
         </md-toolbar>
         <div class="fill-height">

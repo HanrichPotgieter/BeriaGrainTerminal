@@ -1,6 +1,17 @@
 angular
     .module('app', ['ngMaterial','ngMdIcons','ui.router','myroutes'])
-    .controller('app', function ($scope, $timeout, $mdSidenav, $log) {
+    .controller('app', function ($scope, $timeout, $mdSidenav, $log, lines) {
+        $scope.line = {
+            name:''
+        };
+        
+        function getLineName(){
+            $scope.line.name = lines.selectedLine.name;
+            setTimeout(getLineName,200)
+        }
+
+        getLineName();
+
         $scope.toggleLeft = buildDelayedToggler('left');
         function buildDelayedToggler(navID) {
         return debounce(function() {

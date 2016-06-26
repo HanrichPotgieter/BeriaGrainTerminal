@@ -1,8 +1,11 @@
 angular
     .module('app')
-    .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia) {
-        function DialogController($scope,$http, item, $mdDialog) {
+    .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia,lines) {
 
+        lines.setActiveLine({name:"Wheat Intake"});
+        
+        function DialogController($scope,$http, item, $mdDialog) {
+           
             $scope.open = true;
 
             $scope.cancel = function() {
