@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.90509668"
-     inkscape:cx="427.02146"
-     inkscape:cy="706.66459"
+     inkscape:zoom="2.56"
+     inkscape:cx="513.24995"
+     inkscape:cy="573.74943"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -626,8 +626,26 @@
      class="dynShape"
      transform="translate(-60.25,-235.75106)">
     <desc
-       id="desc13518">
-      {&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7056&quot;,&quot;DB&quot;:&quot;160&quot;,&quot;OFFSET&quot;:&quot;500&quot;,&quot;description&quot;:&quot;Chain conveyor&quot;}
+       id="desc13518">{&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,
+&quot;type&quot;:&quot;FB12&quot;,
+&quot;ptype&quot;:&quot;7056&quot;,
+&quot;DB&quot;:&quot;160&quot;,
+&quot;OFFSET&quot;:&quot;500&quot;,
+&quot;description&quot;:&quot;Chain conveyor&quot;,
+&quot;ios&quot;:[
+{
+&quot;type&quot;:&quot;Q&quot;,
+&quot;pos&quot;:&quot;30&quot;,
+&quot;offset&quot;:&quot;4&quot;,
+&quot;description&quot;:&quot;Forward&quot;
+},
+{
+&quot;type&quot;:&quot;Q&quot;,
+&quot;pos&quot;:&quot;30&quot;,
+&quot;offset&quot;:&quot;5&quot;,
+&quot;description&quot;:&quot;Reverse&quot;
+}
+]}
       </desc>
     <path
        inkscape:connector-curvature="0"
