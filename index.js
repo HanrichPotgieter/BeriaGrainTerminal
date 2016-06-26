@@ -74,7 +74,7 @@ app.post('/getIoState', function(req, res){
     }
 
     if(s7client.Connected()){
-        if(element.type === "Q")
+        if(element.type === "I")
         {
             s7client.ABRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
                 if(err){
@@ -97,7 +97,7 @@ app.post('/getIoState', function(req, res){
 
             });
         }
-        if(element.type === "I")
+        if(element.type === "Q")
         {
             s7client.EBRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
                 if(err){
