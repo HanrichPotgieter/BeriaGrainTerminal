@@ -4,12 +4,11 @@ angular
         $scope.line = {
             name:''
         };
-        
+
         function getLineName(){
             $scope.line.name = lines.selectedLine.name;
-            setTimeout(getLineName,200)
+            setTimeout(getLineName,100)
         }
-
         getLineName();
 
         $scope.toggleLeft = buildDelayedToggler('left');

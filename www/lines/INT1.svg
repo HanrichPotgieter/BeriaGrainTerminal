@@ -15,7 +15,7 @@
    viewBox="0 0 2323 959"
    id="svg7214"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="INT1.svg">
   <defs
      id="defs7216">
@@ -520,16 +520,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.24"
-     inkscape:cx="986.70682"
-     inkscape:cy="84.582143"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="427.02146"
+     inkscape:cy="706.66459"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1033"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
+     inkscape:window-width="2560"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -561,15 +561,14 @@
      inkscape:connector-curvature="0" />
   <g
      transform="translate(-133.5,104.5)"
-     id="g9438"
-     style="visibility:hidden">
+     id="lineProperties"
+     style="visibility:hidden"
+     inkscape:label="#g9438">
     <desc
-       id="desc9443">[Visualization]
-type=ImageProperties;
-refreshCycle=500;
-name=undefined;
-layout=Runtime;
-backgroundColor=#f7ebce;</desc>
+       id="desc9443">{
+&quot;name&quot;:&quot;Wheat Intake&quot;,
+&quot;DB&quot;:&quot;600&quot;
+}</desc>
     <rect
        y="10"
        x="10"
@@ -590,135 +589,109 @@ backgroundColor=#f7ebce;</desc>
          sodipodi:role="line">Image Properties</tspan></text>
   </g>
   <g
-     Symbol="v1.1"
-     Library="GM_2.2.1444.0"
-     onclick="this.visualization.click(event)"
-     transform="translate(-2168.5,154.74894)"
-     id="g5166-1-1-5-6-8-2">
+     style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
+     id="g5170-42-8-4-0-5-5"
+     stroke-miterlimit="4"
+     class="dynShape"
+     transform="translate(-2168.5,154.74894)">
     <desc
-       id="desc5168-9-3-4-9-4-4">[Visualization]
-name=A_1015_BSA12;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       stroke-miterlimit="4"
-       id="g5170-42-8-4-0-5-5"
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
-      <desc>
-      {"name": "A_1303_BSA12","type":"FB14","ptype":"7177","DB":"160","OFFSET":"210"}
-      </desc>
-      <path
-         d="m 2649.5,196.5 c 0,2.209 -1.79,4 -4,4 -2.21,0 -4,-1.791 -4,-4 0,-2.209 1.79,-4 4,-4 2.21,0 4,1.791 4,4 z"
-         id="path5172-30-7-2-7-3-5"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5180-14-9-7-0-4-1"
-         d="m 2662,196.5 -12,0"
-         sodipodi:nodetypes="cc" />
-    </g>
-    <g
-       id="g5174-8-4-7-9-6-7">
-      <path
-         inkscape:connector-curvature="0"
-         id="path5176-6-4-5-8-4-1"
-         d="m 2645.5,197.5 0,-4.953"
-         style="stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5178-6-3-6-6-1-1"
-         d="m 2646.5,198.5 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
-         style="fill:none;stroke:#000000;stroke-opacity:1" />
-    </g>
+       id="desc3421">{&quot;name&quot;:&quot;A_1303_BSA12&quot;,&quot;type&quot;:&quot;FB14&quot;,&quot;ptype&quot;:&quot;7177&quot;,&quot;DB&quot;:&quot;160&quot;,&quot;OFFSET&quot;:&quot;210&quot;}</desc>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5172-30-7-2-7-3-5"
+       d="m 2649.5,196.5 c 0,2.209 -1.79,4 -4,4 -2.21,0 -4,-1.791 -4,-4 0,-2.209 1.79,-4 4,-4 2.21,0 4,1.791 4,4 z" />
+    <path
+       sodipodi:nodetypes="cc"
+       d="m 2662,196.5 -12,0"
+       id="path5180-14-9-7-0-4-1"
+       inkscape:connector-curvature="0" />
   </g>
   <g
-     Symbol="v0.0"
-     Library="GM_2.2.1616.0"
-     id="g13516"
-     transform="translate(-60.25,-235.75106)"
-     onclick="this.visualization.click(event)">
- 
-    <g
-       class="dynShape"
-       id="g13520"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1">
-      <desc
-      id="desc13518">
-      {"name": "=A-1006-MXZ01","type":"FB12","ptype":"7056","DB":"160","OFFSET":"500","description":"Chain conveyor"}
-      </desc>
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynRevFast"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 616.5,575.99402 -26.384,0"
-         id="path13529"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynRevSlow"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 625.5,575.99402 -26.384,0"
-         id="path13531"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynFwdFast"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 636,575.99402 25.8843,0"
-         id="path13535"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynFwdSlow"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 626,575.99402 25.8843,0"
-         id="path13537"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 549.5,582.5 -3e-5,8 152.00003,0 0,-8 z"
-         id="path13539"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc"
-         style="stroke-width:1" />
-      <path
-         transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
-         sodipodi:ry="4"
-         sodipodi:rx="4"
-         sodipodi:cy="622.5"
-         sodipodi:cx="3397.5"
-         id="path13744"
-         sodipodi:type="arc" />
-      <path
-         sodipodi:type="arc"
-         id="path13729"
-         sodipodi:cx="3397.5"
-         sodipodi:cy="622.5"
-         sodipodi:rx="4"
-         sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
-         transform="translate(-2696,-36)" />
-    </g>
-    <rect
-       class="dynCon1"
-       style="opacity:0.4;fill:#008200;stroke:none;visibility:hidden"
-       id="rect13558"
-       width="16"
-       height="5"
-       x="545"
-       y="587" />
-    <rect
-       class="dynCon2"
-       y="587"
-       x="693"
-       height="5"
-       width="13"
-       id="rect13560"
-       style="opacity:0.4;fill:#008200;stroke:none;visibility:hidden" />
+     id="g5174-8-4-7-9-6-7"
+     transform="translate(-2168.5,154.74894)">
+    <path
+       style="stroke:#000000;stroke-opacity:1"
+       d="m 2645.5,197.5 0,-4.953"
+       id="path5176-6-4-5-8-4-1"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       d="m 2646.5,198.5 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
+       id="path5178-6-3-6-6-1-1"
+       inkscape:connector-curvature="0" />
   </g>
+  <g
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     id="g13520"
+     class="dynShape"
+     transform="translate(-60.25,-235.75106)">
+    <desc
+       id="desc13518">
+      {&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7056&quot;,&quot;DB&quot;:&quot;160&quot;,&quot;OFFSET&quot;:&quot;500&quot;,&quot;description&quot;:&quot;Chain conveyor&quot;}
+      </desc>
+    <path
+       inkscape:connector-curvature="0"
+       id="path13529"
+       d="m 616.5,575.99402 -26.384,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynRevFast"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path13531"
+       d="m 625.5,575.99402 -26.384,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynRevSlow"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path13535"
+       d="m 636,575.99402 25.8843,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynFwdFast"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path13537"
+       d="m 626,575.99402 25.8843,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynFwdSlow"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="stroke-width:1"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path13539"
+       d="m 549.5,582.5 -3e-5,8 152.00003,0 0,-8 z" />
+    <circle
+       r="4"
+       cy="622.5"
+       cx="3397.5"
+       id="path13744"
+       transform="translate(-2848,-36)" />
+    <circle
+       r="4"
+       cy="622.5"
+       cx="3397.5"
+       transform="translate(-2696,-36)"
+       id="path13729" />
+  </g>
+  <rect
+     y="351.24893"
+     x="484.75"
+     height="5"
+     width="16"
+     id="rect13558"
+     style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none"
+     class="dynCon1" />
+  <rect
+     style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none"
+     id="rect13560"
+     width="13"
+     height="5"
+     x="632.75"
+     y="351.24893"
+     class="dynCon2" />
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 520.5,170.49936 0,35 13,0 0,30"
@@ -963,7 +936,7 @@ state=$'name'.StCode;
        id="g13773">
       <path
          transform="translate(110.75191,190)"
-         d="m 599.5,152 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14214 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35786 7.5,7.5 z"
+         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
          sodipodi:ry="7.5"
          sodipodi:rx="7.5"
          sodipodi:cy="152"
@@ -1164,9 +1137,9 @@ state=$'name'.StCode;</desc>
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-dasharray:none"
        id="g12627">
-       <desc
-      id="desc13518">
-      {"name": "=A-1006-MXZ01","type":"FB12","ptype":"7056","DB":"160","OFFSET":"500"}
+      <desc
+         id="desc3518">
+      {&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7056&quot;,&quot;DB&quot;:&quot;160&quot;,&quot;OFFSET&quot;:&quot;500&quot;}
       </desc>
       <path
          style="stroke-width:1"
@@ -1511,11 +1484,11 @@ inDirectionRevFast=6;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2848,-36)" />
       <path
          transform="translate(-2726,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -1566,7 +1539,7 @@ state=$'name'.StCode;
          sodipodi:cy="152"
          sodipodi:rx="7.5"
          sodipodi:ry="7.5"
-         d="m 599.5,152 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14214 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35786 7.5,7.5 z"
+         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
          transform="translate(110.75191,190)" />
     </g>
     <text
@@ -1794,7 +1767,7 @@ inDirectionRevFast=6;
          style="stroke-width:1" />
       <path
          transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -1808,7 +1781,7 @@ inDirectionRevFast=6;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2726,-36)" />
     </g>
     <rect
@@ -1848,7 +1821,7 @@ state=$'name'.StCode;
        id="g3850">
       <path
          transform="translate(110.75191,190)"
-         d="m 599.5,152 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14214 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35786 7.5,7.5 z"
+         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
          sodipodi:ry="7.5"
          sodipodi:rx="7.5"
          sodipodi:cy="152"
@@ -2094,11 +2067,11 @@ state=$'name'.StCode;</desc>
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2848,-36)" />
       <path
          transform="translate(-2726,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2196,7 +2169,7 @@ state=$'name'.StCode;</desc>
          style="stroke-width:1" />
       <path
          transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2210,7 +2183,7 @@ state=$'name'.StCode;</desc>
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2726,-36)" />
     </g>
   </g>
@@ -2339,11 +2312,11 @@ state=$'name'.StCode;</desc>
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2848,-36)" />
       <path
          transform="translate(-2726,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2472,7 +2445,7 @@ state=$'name'.StCode;</desc>
          style="stroke-width:1" />
       <path
          transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2486,7 +2459,7 @@ state=$'name'.StCode;</desc>
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2726,-36)" />
     </g>
   </g>
@@ -4362,9 +4335,9 @@ state=$'name'.StCode;</desc>
        id="g3962"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-dasharray:none"
        class="dynShape">
-       <desc
-      id="desc13518">
-      {"name": "=A-1006-MXZ01","type":"FB12","ptype":"7056","DB":"151","OFFSET":"434"}
+      <desc
+         id="desc4059">
+      {&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7056&quot;,&quot;DB&quot;:&quot;151&quot;,&quot;OFFSET&quot;:&quot;434&quot;}
       </desc>
       <path
          sodipodi:nodetypes="ccccc"
@@ -4752,8 +4725,9 @@ state=$'name'.StCode;</desc>
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
        id="g8461-6-2-1"
        stroke-miterlimit="4">
-      <desc>
-      {"name": "A_1303_BSA12","type":"FB12","ptype":"7053","DB":"141","OFFSET":"230"}
+      <desc
+         id="desc4129">
+      {&quot;name&quot;: &quot;A_1303_BSA12&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7053&quot;,&quot;DB&quot;:&quot;141&quot;,&quot;OFFSET&quot;:&quot;230&quot;}
       </desc>
       <path
          style="stroke-width:1;stroke-linecap:square"
@@ -4871,91 +4845,79 @@ state=$'name'.StCode;</desc>
      id="path4775"
      inkscape:connector-curvature="0" />
   <g
-     transform="translate(-454.5,53.49936)"
-     id="g12906-8-0"
-     onclick="this.visualization.click(event)"
-     Library="Library: v3.1"
-     Symbol="Symbol: v2.0">
+     stroke-miterlimit="4"
+     id="g11342-6-7-4"
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+     class="dynShape"
+     transform="translate(-454.5,53.49936)">
     <desc
-       id="desc2639-5-2">[Visualization]
-name=A_1314_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="g11342-6-7-4"
-       stroke-miterlimit="4">
-      <desc>
-      {"name":"=A-1300-MXZ01",
-       "type":"FB12",
-       "ptype":"7056",
-       "DB":"141",
-       "OFFSET":"668",
-       "description":"Aspiration Blower",
-       "ios":[
+       id="desc4150">
+      {&quot;name&quot;:&quot;=A-1300-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;668&quot;,
+       &quot;description&quot;:&quot;Aspiration Blower&quot;,
+       &quot;ios&quot;:[
         {
-        "type":"I",
-        "pos":"1",
-        "offset":"2",
-        "description":"Running"
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Running&quot;
         },
         {
-        "type":"Q",
-        "pos":"1",
-        "offset":"2",
-        "description":"Start"
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Start&quot;
         }
         ]}
       </desc>
-      <path
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4"
-         inkscape:connector-curvature="0"
-         id="path9756-2-6-8"
-         d="m -15.5,823 c 0,4.14 -3.36,7.5 -7.5,7.5 -4.14,0 -7.5,-3.36 -7.5,-7.5 0,-4.14 3.36,-7.5 7.5,-7.5 4.14,0 7.5,3.36 7.5,7.5 z"
-         transform="translate(844,-465)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path11270-9-1-6-8"
-         d="m -30,823 14,0"
-         style="stroke-width:1;enable-background:accumulate"
-         transform="translate(844,-465)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path11270-3-1-8-5"
-         d="m -23,815.53 0,14.93"
-         style="stroke-width:1;enable-background:accumulate"
-         transform="translate(844,-465)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path11270-35-5-9-0"
-         style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;enable-background:accumulate"
-         d="M -28,817.5 -17.5,828"
-         transform="translate(844,-465)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path11270-8-0-2-9"
-         style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;enable-background:accumulate"
-         d="M -17.5,817.5 -28,828"
-         transform="translate(844,-465)" />
-      <path
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4"
-         inkscape:connector-curvature="0"
-         id="path9730-3-7-0-2"
-         d="m -21,823 c 0,1.1 -0.9,2 -2,2 -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 z"
-         transform="translate(844,-465)" />
-    </g>
-    <rect
-       class="dynCon0"
-       style="fill:#008000;fill-opacity:0.39199997;visibility:hidden"
-       id="rect3836-0-6-3-25-1-9-9-0"
-       height="5"
-       width="5"
-       y="362"
-       x="818.5" />
+    <path
+       transform="translate(844,-465)"
+       d="m -15.5,823 c 0,4.14 -3.36,7.5 -7.5,7.5 -4.14,0 -7.5,-3.36 -7.5,-7.5 0,-4.14 3.36,-7.5 7.5,-7.5 4.14,0 7.5,3.36 7.5,7.5 z"
+       id="path9756-2-6-8"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4" />
+    <path
+       transform="translate(844,-465)"
+       style="stroke-width:1;enable-background:accumulate"
+       d="m -30,823 14,0"
+       id="path11270-9-1-6-8"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(844,-465)"
+       style="stroke-width:1;enable-background:accumulate"
+       d="m -23,815.53 0,14.93"
+       id="path11270-3-1-8-5"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(844,-465)"
+       d="M -28,817.5 -17.5,828"
+       style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;enable-background:accumulate"
+       id="path11270-35-5-9-0"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(844,-465)"
+       d="M -17.5,817.5 -28,828"
+       style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;enable-background:accumulate"
+       id="path11270-8-0-2-9"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(844,-465)"
+       d="m -21,823 c 0,1.1 -0.9,2 -2,2 -1.1,0 -2,-0.9 -2,-2 0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2 z"
+       id="path9730-3-7-0-2"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4" />
   </g>
+  <rect
+     x="364"
+     y="415.49936"
+     width="5"
+     height="5"
+     id="rect3836-0-6-3-25-1-9-9-0"
+     style="visibility:hidden;fill:#008000;fill-opacity:0.39199997"
+     class="dynCon0" />
   <g
      transform="matrix(-1,0,0,-1,1142.957,613.49936)"
      onclick="this.visualization.click(event)"
@@ -4974,8 +4936,9 @@ state=$'name'.StCode;</desc>
        stroke-miterlimit="4"
        id="g8424-0-4-4-9"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none">
-      <desc>
-      {"name": "=A-1300-MXZ01","type":"FB12","ptype":"7056","DB":"141","OFFSET":"668"}
+      <desc
+         id="desc4162">
+      {&quot;name&quot;: &quot;=A-1300-MXZ01&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7056&quot;,&quot;DB&quot;:&quot;141&quot;,&quot;OFFSET&quot;:&quot;668&quot;}
       </desc>
       <path
          d="m 502,242.5 c -5.8,0 -10.5,-4.7 -10.5,-10.5 0,-5.8 4.7,-10.5 10.5,-10.5 5.8,0 10.5,4.7 10.5,10.5 0,5.8 -4.7,10.5 -10.5,10.5 z"
@@ -5613,9 +5576,9 @@ state=$'name'.StCode;</desc>
        id="g3506-48-1-33-0-8-6-2-1-1-3-9"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00212097"
        class="dynShape">
-             <desc
-      id="desc13518">
-      {"name": "=A-1006-MXZ01","type":"FB12","ptype":"7056","DB":"160","OFFSET":"500"}
+      <desc
+         id="desc4264">
+      {&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7056&quot;,&quot;DB&quot;:&quot;160&quot;,&quot;OFFSET&quot;:&quot;500&quot;}
       </desc>
       <rect
          style="stroke-width:1.00212097;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
@@ -5841,36 +5804,36 @@ state=$'name'.StCode;</desc>
      onclick="this.visualization.click(event)"
      Library="GM_2.2.0.1438.0"
      Symbol="Symbol: v0.0">
-
     <g
        class="dynShape"
        id="g8499-0-0"
        style="fill:#c0c0c0;stroke:#000000">
-        <desc>
-       {"name":"=A-1222-MXZ01",
-       "type":"FB12",
-       "ptype":"7056",
-       "DB":"160",
-       "OFFSET":"500",
-       "description":"Chain conveyor above silos",
-       "ios":[
+      <desc
+         id="desc4300">
+       {&quot;name&quot;:&quot;=A-1222-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;160&quot;,
+       &quot;OFFSET&quot;:&quot;500&quot;,
+       &quot;description&quot;:&quot;Chain conveyor above silos&quot;,
+       &quot;ios&quot;:[
         {
-        "type":"Q",
-        "pos":"1",
-        "offset":"2",
-        "description":"Start"
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Start&quot;
         },
         {
-        "type":"I",
-        "pos":"1",
-        "offset":"2",
-        "description":"Running"
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Running&quot;
         },
         {
-        "type":"I",
-        "pos":"1",
-        "offset":"2",
-        "description":"Healthy"
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Healthy&quot;
         }
         ]}
        </desc>

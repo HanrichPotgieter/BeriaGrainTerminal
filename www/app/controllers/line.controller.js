@@ -1,9 +1,6 @@
 angular
     .module('app')
     .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia,lines) {
-
-        lines.setActiveLine({name:"Wheat Intake"});
-        
         function DialogController($scope,$http, item, $mdDialog) {
            
             $scope.open = true;
@@ -66,12 +63,25 @@ angular
             $scope.showAdvanced(object);
         };
 
+        $scope.infoStatus = false;
+        var getLineInfo = function(){
+            var sel = d3.select(document.getElementById("image").contentDocument).selectAll("#lineProperties");
+                sel.select("desc").each(function () {
+                    var lineProperties = JSON.parse(this.textContent);
+                    lines.setActiveLine(lineProperties);
+                    $scope.infoStatus = true;
+                });
+        }
+
         function changeColor() {
             var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
             if(sel.empty()) {
-                //console.log('hello');
                 setTimeout(changeColor, 100);
             } else {
+                if(!$scope.infoStatus)
+                {
+                    getLineInfo();
+                }
                 var tmp = sel.selectAll("*").select("desc").each(function () {
                         if(isJsonString(this.textContent))
                         {    

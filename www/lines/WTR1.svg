@@ -14,7 +14,7 @@
    id="svg7214"
    viewBox="0 0 2788 959"
    version="1.1"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="WTR1.svg">
   <defs
      id="defs7216">
@@ -659,16 +659,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.2407734"
-     inkscape:cx="911.5437"
-     inkscape:cy="133.01278"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="287.05804"
+     inkscape:cy="511.50275"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1033"
-     inkscape:window-x="-4"
-     inkscape:window-y="-4"
+     inkscape:window-width="2560"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -700,36 +700,6 @@
      id="path8313"
      d="m 2555.5,206 0,110"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <g
-     transform="translate(-133.5,104.5)"
-     id="g9438"
-     style="visibility:hidden">
-    <desc
-       id="desc9443">[Visualization]
-type=ImageProperties;
-refreshCycle=500;
-name=undefined;
-layout=Runtime;
-backgroundColor=#f7ebce;</desc>
-    <rect
-       y="10"
-       x="10"
-       height="70"
-       width="119.5"
-       id="rect9432"
-       style="fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text9434"
-       y="47"
-       x="23"
-       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-       xml:space="preserve"><tspan
-         y="47"
-         x="23"
-         id="tspan9436"
-         sodipodi:role="line">Image Properties</tspan></text>
-  </g>
   <g
      Symbol="v1.1"
      Library="GM_2.2.1444.0"
@@ -831,7 +801,7 @@ inDirectionRevFast=6;
          style="stroke-width:1" />
       <path
          transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -845,7 +815,7 @@ inDirectionRevFast=6;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2696,-36)" />
     </g>
     <rect
@@ -890,7 +860,7 @@ state=$'name'.StCode;
        id="g13773">
       <path
          transform="translate(110.75191,190)"
-         d="m 599.5,152 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14214 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35786 7.5,7.5 z"
+         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
          sodipodi:ry="7.5"
          sodipodi:rx="7.5"
          sodipodi:cy="152"
@@ -1434,11 +1404,11 @@ inDirectionRevFast=6;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2848,-36)" />
       <path
          transform="translate(-2726,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -1489,7 +1459,7 @@ state=$'name'.StCode;
          sodipodi:cy="152"
          sodipodi:rx="7.5"
          sodipodi:ry="7.5"
-         d="m 599.5,152 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14214 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35786 7.5,7.5 z"
+         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
          transform="translate(110.75191,190)" />
     </g>
     <text
@@ -1723,7 +1693,7 @@ inDirectionRevFast=6;
          style="stroke-width:1" />
       <path
          transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -1737,7 +1707,7 @@ inDirectionRevFast=6;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2726,-36)" />
     </g>
     <rect
@@ -1777,7 +1747,7 @@ state=$'name'.StCode;
        id="g3850">
       <path
          transform="translate(110.75191,190)"
-         d="m 599.5,152 c 0,4.14214 -3.35786,7.5 -7.5,7.5 -4.14214,0 -7.5,-3.35786 -7.5,-7.5 0,-4.14214 3.35786,-7.5 7.5,-7.5 4.14214,0 7.5,3.35786 7.5,7.5 z"
+         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
          sodipodi:ry="7.5"
          sodipodi:rx="7.5"
          sodipodi:cy="152"
@@ -2609,11 +2579,11 @@ state=$'name'.StCode;</desc>
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2848,-36)" />
       <path
          transform="translate(-2726,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2719,7 +2689,7 @@ state=$'name'.StCode;
          style="stroke-width:1" />
       <path
          transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2733,7 +2703,7 @@ state=$'name'.StCode;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2726,-36)" />
     </g>
   </g>
@@ -2820,11 +2790,11 @@ state=$'name'.StCode;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2848,-36)" />
       <path
          transform="translate(-2726,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2911,7 +2881,7 @@ state=$'name'.StCode;
          style="stroke-width:1" />
       <path
          transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          sodipodi:ry="4"
          sodipodi:rx="4"
          sodipodi:cy="622.5"
@@ -2925,7 +2895,7 @@ state=$'name'.StCode;
          sodipodi:cy="622.5"
          sodipodi:rx="4"
          sodipodi:ry="4"
-         d="m 3401.5,622.5 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
          transform="translate(-2726,-36)" />
     </g>
   </g>
@@ -15541,4 +15511,30 @@ state=$'name'.StCode;</desc>
          height="16.970562"
          width="254.2049"
          id="rect3972" /></flowRegion><flowPara
-       id="flowPara3974">Compressed Air</flowPara></flowRoot></svg>
+       id="flowPara3974">Compressed Air</flowPara></flowRoot>  <g
+     transform="translate(-147.58156,111.99515)"
+     id="lineProperties"
+     style="visibility:hidden"
+     inkscape:label="#g9438">
+    <desc
+       id="desc9443-6">{&quot;name&quot;:&quot;Wheat Transfer&quot;}</desc>
+    <rect
+       y="10"
+       x="10"
+       height="70"
+       width="119.5"
+       id="rect9432-7"
+       style="fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text9434-2"
+       y="47"
+       x="23"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         y="47"
+         x="23"
+         id="tspan9436-7"
+         sodipodi:role="line">Image Properties</tspan></text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 angular
     .module('app')
-    .controller('WindowCtrl', function ($scope,$http) {
+    .controller('WindowCtrl', function ($scope,$http,lines) {
       $scope.topDirections = ['left', 'up'];
       $scope.bottomDirections = ['down', 'right'];
       $scope.isOpen = false;
@@ -11,7 +11,7 @@ angular
 
       $scope.start = function(){
         var object = {
-            DB:'600',
+            DB:parseInt(lines.selectedLine.DB),
             OFFSET:'241',
             BIT:'1'
         };
@@ -23,7 +23,7 @@ angular
 
       $scope.stop = function(){
         var object = {
-            DB:'600',
+            DB:parseInt(lines.selectedLine.DB),
             OFFSET:'69',
             BIT:'7'
         };

@@ -8,10 +8,9 @@ angular
         },
         setActiveLine:function(line){
             lines.selectedLine = line;
-            console.log(lines.selectedLine);
         }
     };
 
     return lines;
-    
+
     });
