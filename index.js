@@ -74,7 +74,7 @@ app.post('/getIoState', function(req, res){
     }
 
     if(s7client.Connected()){
-        if(element.type === "I")
+        if(element.type === "Q")
         {
             s7client.ABRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
                 if(err){
@@ -82,7 +82,7 @@ app.post('/getIoState', function(req, res){
                     return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
                 }
                 else{
-                    //console.log(data.readUIntBE(0, 1));
+                    console.log(data.readUIntBE(0, 1));
                     if(data.readUIntBE(0, 1) == 254){
                         status.color="green";
                         status.description="ON"
@@ -97,7 +97,7 @@ app.post('/getIoState', function(req, res){
 
             });
         }
-        if(element.type === "Q")
+        if(element.type === "I")
         {
             s7client.EBRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
                 if(err){
