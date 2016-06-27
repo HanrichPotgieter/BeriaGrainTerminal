@@ -521,8 +521,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.56"
-     inkscape:cx="324.70695"
-     inkscape:cy="551.601"
+     inkscape:cx="1258.6955"
+     inkscape:cy="657.39715"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -6117,56 +6117,78 @@ state=$'name'.StCode;</desc>
      id="path5163"
      inkscape:connector-curvature="0" />
   <g
-     transform="translate(-1971.5,-22.87626)"
-     onclick="this.visualization.click(event)"
-     id="g8483-4"
-     Library="GM_2.2.0.1438.0"
-     Symbol="Symbol: v0.0">
+     style="fill:#c0c0c0;stroke:#000000"
+     id="g8485-9"
+     class="dynShape"
+     transform="translate(-1971.5,-22.87626)">
     <desc
-       id="desc2263-0">[Visualization]
-name=A_1015_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       id="g8485-9"
-       style="fill:#c0c0c0;stroke:#000000">
-      <path
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0"
-         d="m 3211.5,294.87626 225,0 0,8 -225,0 z"
-         id="rect8487-4"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         d="m 3221.5,294.5 0,8"
-         style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         id="path8489-8"
-         inkscape:connector-curvature="0" />
-      <rect
-         x="3436.5"
-         y="290.5"
-         width="12"
-         height="12"
-         id="rect8491-8"
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path8493-2"
-         d="m 3442.5,301.5 5,-5 -5,-5 -5,5 z"
-         style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    </g>
+       id="desc4775">
+      {&quot;name&quot;:&quot;=A-1300-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;668&quot;,
+       &quot;description&quot;:&quot;Aspiration Blower&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;Running&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Start&quot;
+        },
+  	{
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Start&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Start&quot;
+        }
+        ]}
+      </desc>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="rect8487-4"
+       d="m 3211.5,294.87626 225,0 0,8 -225,0 z"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8489-8"
+       style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+       d="m 3221.5,294.5 0,8" />
     <rect
-       class="dynCon0"
-       x="3436"
-       y="300"
-       width="13"
-       height="4"
-       id="rect8495-4"
-       style="fill:#008000;fill-opacity:0.39199997;visibility:hidden" />
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect8491-8"
+       height="12"
+       width="12"
+       y="290.5"
+       x="3436.5" />
+    <path
+       style="display:inline;overflow:visible;visibility:visible;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       d="m 3442.5,301.5 5,-5 -5,-5 -5,5 z"
+       id="path8493-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
   </g>
+  <rect
+     style="visibility:hidden;fill:#008000;fill-opacity:0.39199997"
+     id="rect8495-4"
+     height="4"
+     width="13"
+     y="277.12375"
+     x="1464.5"
+     class="dynCon0" />
   <g
      id="g4494-0-1"
      onclick="this.visualization.click(event)"
