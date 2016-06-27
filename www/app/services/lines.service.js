@@ -15,7 +15,7 @@ angular
                 object.id = x;
                 $http.post("/getSectionStatus", object)
                 .success(function (data) {
-                    console.log(data.fault);
+                    //console.log(data.fault);
                     lines.selectedLine.sections[data.id].status = data;
                     lines.selectedLine.sections[data.id].style = {
                         "background" : data.color

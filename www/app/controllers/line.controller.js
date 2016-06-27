@@ -87,7 +87,7 @@ angular
 
         function changeColor() {
             var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
-            console.log(sel);
+            //console.log(sel);
             if(sel.empty()) {
                 setTimeout(changeColor, 1000);
             } else {
