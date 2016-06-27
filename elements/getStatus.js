@@ -11,8 +11,8 @@ module.exports = {
   },
   getSectionStatus:function(status,callback) {
     try{
-    var section = require('./SectionState.js');
-    section.getStatus(status,callback);
+        var section = require('./SectionState.js');
+        section.getStatus(status,callback);
     }
     catch(err) {
         console.log(err);

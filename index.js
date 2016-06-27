@@ -24,7 +24,7 @@ var connectToPlc = function(){
     s7client.ConnectTo(ip, 0, 2, function(err) {
         if(err){
             console.log(' >> Connection failed. Code #' + err + ' - ' + s7client.ErrorText(err));
-            setTimeout(connectToPlc, 5000);
+            setTimeout(connectToPlc, 1000);
         }
         else{
             console.log('Connection Successful');
@@ -173,6 +173,9 @@ app.post('/setBit', function(req, res){
 
 app.post('/getSectionStatus', function(req, res){ 
     var element = req.body;   
+    var getSectionFaults = function(res,data){
+
+    }
     if(s7client.Connected() && connected){
         s7client.DBRead(parseInt(element.DB),parseInt(100),2,function(err,data){
         if(err){
@@ -186,8 +189,7 @@ app.post('/getSectionStatus', function(req, res){
                 res.send(data);
             });
          
-        });
-       
+        });    
     }
     else{
         res.send({color:'orange',status:'PLC Disconnected',id:element.id});      

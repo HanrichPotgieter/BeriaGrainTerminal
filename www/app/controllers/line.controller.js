@@ -1,10 +1,11 @@
 angular
     .module('app')
     .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia,lines) {
+        $scope.open = true;
+        $scope.$on('$locationChangeStart', function(event) {
+            $scope.open = false;
+        });
         function DialogController($scope,$http, item, $mdDialog) {
-
-            $scope.open = true;
-
             $scope.cancel = function() {
                 $scope.open = false;
                 $mdDialog.cancel();
@@ -85,8 +86,9 @@ angular
 
         function changeColor() {
             var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
+            console.log(sel);
             if(sel.empty()) {
-                setTimeout(changeColor, 100);
+                setTimeout(changeColor, 1000);
             } else {
                 if(!$scope.infoStatus)
                 {
@@ -109,8 +111,11 @@ angular
                                 }); 
                             }
                         };
+                    }).call(function(){
+                        if($scope.open)
+                            setTimeout(changeColor, 1000);
                     });
-                setTimeout(changeColor, 1000);
+                
             }
         }
         changeColor();

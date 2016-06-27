@@ -5,7 +5,7 @@ angular
         function getLineSections(){
             $scope.sections = lines.selectedLine.sections;
             lines.updateSections();
-            setTimeout(getLineSections,100)
+            setTimeout(getLineSections,1000)
         }
         getLineSections();
 

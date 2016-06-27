@@ -18,7 +18,7 @@ angular
         };
         $http.post("/setBit", object)
         .success(function (data) {
-            console.log('done');
+            //console.log('done');
         }); 
 
         object = {
@@ -28,7 +28,7 @@ angular
         };
         $http.post("/setBit", object)
         .success(function (data) {
-            console.log('done');
+            //console.log('done');
         }); 
 
         object = {
@@ -38,7 +38,7 @@ angular
         };
         $http.post("/setBit", object)
         .success(function (data) {
-            console.log('done');
+            //console.log('done');
         });
 
         object = {
@@ -48,7 +48,7 @@ angular
         };
         $http.post("/setBit", object)
         .success(function (data) {
-            console.log('done');
+            //console.log('done');
         });
 
       };
@@ -61,7 +61,7 @@ angular
         };
         $http.post("/setBit", object)
         .success(function (data) {
-            console.log('done');
+            //console.log('done');
         }); 
       };
 
@@ -73,7 +73,7 @@ angular
         };
         $http.post("/setBit", object)
         .success(function (data) {
-            console.log('done');
+            //console.log('done');
         }); 
       };
 
@@ -85,7 +85,7 @@ angular
         };
         $http.post("/setBit", object)
         .success(function (data) {
-            console.log('done');
+            //console.log('done');
         }); 
       };
 
