@@ -54,8 +54,8 @@
                     <p>{{ section.status.status }}</p>
                   </div>
                 </md-list-item>
-                <md-list-item>
-                  {{ section.fault.status }}
+                <md-list-item ng-style="section.status.fault.style">
+                  {{section.status.fault.status}}
                 </md-list-item>
               </div>
               <md-divider></md-divider>

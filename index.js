@@ -183,8 +183,7 @@ app.post('/getSectionStatus', function(req, res){
         else
             var status = data.readUIntBE(1, 1);
             elementInfo.getSectionFault(status,function(data){
-                sectionData.fault = [];
-                sectionData.fault.push(data);
+                sectionData.fault = data;
                 res.send(sectionData);
             });
              
