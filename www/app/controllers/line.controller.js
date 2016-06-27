@@ -101,11 +101,13 @@ angular
                             d3.select(object.node.parentNode).on("click", function($event) {
                                 itemClicked(object,$event);
                             });
-
-                            $http.post("/getStatus", object)
-                            .success(function (data) {
-                                d3.select(object.node.parentNode).style('fill',data.color);
-                            });  
+                            console.log(object);
+                            if(object.type != "LineParams"){
+                                $http.post("/getStatus", object)
+                                .success(function (data) {
+                                    d3.select(object.node.parentNode).style('fill',data.color);
+                                }); 
+                            }
                         };
                     });
                 setTimeout(changeColor, 1000);

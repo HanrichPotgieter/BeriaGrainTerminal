@@ -92,17 +92,22 @@ app.post('/getIoState', function(req, res){
         description:"PLC Disconnected"
     }
 
+    var containsFlag = function(number, flag) {
+        return (number & flag) === flag;
+    };
+
     if(s7client.Connected() && connected){
         if(element.type === "Q")
         {
-            s7client.ABRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
+            //console.log(element);
+            s7client.ABRead(parseInt(element.pos),parseInt(element.offset)+1,function(err,data){
                 if(err){
                     res.sendStatus(200);
                     return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
                 }
                 else{
-                    //console.log(data.readUIntBE(0, 1));
-                    if(data.readUIntBE(0, 1) != 0){
+                    //console.log(data[0]);
+                    if(containsFlag(data[0],Math.pow(2,(parseInt(element.offset))))){
                         status.color="green";
                         status.description="ON"
                         res.send(status);
@@ -118,19 +123,25 @@ app.post('/getIoState', function(req, res){
         }
         if(element.type === "I")
         {
-            s7client.EBRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
+            s7client.EBRead(parseInt(element.pos),parseInt(element.offset)+1,function(err,data){
                 if(err){
-                    res.sendStatus(200);
                     return console.log(' >> IO failed. Code #' + err + ' - ' + s7client.ErrorText(err));
                 }
                 else{
-                    //console.log(data.readUIntBE(0, 1));
-                    if(data.readUIntBE(0, 1) != 0){
+                  
+                    
+
+                    //console.log(data[0]);
+                    //console.log(Math.pow(2,(parseInt(element.offset)+1)));
+
+                    if(containsFlag(data[0],Math.pow(2,(parseInt(element.offset))))){
+                        //console.log("true status");
                         status.color="green";
                         status.description="ON"
                         res.send(status);
                     }
                     else{
+                        //console.log("fasle status");
                         status.color="red";
                         status.description="OFF"
                         res.send(status);

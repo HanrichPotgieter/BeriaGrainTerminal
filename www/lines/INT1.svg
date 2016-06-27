@@ -520,14 +520,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.90509668"
-     inkscape:cx="389.67083"
-     inkscape:cy="695.01549"
+     inkscape:zoom="2.56"
+     inkscape:cx="324.70695"
+     inkscape:cy="551.601"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -566,6 +566,7 @@
      inkscape:label="#g9438">
     <desc
        id="desc9443">{
+&quot;type&quot;:&quot;LineParams&quot;,
 &quot;name&quot;:&quot;Wheat Intake&quot;,
 &quot;DB&quot;:&quot;600&quot;,
 &quot;sections&quot;:[{
@@ -4914,14 +4915,26 @@ state=$'name'.StCode;</desc>
        &quot;ios&quot;:[
         {
         &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;1&quot;,
-        &quot;offset&quot;:&quot;2&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
         &quot;description&quot;:&quot;Running&quot;
         },
         {
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;1&quot;,
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Start&quot;
+        },
+  	{
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
         &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Start&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;500&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
         &quot;description&quot;:&quot;Start&quot;
         }
         ]}
