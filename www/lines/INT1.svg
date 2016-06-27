@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.56"
-     inkscape:cx="1258.6955"
-     inkscape:cy="657.39715"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="299.93571"
+     inkscape:cy="823.17361"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -571,11 +571,8 @@
 &quot;DB&quot;:&quot;600&quot;,
 &quot;sections&quot;:[{
 &quot;name&quot;:&quot;Wheat Intake&quot;,
-&quot;DB&quot;:&quot;601&quot;
-},
-{
-&quot;name&quot;:&quot;Wheat Intake&quot;,
-&quot;DB&quot;:&quot;601&quot;
+&quot;DB&quot;:&quot;601&quot;,
+&quot;description&quot;:&quot;Updating...&quot;
 }]
 }</desc>
     <rect
@@ -6121,41 +6118,6 @@ state=$'name'.StCode;</desc>
      id="g8485-9"
      class="dynShape"
      transform="translate(-1971.5,-22.87626)">
-    <desc
-       id="desc4775">
-      {&quot;name&quot;:&quot;=A-1300-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7056&quot;,
-       &quot;DB&quot;:&quot;141&quot;,
-       &quot;OFFSET&quot;:&quot;668&quot;,
-       &quot;description&quot;:&quot;Aspiration Blower&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;500&quot;,
-        &quot;offset&quot;:&quot;0&quot;,
-        &quot;description&quot;:&quot;Running&quot;
-        },
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;500&quot;,
-        &quot;offset&quot;:&quot;1&quot;,
-        &quot;description&quot;:&quot;Start&quot;
-        },
-  	{
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;500&quot;,
-        &quot;offset&quot;:&quot;2&quot;,
-        &quot;description&quot;:&quot;Start&quot;
-        },
-	{
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;500&quot;,
-        &quot;offset&quot;:&quot;3&quot;,
-        &quot;description&quot;:&quot;Start&quot;
-        }
-        ]}
-      </desc>
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"

@@ -171,3 +171,28 @@ app.post('/setBit', function(req, res){
     
 });
 
+app.post('/getSectionStatus', function(req, res){ 
+    var element = req.body;   
+    if(s7client.Connected() && connected){
+        s7client.DBRead(parseInt(element.DB),parseInt(100),2,function(err,data){
+        if(err){
+                res.sendStatus(200);
+                return console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
+        }
+        else
+            var status = data.readUIntBE(0, 2);
+            elementInfo.getSectionStatus(status,function(data){
+                data.id = element.id;
+                res.send(data);
+            });
+         
+        });
+       
+    }
+    else{
+
+        res.send({color:'orange',status:'PLC Disconnected',id:element.id});
+        
+    }
+});
+

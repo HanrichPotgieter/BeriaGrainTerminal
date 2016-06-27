@@ -101,7 +101,7 @@ angular
                             d3.select(object.node.parentNode).on("click", function($event) {
                                 itemClicked(object,$event);
                             });
-                            console.log(object);
+                            //console.log(object);
                             if(object.type != "LineParams"){
                                 $http.post("/getStatus", object)
                                 .success(function (data) {

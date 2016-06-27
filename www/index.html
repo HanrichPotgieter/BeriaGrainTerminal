@@ -42,6 +42,19 @@
           <img src="/images/Logo_Buhler.png" width="80%" style="margin:5%"/>
           <md-content flex role="navigation">
             <md-list class="listRemovePadding">
+              <div ng-show="sections">
+                <md-divider></md-divider>
+                <md-subheader class="md-no-sticky">Current Line Section States</md-subheader>
+                <md-divider></md-divider>
+              </div>
+              <div ng-repeat="section in sections">
+                <md-list-item class="md-2-line" ng-style="section.style">
+                  <div class="md-list-item-text">
+                    <h3>{{ section.name }}</h3>
+                    <p>{{ section.status.status }}</p>
+                  </div>
+                </md-list-item>
+              </div>
               <md-divider></md-divider>
               <md-subheader class="md-no-sticky">Lines</md-subheader>
               <md-divider></md-divider>
