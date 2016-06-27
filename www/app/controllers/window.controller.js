@@ -89,4 +89,30 @@ angular
         }); 
       };
 
+      $scope.estop = function(){
+
+        var object = {
+            DB:parseInt(lines.selectedLine.DB),
+            OFFSET:'69',
+            BIT:'0'
+        };
+        $http.post("/setBit", object)
+        .success(function (data) {
+            //console.log('done');
+        });
+
+        var object = {
+            DB:parseInt(lines.selectedLine.DB),
+            OFFSET:'69',
+            BIT:'6'
+        };
+        $http.post("/setBit", object)
+        .success(function (data) {
+            //console.log('done');
+        }); 
+
+      };
+
+      
+
     })
