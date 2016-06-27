@@ -108,7 +108,9 @@ angular
                             if(object.type != "LineParams"){
                                 $http.post("/getStatus", object)
                                 .success(function (data) {
-                                    d3.select(object.node.parentNode).style('fill',data.color);
+                                    var parent = object.node.parentNode;
+                                    d3.select(parent).style('fill',data.color);
+                                    d3.select(parent).selectAll('*').style('fill',data.color)
                                 }); 
                             }
                         };
