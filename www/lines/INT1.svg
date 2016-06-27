@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.2407734"
-     inkscape:cx="503.98175"
-     inkscape:cy="624.04824"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="389.67083"
+     inkscape:cy="695.01549"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -567,7 +567,15 @@
     <desc
        id="desc9443">{
 &quot;name&quot;:&quot;Wheat Intake&quot;,
-&quot;DB&quot;:&quot;600&quot;
+&quot;DB&quot;:&quot;600&quot;,
+&quot;sections&quot;:[{
+&quot;name&quot;:&quot;Wheat Intake&quot;,
+&quot;DB&quot;:&quot;601&quot;
+},
+{
+&quot;name&quot;:&quot;Wheat Intake&quot;,
+&quot;DB&quot;:&quot;601&quot;
+}]
 }</desc>
     <rect
        y="10"
@@ -1387,8 +1395,7 @@ state=$'name'.StCode;</desc>
      Library="GM_2.2.1447.1"
      onclick="this.visualization.click(event)"
      transform="translate(287,-340.50064)"
-     id="g5128-1-9-17-2-1"
-     > 
+     id="g5128-1-9-17-2-1">
     <desc
        id="desc5130-7-3-4-4-5">[Visualization]
 name=A_1024;

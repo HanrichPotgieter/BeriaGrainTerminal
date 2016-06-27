@@ -17,7 +17,14 @@
     width: 100%;
 }
 .listRemovePadding {
-    padding: 0px;
+    padding: 0px !important;
 }
+
+.sectionBox {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  padding: 0 8px; 
+  }
 
 

@@ -2,7 +2,7 @@ angular
     .module('app')
     .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia,lines) {
         function DialogController($scope,$http, item, $mdDialog) {
-           
+
             $scope.open = true;
 
             $scope.cancel = function() {
@@ -65,11 +65,20 @@ angular
         };
 
         $scope.infoStatus = false;
+
         var getLineInfo = function(){
             var sel = d3.select(document.getElementById("image").contentDocument).selectAll("#lineProperties");
                 sel.select("desc").each(function () {
                     var lineProperties = JSON.parse(this.textContent);
                     lines.setActiveLine(lineProperties);
+                    $scope.sections = lines.selectedLine.sections;
+                    for(x in $scope.sections)
+                    {
+                         $scope.sections[x].status = {
+                             description: "PLC Disconnected",
+                             color:"orange"
+                         }
+                    }
                     $scope.infoStatus = true;
                 });
         }
