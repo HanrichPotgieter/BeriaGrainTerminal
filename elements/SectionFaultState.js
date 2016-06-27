@@ -11,7 +11,7 @@ module.exports = {
         break;
         case 1:
             response.color="red"
-            response.status="Full"
+            response.status="Bin Empty"
         break;
         case 2:
             response.color="red"
@@ -20,6 +20,10 @@ module.exports = {
         case 4:
             response.color="red"
             response.status="Way Confict"
+        break;
+        case 8:
+            response.color="red"
+            response.status="Warning"
         break;
         case 16:
             response.color="red"
