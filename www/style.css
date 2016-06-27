@@ -16,6 +16,11 @@
     height:90vh;
     width: 100%;
 }
+
+.lineImageDiv{
+    padding: 1%
+}
+
 .listRemovePadding {
     padding: 0px !important;
 }
@@ -25,6 +30,6 @@
   width: 20%;
   box-sizing: border-box;
   padding: 0 8px; 
-  }
+}
 
 

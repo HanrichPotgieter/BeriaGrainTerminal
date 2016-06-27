@@ -6,7 +6,7 @@ module.exports = {
 
     var response = {
     color:'orange',
-    status:'Unknown'
+    status:'Unknown Status'
     }
     switch(parseInt(data.ptype))
     { 
@@ -53,11 +53,10 @@ module.exports = {
         // ptype 7165
         //===================================================>  
         case 7165:   
-        console.log(status)
             switch(status) {
                 case 256:
                     response.color = "gray";
-                    response.status = "False";
+                    response.status = "Uncovered";
                     callback(response);
                     break;
                 case 512:

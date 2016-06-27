@@ -18,10 +18,12 @@ angular
                     //console.log(data.fault);
                     lines.selectedLine.sections[data.id].status = data;
                     lines.selectedLine.sections[data.id].style = {
-                        "background" : data.color
+                        "background" : data.color,
+                        'transition':'background 2.0s ease'
                     }
                     lines.selectedLine.sections[data.id].status.fault.style = {
-                        "background" : data.fault.color
+                        "background" : data.fault.color,
+                        'transition':'background 2.0s ease'
                     }
                 }); 
             }   
