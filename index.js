@@ -190,9 +190,7 @@ app.post('/getSectionStatus', function(req, res){
        
     }
     else{
-
-        res.send({color:'orange',status:'PLC Disconnected',id:element.id});
-        
+        res.send({color:'orange',status:'PLC Disconnected',id:element.id});      
     }
 });
 
