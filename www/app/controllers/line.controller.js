@@ -6,8 +6,9 @@ angular
             $scope.open = false;
         });
         function DialogController($scope,$http, item, $mdDialog) {
+            $scope.Controlopen = true;
             $scope.cancel = function() {
-                $scope.open = false;
+                $scope.Controlopen = false;
                 $mdDialog.cancel();
             };
 
@@ -38,7 +39,7 @@ angular
                         }
                     }); 
                 }
-                if($scope.open){
+                if($scope.Controlopen){
                     setTimeout(function() {getStatus();}, 200);
                 }
                 else{
