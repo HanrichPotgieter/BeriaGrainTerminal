@@ -5,6 +5,7 @@ var bodyParser = require('body-parser');
 var snap7 = require('node-snap7');
 var elementInfo = require('./elements/getStatus');
 var s7client = new snap7.S7Client();
+var ping = require('ping');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -15,26 +16,44 @@ app.get('/', function (req, res) {
   res.sendfile(__dirname+'/www/index.html');
 });
 
+var ip = '10.0.0.70';
+var connected = false;
+
 var connectToPlc = function(){
-    s7client.ConnectTo('10.0.0.70', 0, 2, function(err) {
+    console.log("Starting connection...");
+    s7client.ConnectTo(ip, 0, 2, function(err) {
         if(err){
             console.log(' >> Connection failed. Code #' + err + ' - ' + s7client.ErrorText(err));
             setTimeout(connectToPlc, 5000);
         }
         else{
             console.log('Connection Successful');
+            connected = true;
             checkConnection();
         }
     });
 }
 
+connectToPlc();
+
 var checkConnection = function(){
-    if(!s7client.Connected()){
-        connectToPlc();
-    }
-    else{
-        setTimeout(checkConnection, 5000);
-    }
+    var hosts = [ip];
+
+    hosts.forEach(function (host) {
+        ping.promise.probe(host)
+            .then(function (res) {
+                if(res.alive)
+                {
+                     setTimeout(checkConnection, 5000);
+                }
+                else
+                {
+                    connected = false;
+                    console.log("PLC Connection Failed");
+                    connectToPlc();                    
+                }
+            });
+    });
 }
 
 app.listen(3000, function () {
@@ -51,7 +70,7 @@ app.post('/getStatus', function(req, res){
         s7client.DBRead(parseInt(element.DB),parseInt(element.OFFSET),2,function(err,data){
         if(err){
                 res.sendStatus(200);
-                return console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));
+                return console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
         }
         else
             var status = data.readUIntBE(0, 2);
@@ -73,7 +92,7 @@ app.post('/getIoState', function(req, res){
         description:"PLC Disconnected"
     }
 
-    if(s7client.Connected()){
+    if(s7client.Connected() && connected){
         if(element.type === "Q")
         {
             s7client.ABRead(parseInt(element.pos),parseInt(element.offset),function(err,data){
@@ -128,7 +147,7 @@ app.post('/getIoState', function(req, res){
 
 app.post('/setBit', function(req, res){ 
     var element = req.body;   
-    if(s7client.Connected()){
+    if(s7client.Connected() && connected){
         s7client.WriteArea(s7client.S7AreaDB,parseInt(element.DB), (parseInt(element.OFFSET)*8+parseInt(element.BIT)), 1, s7client.S7WLBit, new Buffer([0x01]) , function(err) {
             if(err)
                 return console.log(' >> WriteArea failed. Code #' + err + ' - ' + s7client.ErrorText(err));
@@ -140,3 +159,4 @@ app.post('/setBit', function(req, res){
     }
     
 });
+
