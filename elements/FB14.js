@@ -6,7 +6,7 @@ module.exports = {
 
     var response = {
     color:'orange',
-    status:'Unknown Status'
+    status:'Unknown Status '+status
     }
     switch(parseInt(data.ptype))
     { 
