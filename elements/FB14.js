@@ -5,7 +5,7 @@ module.exports = {
   getStatus: function (data,status,callback) {
 
     var response = {
-    color:'orange',
+    color:'yellow',
     status:'Unknown Status '+status
     }
     switch(parseInt(data.ptype))
