@@ -5,8 +5,8 @@ module.exports = {
   getStatus: function (data,status,callback) {
 
     var response = {
-    color:'yellow',
-    status:'started'
+    color:'orange',
+    status:'Unknown'
     }
     switch(parseInt(data.ptype))
     { 
@@ -43,6 +43,41 @@ module.exports = {
                 case 32:
                 // StFault
                     response.color = "red";
+                    callback(response);
+                    break;
+                default:callback(response);
+            }
+        break;
+        //<===================================================
+        //===================================================>
+        // ptype 7165
+        //===================================================>  
+        case 7165:   
+        console.log(status)
+            switch(status) {
+                case 256:
+                    response.color = "gray";
+                    response.status = "False";
+                    callback(response);
+                    break;
+                case 512:
+                    response.color = "lightgreen";
+                    response.status = "Change To Covered";
+                    callback(response);
+                    break;
+                case 1024:
+                    response.color = "green";
+                    response.status = "Covered";
+                    callback(response);
+                    break;
+                case 2048:
+                    response.color = "lightgreen";
+                    response.status = "Change To Uncovered";
+                    callback(response);
+                    break;
+                case 4096:
+                    response.color = "red";
+                    response.status = "Fault";
                     callback(response);
                     break;
                 default:callback(response);

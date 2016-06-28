@@ -520,19 +520,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.90509668"
-     inkscape:cx="389.67083"
-     inkscape:cy="695.01549"
+     inkscape:zoom="3.1316033"
+     inkscape:cx="272.25417"
+     inkscape:cy="621.10673"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:snap-page="true">
     <inkscape:grid
        type="xygrid"
        id="grid2812"
@@ -566,15 +567,13 @@
      inkscape:label="#g9438">
     <desc
        id="desc9443">{
+&quot;type&quot;:&quot;LineParams&quot;,
 &quot;name&quot;:&quot;Wheat Intake&quot;,
 &quot;DB&quot;:&quot;600&quot;,
 &quot;sections&quot;:[{
 &quot;name&quot;:&quot;Wheat Intake&quot;,
-&quot;DB&quot;:&quot;601&quot;
-},
-{
-&quot;name&quot;:&quot;Wheat Intake&quot;,
-&quot;DB&quot;:&quot;601&quot;
+&quot;DB&quot;:&quot;601&quot;,
+&quot;description&quot;:&quot;Updating...&quot;
 }]
 }</desc>
     <rect
@@ -599,20 +598,20 @@
   <g
      id="g7808">
     <desc
-       id="desc7816">{&quot;name&quot;: &quot;=A-1006-BST13&quot;,
-&quot;type&quot;:&quot;FB14&quot;,
-&quot;ptype&quot;:&quot;7177&quot;,
-&quot;DB&quot;:&quot;160&quot;,
-&quot;OFFSET&quot;:&quot;210&quot;,
-&quot;description&quot;:&quot;Chain conveyor&quot;,
-&quot;ios&quot;:[
-{
-&quot;type&quot;:&quot;I&quot;,
-&quot;pos&quot;:&quot;41&quot;,
-&quot;offset&quot;:&quot;5&quot;,
-&quot;description&quot;:&quot;Speed Monitor Input&quot;
-}
-]}</desc>
+       id="desc7816">{&quot;name&quot;:&quot;=A-1006-BST13&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7177&quot;,
+       &quot;DB&quot;:&quot;160&quot;,
+       &quot;OFFSET&quot;:&quot;210&quot;,
+       &quot;description&quot;:&quot;Speed Monitor Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        },
+        ]}</desc>
     <g
        transform="translate(-2168.5,154.74894)"
        class="dynShape"
@@ -656,79 +655,97 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-     id="g13520"
-     class="dynShape"
-     transform="translate(-60.25,-235.75106)">
+     id="g4779">
     <desc
-       id="desc13518">{&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,
-&quot;type&quot;:&quot;FB12&quot;,
-&quot;ptype&quot;:&quot;7056&quot;,
-&quot;DB&quot;:&quot;160&quot;,
-&quot;OFFSET&quot;:&quot;500&quot;,
-&quot;description&quot;:&quot;Chain conveyor&quot;,
-&quot;ios&quot;:[
-{
-&quot;type&quot;:&quot;Q&quot;,
-&quot;pos&quot;:&quot;30&quot;,
-&quot;offset&quot;:&quot;4&quot;,
-&quot;description&quot;:&quot;Forward&quot;
-},
-{
-&quot;type&quot;:&quot;Q&quot;,
-&quot;pos&quot;:&quot;30&quot;,
-&quot;offset&quot;:&quot;5&quot;,
-&quot;description&quot;:&quot;Reverse&quot;
-}
-]}
-      </desc>
+       id="desc4785">{&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;160&quot;,
+       &quot;OFFSET&quot;:&quot;210&quot;,
+       &quot;description&quot;:&quot;Belt Conveyor Direction&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;Forward&quot;
+        },
+ {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;Reverse&quot;
+        }
+        ]}</desc>
     <path
        inkscape:connector-curvature="0"
        id="path13529"
-       d="m 616.5,575.99402 -26.384,0"
+       d="m 556.25,340.24296 -26.384,0"
        style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
        class="dynRevFast"
        sodipodi:nodetypes="cc" />
     <path
        inkscape:connector-curvature="0"
        id="path13531"
-       d="m 625.5,575.99402 -26.384,0"
+       d="m 565.25,340.24296 -26.384,0"
        style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
        class="dynRevSlow"
        sodipodi:nodetypes="cc" />
     <path
        inkscape:connector-curvature="0"
        id="path13535"
-       d="m 636,575.99402 25.8843,0"
+       d="m 575.75,340.24296 25.8843,0"
        style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
        class="dynFwdFast"
        sodipodi:nodetypes="cc" />
     <path
        inkscape:connector-curvature="0"
        id="path13537"
-       d="m 626,575.99402 25.8843,0"
+       d="m 565.75,340.24296 25.8843,0"
        style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
        class="dynFwdSlow"
        sodipodi:nodetypes="cc" />
-    <path
-       style="stroke-width:1"
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path13539"
-       d="m 549.5,582.5 -3e-5,8 152.00003,0 0,-8 z" />
-    <circle
-       r="4"
-       cy="622.5"
-       cx="3397.5"
-       id="path13744"
-       transform="translate(-2848,-36)" />
-    <circle
-       r="4"
-       cy="622.5"
-       cx="3397.5"
-       transform="translate(-2696,-36)"
-       id="path13729" />
   </g>
+  <path
+     d="m 489.25,346.74894 -3e-5,8 152.00003,0 0,-8 z"
+     id="path13539"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc"
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1">
+    <desc
+       id="desc4777"> {&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;160&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
+  </path>
+  <circle
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     id="path13744"
+     cx="489.25"
+     cy="350.74893"
+     r="4" />
+  <circle
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     id="path13729"
+     cx="641.25"
+     cy="350.74893"
+     r="4" />
   <rect
      y="351.24893"
      x="484.75"
@@ -976,13 +993,26 @@
      transform="matrix(0.5333273,0,0,0.53335145,266.45318,168.34261)"
      onclick="this.visualization.click(event)">
     <desc
-       id="desc13771">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;
-</desc>
+       id="desc13771"> {&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;160&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
@@ -1011,154 +1041,6 @@ state=$'name'.StCode;
          y="344.75"
          style="font-size:8px">M</tspan></text>
   </g>
-  <g
-     Symbol="v1.0"
-     Library="GM_2.2.1616.0"
-     onclick="this.visualization.click(event)"
-     transform="matrix(0,1,-1,0,750.25,-2299.376)"
-     id="g5197">
-    <desc
-       id="desc5199">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       stroke-miterlimit="4"
-       id="g5201"
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
-      <path
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-         id="path5203"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g5458">
-      <path
-         inkscape:connector-curvature="0"
-         id="path5462"
-         d="m 2648.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5464"
-         d="m 2651.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-    </g>
-  </g>
-  <g
-     id="g3417"
-     transform="matrix(0,1,-1,0,780.25,-2299.376)"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.1616.0"
-     Symbol="v1.0">
-    <desc
-       id="desc3419">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
-       id="g3421"
-       stroke-miterlimit="4"
-       class="dynShape">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3423"
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z" />
-    </g>
-    <g
-       id="g3425">
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2648.5,238 0,6"
-         id="path3427"
-         inkscape:connector-curvature="0" />
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2651.5,238 0,6"
-         id="path3429"
-         inkscape:connector-curvature="0" />
-    </g>
-  </g>
-  <g
-     Symbol="v1.0"
-     Library="GM_2.2.1616.0"
-     onclick="this.visualization.click(event)"
-     transform="matrix(0,1,-1,0,832.25,-2299.376)"
-     id="g3431">
-    <desc
-       id="desc3433">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       stroke-miterlimit="4"
-       id="g3435"
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
-      <path
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-         id="path3437"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g3439">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3441"
-         d="m 2648.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3443"
-         d="m 2651.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-    </g>
-  </g>
-  <g
-     id="g3445"
-     transform="matrix(0,1,-1,0,862.25,-2299.376)"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.1616.0"
-     Symbol="v1.0">
-    <desc
-       id="desc3447">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
-       id="g3449"
-       stroke-miterlimit="4"
-       class="dynShape">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3451"
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z" />
-    </g>
-    <g
-       id="g3453">
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2648.5,238 0,6"
-         id="path3455"
-         inkscape:connector-curvature="0" />
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2651.5,238 0,6"
-         id="path3457"
-         inkscape:connector-curvature="0" />
-    </g>
-  </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 1001.5,785.74894 16,0 0,68"
@@ -1172,68 +1054,53 @@ state=$'name'.StCode;</desc>
      d="m 1117.5,744.99936 0,41 -72,0 0,67.74958"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#marker5253);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   <g
-     style="stroke-linecap:butt;stroke-miterlimit:4;stroke-dashoffset:0"
-     id="g10796"
-     stroke-miterlimit="4"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.1616.0"
-     Symbol="v0.0"
+     id="g12627"
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+     class="dynShape"
      transform="translate(-2133.5,5.4993674)">
     <desc
-       id="desc995">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-dasharray:none"
-       id="g12627">
-      <desc
-         id="desc3518">
+       id="desc3518">
       {&quot;name&quot;: &quot;=A-1006-MXZ01&quot;,&quot;type&quot;:&quot;FB12&quot;,&quot;ptype&quot;:&quot;7056&quot;,&quot;DB&quot;:&quot;160&quot;,&quot;OFFSET&quot;:&quot;500&quot;}
       </desc>
-      <path
-         style="stroke-width:1"
-         d="m 2650.5,98.5 9,0 0,733 -9,0 z"
-         id="path13807"
-         inkscape:connector-curvature="0"
-         transform="translate(510,15)"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path13802"
-         style="stroke-width:1;stroke-linejoin:miter;enable-background:accumulate"
-         d="m 2650.5,98.5 0,-23 9,0 13,23 -22,0 z"
-         transform="translate(510,15)" />
-      <path
-         style="stroke-width:1"
-         inkscape:connector-curvature="0"
-         id="path16486"
-         d="m 2661.47,87.5 a 3.97,3.97 0 0 1 -7.93,0 3.97,3.97 0 1 1 7.93,0 z"
-         transform="translate(510,15)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path13809-1"
-         style="stroke-width:1;stroke-linejoin:miter;enable-background:accumulate"
-         d="m 3182.5,846.5 -13,20 -9,0 -13,-20 z" />
-      <path
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4"
-         inkscape:connector-curvature="0"
-         id="path12621"
-         d="m 3169.5,855.5 c 0,2.21 -1.79,4 -4,4 -2.21,0 -4,-1.79 -4,-4 0,-2.21 1.79,-4 4,-4 2.21,0 4,1.79 4,4 z"
-         stroke-miterlimit="4" />
-    </g>
-    <rect
-       class="dynCon0"
-       style="fill:#008000;fill-opacity:0.4;visibility:hidden"
-       id="rect13813"
-       height="4"
-       width="12"
-       y="112"
-       x="3170" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       transform="translate(510,15)"
+       inkscape:connector-curvature="0"
+       id="path13807"
+       d="m 2650.5,98.5 9,0 0,733 -9,0 z"
+       style="stroke-width:1" />
+    <path
+       transform="translate(510,15)"
+       d="m 2650.5,98.5 0,-23 9,0 13,23 -22,0 z"
+       style="stroke-width:1;stroke-linejoin:miter;enable-background:accumulate"
+       id="path13802"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(510,15)"
+       d="m 2661.47,87.5 a 3.97,3.97 0 0 1 -7.93,0 3.97,3.97 0 1 1 7.93,0 z"
+       id="path16486"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       d="m 3182.5,846.5 -13,20 -9,0 -13,-20 z"
+       style="stroke-width:1;stroke-linejoin:miter;enable-background:accumulate"
+       id="path13809-1"
+       inkscape:connector-curvature="0" />
+    <path
+       stroke-miterlimit="4"
+       d="m 3169.5,855.5 c 0,2.21 -1.79,4 -4,4 -2.21,0 -4,-1.79 -4,-4 0,-2.21 1.79,-4 4,-4 2.21,0 4,1.79 4,4 z"
+       id="path12621"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4" />
   </g>
+  <rect
+     x="1039.2621"
+     y="116.94694"
+     width="9.2378645"
+     height="4.5524273"
+     id="rect13813"
+     style="visibility:hidden;fill:#008000;fill-opacity:0.4;stroke-linecap:butt;stroke-miterlimit:4;stroke-dashoffset:0"
+     class="dynCon0" />
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 1046.5,118.74894 0,21 40,0"
@@ -1432,23 +1299,43 @@ state=$'name'.StCode;</desc>
     </g>
   </g>
   <g
-     id="g4700"
-     transform="translate(-1958.5,204.74894)"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.1444.0"
-     Symbol="v1.1">
+     id="g4738">
     <desc
-       id="desc4702">[Visualization]
-name=A_1015_BSA12;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc4747">{&quot;name&quot;:&quot;=A-1008-BST13&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;158&quot;,
+       &quot;OFFSET&quot;:&quot;144&quot;,
+       &quot;description&quot;:&quot;Speed Monitor Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        }
+        ]}</desc>
     <g
+       transform="translate(-1958.5,204.74894)"
        style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
        id="g4704"
        stroke-miterlimit="4"
        class="dynShape">
+      <desc
+         id="desc4736">{&quot;name&quot;:&quot;=A-1008-BST13&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;158&quot;,
+       &quot;OFFSET&quot;:&quot;144&quot;,
+       &quot;description&quot;:&quot;Speed Monitor Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        },
+        ]}</desc>
       <path
          inkscape:connector-curvature="0"
          id="path4706"
@@ -1460,6 +1347,7 @@ state=$'name'.StCode;</desc>
          inkscape:connector-curvature="0" />
     </g>
     <g
+       transform="translate(-1958.5,204.74894)"
        id="g4710">
       <path
          style="stroke:#000000;stroke-opacity:1"
@@ -1474,98 +1362,135 @@ state=$'name'.StCode;</desc>
     </g>
   </g>
   <g
-     onclick="this.visualization.click(event)"
-     transform="translate(149.75,-185.75106)"
-     id="g3730"
-     Library="GM_2.2.1616.0"
-     Symbol="v0.0">
+     id="g4812">
     <desc
-       id="desc3732">[Visualization]
-name=undefined;
-type=GcObjectMotor2Dir;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;
-direction=$'name'.StCode(Byte00);
-inDirectionFwdSlow=3;
-inDirectionFwdFast=4;
-inDirectionRevSlow=5;
-inDirectionRevFast=6;
-</desc>
-    <g
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-       id="g3734"
-       class="dynShape">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3736"
-         d="m 601.5,575.99402 -26.384,0"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         class="dynRevFast"
-         sodipodi:nodetypes="cc" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3738"
-         d="m 610.5,575.99402 -26.384,0"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         class="dynRevSlow"
-         sodipodi:nodetypes="cc" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3740"
-         d="m 621,575.99402 25.8843,0"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         class="dynFwdFast"
-         sodipodi:nodetypes="cc" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3742"
-         d="m 611,575.99402 25.8843,0"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         class="dynFwdSlow"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="stroke-width:1"
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path3744"
-         d="m 549.5,582.5 -3e-5,8 122.00003,0 0,-8 z" />
-      <path
-         sodipodi:type="arc"
-         id="path3746"
-         sodipodi:cx="3397.5"
-         sodipodi:cy="622.5"
-         sodipodi:rx="4"
-         sodipodi:ry="4"
-         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
-         transform="translate(-2848,-36)" />
-      <path
-         transform="translate(-2726,-36)"
-         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
-         sodipodi:ry="4"
-         sodipodi:rx="4"
-         sodipodi:cy="622.5"
-         sodipodi:cx="3397.5"
-         id="path3748"
-         sodipodi:type="arc" />
-    </g>
-    <rect
-       y="587"
-       x="545"
-       height="5"
-       width="16"
-       id="rect3750"
-       style="opacity:0.4;fill:#008200;stroke:none;visibility:hidden"
-       class="dynCon1" />
-    <rect
-       style="opacity:0.4;fill:#008200;stroke:none;visibility:hidden"
-       id="rect3752"
-       width="13"
-       height="5"
-       x="663"
-       y="587"
-       class="dynCon2" />
+       id="desc4829">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;158&quot;,
+       &quot;OFFSET&quot;:&quot;434&quot;,
+       &quot;description&quot;:&quot;Belt Conveyor Direction&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Forward&quot;
+        },
+ {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Reverse&quot;
+        }
+        ]}</desc>
+    <path
+       sodipodi:nodetypes="cc"
+       class="dynRevFast"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       d="m 751.25,390.24296 -26.384,0"
+       id="path3736"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cc"
+       class="dynRevSlow"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       d="m 760.25,390.24296 -26.384,0"
+       id="path3738"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cc"
+       class="dynFwdFast"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       d="m 770.75,390.24296 25.8843,0"
+       id="path3740"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cc"
+       class="dynFwdSlow"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       d="m 760.75,390.24296 25.8843,0"
+       id="path3742"
+       inkscape:connector-curvature="0" />
   </g>
+  <circle
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     id="path3746"
+     cx="699.25"
+     cy="400.74893"
+     r="4">
+    <desc
+       id="desc4728">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;158&quot;,
+       &quot;OFFSET&quot;:&quot;500&quot;,
+       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
+  </circle>
+  <circle
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     id="path3748"
+     cx="821.25"
+     cy="400.74893"
+     r="4" />
+  <rect
+     class="dynCon1"
+     style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none"
+     id="rect3750"
+     width="16"
+     height="5"
+     x="694.75"
+     y="401.24893" />
+  <rect
+     class="dynCon2"
+     y="401.24893"
+     x="812.75"
+     height="5"
+     width="13"
+     id="rect3752"
+     style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none" />
+  <path
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     sodipodi:nodetypes="ccccc"
+     inkscape:connector-curvature="0"
+     id="path3744"
+     d="m 699.25,396.74894 -3e-5,8 122.00003,0 0,-8 z">
+    <desc
+       id="desc4726">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;158&quot;,
+       &quot;OFFSET&quot;:&quot;500&quot;,
+       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
+  </path>
   <g
      onclick="this.visualization.click(event)"
      transform="matrix(0.5333273,0,0,0.53335145,446.45318,218.34261)"
@@ -1573,26 +1498,36 @@ inDirectionRevFast=6;
      Library="GM_2.2.1616.0"
      Symbol="v0.0">
     <desc
-       id="desc3756">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;
-</desc>
+       id="desc3756">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;158&quot;,
+       &quot;OFFSET&quot;:&quot;500&quot;,
+       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
     <g
        id="g3758"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
        class="dynShape">
-      <path
+      <circle
+         r="7.5"
+         cy="152"
+         cx="592"
          style="stroke-width:1.87497878"
-         sodipodi:type="arc"
          id="path3760"
-         sodipodi:cx="592"
-         sodipodi:cy="152"
-         sodipodi:rx="7.5"
-         sodipodi:ry="7.5"
-         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
          transform="translate(110.75191,190)" />
     </g>
     <text
@@ -1600,7 +1535,7 @@ state=$'name'.StCode;
        id="text3762"
        y="344.75"
        x="699.50165"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          style="font-size:8px"
          y="344.75"
@@ -1609,129 +1544,26 @@ state=$'name'.StCode;
          sodipodi:role="line">M</tspan></text>
   </g>
   <g
-     id="g3766"
-     transform="matrix(0,1,-1,0,960.25,-2249.376)"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.1616.0"
-     Symbol="v1.0">
-    <desc
-       id="desc3768">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
-       id="g3770"
-       stroke-miterlimit="4"
-       class="dynShape">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3772"
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z" />
-    </g>
-    <g
-       id="g3774">
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2648.5,238 0,6"
-         id="path3776"
-         inkscape:connector-curvature="0" />
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2651.5,238 0,6"
-         id="path3778"
-         inkscape:connector-curvature="0" />
-    </g>
-  </g>
-  <g
-     Symbol="v1.0"
-     Library="GM_2.2.1616.0"
-     onclick="this.visualization.click(event)"
-     transform="matrix(0,1,-1,0,1001.25,-2249.376)"
-     id="g3780">
-    <desc
-       id="desc3782">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       stroke-miterlimit="4"
-       id="g3784"
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
-      <path
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-         id="path3786"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g3788">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3790"
-         d="m 2648.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3792"
-         d="m 2651.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-    </g>
-  </g>
-  <g
-     Symbol="v1.0"
-     Library="GM_2.2.1616.0"
-     onclick="this.visualization.click(event)"
-     transform="matrix(0,1,-1,0,1042.25,-2249.376)"
-     id="g3808">
-    <desc
-       id="desc3810">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       stroke-miterlimit="4"
-       id="g3812"
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
-      <path
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-         id="path3814"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g3816">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3818"
-         d="m 2648.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3820"
-         d="m 2651.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-    </g>
-  </g>
-  <g
      Symbol="v1.1"
      Library="GM_2.2.1444.0"
      onclick="this.visualization.click(event)"
      transform="translate(-1778.5,254.74894)"
      id="g4716">
     <desc
-       id="desc4718">[Visualization]
-name=A_1015_BSA12;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc4718">{&quot;name&quot;:&quot;=A-1009-BST13&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;156&quot;,
+       &quot;OFFSET&quot;:&quot;144&quot;,
+       &quot;description&quot;:&quot;Speed Monitor Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;42&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        },
+        ]}</desc>
     <g
        class="dynShape"
        stroke-miterlimit="4"
@@ -1762,249 +1594,155 @@ state=$'name'.StCode;</desc>
     </g>
   </g>
   <g
-     Symbol="v0.0"
-     Library="GM_2.2.1616.0"
-     id="g3822"
-     transform="translate(329.75,-135.75106)"
-     onclick="this.visualization.click(event)">
+     id="g4848">
     <desc
-       id="desc3824">[Visualization]
-name=undefined;
-type=GcObjectMotor2Dir;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;
-direction=$'name'.StCode(Byte00);
-inDirectionFwdSlow=3;
-inDirectionFwdFast=4;
-inDirectionRevSlow=5;
-inDirectionRevFast=6;
-</desc>
-    <g
-       class="dynShape"
-       id="g3826"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1">
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynRevFast"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 601.5,575.99402 -26.384,0"
-         id="path3828"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynRevSlow"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 610.5,575.99402 -26.384,0"
-         id="path3830"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynFwdFast"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 621,575.99402 25.8843,0"
-         id="path3832"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="cc"
-         class="dynFwdSlow"
-         style="color:#000000;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker6990);visibility:hidden"
-         d="m 611,575.99402 25.8843,0"
-         id="path3834"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 549.5,582.5 -3e-5,8 122.00003,0 0,-8 z"
-         id="path3836"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc"
-         style="stroke-width:1" />
-      <path
-         transform="translate(-2848,-36)"
-         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
-         sodipodi:ry="4"
-         sodipodi:rx="4"
-         sodipodi:cy="622.5"
-         sodipodi:cx="3397.5"
-         id="path3838"
-         sodipodi:type="arc" />
-      <path
-         sodipodi:type="arc"
-         id="path3840"
-         sodipodi:cx="3397.5"
-         sodipodi:cy="622.5"
-         sodipodi:rx="4"
-         sodipodi:ry="4"
-         d="m 3401.5,622.5 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
-         transform="translate(-2726,-36)" />
-    </g>
-    <rect
-       class="dynCon1"
-       style="opacity:0.4;fill:#008200;stroke:none;visibility:hidden"
-       id="rect3842"
-       width="16"
-       height="5"
-       x="545"
-       y="587" />
-    <rect
-       class="dynCon2"
-       y="587"
-       x="663"
-       height="5"
-       width="13"
-       id="rect3844"
-       style="opacity:0.4;fill:#008200;stroke:none;visibility:hidden" />
+       id="desc4865">{&quot;name&quot;:&quot;=A-1009-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;156&quot;,
+       &quot;OFFSET&quot;:&quot;434&quot;,
+       &quot;description&quot;:&quot;Belt Conveyor Direction&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;23&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;Forward&quot;
+        },
+ {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;23&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Reverse&quot;
+        }
+        ]}</desc>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3828"
+       d="m 931.25,440.24296 -26.384,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynRevFast"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3830"
+       d="m 940.25,440.24296 -26.384,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynRevSlow"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3832"
+       d="m 950.75,440.24296 25.8843,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynFwdFast"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3834"
+       d="m 940.75,440.24296 25.8843,0"
+       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
+       class="dynFwdSlow"
+       sodipodi:nodetypes="cc" />
   </g>
+  <circle
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     id="path3838"
+     cx="879.25"
+     cy="450.74893"
+     r="4" />
+  <circle
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+     id="path3840"
+     cx="1001.25"
+     cy="450.74893"
+     r="4" />
+  <rect
+     y="451.24893"
+     x="874.75"
+     height="5"
+     width="16"
+     id="rect3842"
+     style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none"
+     class="dynCon1" />
+  <rect
+     style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none"
+     id="rect3844"
+     width="13"
+     height="5"
+     x="992.75"
+     y="451.24893"
+     class="dynCon2" />
   <g
-     Symbol="v0.0"
-     Library="GM_2.2.1616.0"
-     id="g3846"
-     transform="matrix(0.5333273,0,0,0.53335145,626.45318,268.34261)"
-     onclick="this.visualization.click(event)">
+     id="g4854">
     <desc
-       id="desc3848">[Visualization]
+       id="desc4863">{&quot;name&quot;:&quot;=A-1009-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;156&quot;,
+       &quot;OFFSET&quot;:&quot;500&quot;,
+       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;35&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;20&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
+    <path
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3836"
+       d="m 879.25,446.74894 -3e-5,8 122.00003,0 0,-8 z" />
+    <g
+       onclick="this.visualization.click(event)"
+       transform="matrix(0.5333273,0,0,0.53335145,626.45318,268.34261)"
+       id="g3846"
+       Library="GM_2.2.1616.0"
+       Symbol="v0.0">
+      <desc
+         id="desc3848">[Visualization]
 name=undefined;
 type=GcObject;
 backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
 display=true;
 state=$'name'.StCode;
 </desc>
-    <g
-       class="dynShape"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
-       id="g3850">
-      <path
-         transform="translate(110.75191,190)"
-         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
-         sodipodi:ry="7.5"
-         sodipodi:rx="7.5"
-         sodipodi:cy="152"
-         sodipodi:cx="592"
-         id="path3852"
-         sodipodi:type="arc"
-         style="stroke-width:1.87497878" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
-       x="699.50165"
-       y="344.75"
-       id="text3854"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan3856"
-         x="699.50165"
+      <g
+         id="g3850"
+         style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
+         class="dynShape">
+        <path
+           style="stroke-width:1.87497878"
+           sodipodi:type="arc"
+           id="path3852"
+           sodipodi:cx="592"
+           sodipodi:cy="152"
+           sodipodi:rx="7.5"
+           sodipodi:ry="7.5"
+           d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
+           transform="translate(110.75191,190)" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3854"
          y="344.75"
-         style="font-size:8px">M</tspan></text>
-  </g>
-  <g
-     Symbol="v1.0"
-     Library="GM_2.2.1616.0"
-     onclick="this.visualization.click(event)"
-     transform="matrix(0,1,-1,0,1140.25,-2199.376)"
-     id="g3858">
-    <desc
-       id="desc3860">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       stroke-miterlimit="4"
-       id="g3862"
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
-      <path
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z"
-         id="path3864"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g3866">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3868"
-         d="m 2648.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3870"
-         d="m 2651.5,238 0,6"
-         style="stroke:#000000;stroke-opacity:1" />
-    </g>
-  </g>
-  <g
-     id="g3872"
-     transform="matrix(0,1,-1,0,1181.25,-2199.376)"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.1616.0"
-     Symbol="v1.0">
-    <desc
-       id="desc3874">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
-       id="g3876"
-       stroke-miterlimit="4"
-       class="dynShape">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3878"
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z" />
-    </g>
-    <g
-       id="g3880">
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2648.5,238 0,6"
-         id="path3882"
-         inkscape:connector-curvature="0" />
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2651.5,238 0,6"
-         id="path3884"
-         inkscape:connector-curvature="0" />
-    </g>
-  </g>
-  <g
-     id="g3886"
-     transform="matrix(0,1,-1,0,1222.25,-2199.376)"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.1616.0"
-     Symbol="v1.0">
-    <desc
-       id="desc3888">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
-       id="g3890"
-       stroke-miterlimit="4"
-       class="dynShape">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3892"
-         d="m 2653.5,241 a 3.5,3.5 0 0 1 -7,0 3.5,3.5 0 1 1 7,0 z" />
-    </g>
-    <g
-       id="g3894">
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2648.5,238 0,6"
-         id="path3896"
-         inkscape:connector-curvature="0" />
-      <path
-         style="stroke:#000000;stroke-opacity:1"
-         d="m 2651.5,238 0,6"
-         id="path3898"
-         inkscape:connector-curvature="0" />
+         x="699.50165"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:8px"
+           y="344.75"
+           x="699.50165"
+           id="tspan3856"
+           sodipodi:role="line">M</tspan></text>
     </g>
   </g>
   <path
@@ -3644,101 +3382,112 @@ state=$'name'.StCode;</desc>
      y="-496.5"
      transform="matrix(0,1,-1,0,0,0)" />
   <g
-     Symbol="v1.1"
-     Library="GM_2.2.1444.0"
-     onclick="this.visualization.click(event)"
-     transform="translate(-2400.5,554.74894)"
-     id="g5166-1">
+     style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
+     id="g5170-42"
+     stroke-miterlimit="4"
+     class="dynShape"
+     transform="translate(-2400.5,554.74894)">
     <desc
-       id="desc5168-9">[Visualization]
-name=A_1303_BSA12;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       stroke-miterlimit="4"
-       id="g5170-42"
-       style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4">
-      <path
-         d="m 2649.5,196.5 c 0,2.209 -1.79,4 -4,4 -2.21,0 -4,-1.791 -4,-4 0,-2.209 1.79,-4 4,-4 2.21,0 4,1.791 4,4 z"
-         id="path5172-30"
-         inkscape:connector-curvature="0" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5180-14"
-         d="m 2662,196.5 -12,0"
-         sodipodi:nodetypes="cc" />
-    </g>
-    <g
-       id="g5174-8">
-      <path
-         inkscape:connector-curvature="0"
-         id="path5176-6"
-         d="m 2645.5,197.5 0,-4.953"
-         style="stroke:#000000;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path5178-6"
-         d="m 2646.5,198.5 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
-         style="fill:none;stroke:#000000;stroke-opacity:1" />
-    </g>
+       id="desc4717">{&quot;name&quot;:&quot;=A-1047-BSA01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;155&quot;,
+       &quot;OFFSET&quot;:&quot;144&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor Speed Monitor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;32&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        },
+        ]}</desc>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5172-30"
+       d="m 2649.5,196.5 c 0,2.209 -1.79,4 -4,4 -2.21,0 -4,-1.791 -4,-4 0,-2.209 1.79,-4 4,-4 2.21,0 4,1.791 4,4 z" />
+    <path
+       sodipodi:nodetypes="cc"
+       d="m 2662,196.5 -12,0"
+       id="path5180-14"
+       inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-2737.5,432.74894)"
-     id="g8497-8"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.0.1438.0"
-     Symbol="Symbol: v0.0">
-    <desc
-       id="desc2272-9">[Visualization]
-name=A_1303_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       id="g8499-0"
-       style="fill:#c0c0c0;stroke:#000000">
-      <path
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0"
-         d="m 2393.5,371.5 295,0 0,8 -295,0 z"
-         id="rect8501-0"
-         inkscape:connector-curvature="0"
-         transform="translate(598,-57)"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path8503-0"
-         style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         d="m 2403.5,371.5 0,8"
-         transform="translate(598,-57)"
-         sodipodi:nodetypes="cc" />
-      <rect
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-         id="rect8505-7"
-         height="12"
-         width="12"
-         y="310.5"
-         x="3286.5" />
-      <path
-         style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 3292.5,321.5 5,-5 -5,-5 -5,5 z"
-         id="path8507-2"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-    </g>
-    <rect
-       class="dynCon0"
-       style="fill:#008000;fill-opacity:0.39199997;visibility:hidden"
-       id="rect8509-5"
-       height="4"
-       width="13"
-       y="320"
-       x="3286" />
+     id="g5174-8"
+     transform="translate(-2400.5,554.74894)">
+    <path
+       style="stroke:#000000;stroke-opacity:1"
+       d="m 2645.5,197.5 0,-4.953"
+       id="path5176-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-opacity:1"
+       d="m 2646.5,198.5 a 1,1 0 0 1 -2,0 1,1 0 1 1 2,0 z"
+       id="path5178-6"
+       inkscape:connector-curvature="0" />
   </g>
+  <g
+     style="fill:#c0c0c0;stroke:#000000"
+     id="g8499-0"
+     class="dynShape"
+     transform="translate(-2737.5,432.74894)">
+    <desc
+       id="desc4709">{&quot;name&quot;:&quot;=A-1047-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;155&quot;,
+       &quot;OFFSET&quot;:&quot;434&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;36&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;21&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
+    <path
+       sodipodi:nodetypes="ccccc"
+       transform="translate(598,-57)"
+       inkscape:connector-curvature="0"
+       id="rect8501-0"
+       d="m 2393.5,371.5 295,0 0,8 -295,0 z"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0" />
+    <path
+       sodipodi:nodetypes="cc"
+       transform="translate(598,-57)"
+       d="m 2403.5,371.5 0,8"
+       style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+       id="path8503-0"
+       inkscape:connector-curvature="0" />
+    <rect
+       x="3286.5"
+       y="310.5"
+       width="12"
+       height="12"
+       id="rect8505-7"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path8507-2"
+       d="m 3292.5,321.5 5,-5 -5,-5 -5,5 z"
+       style="display:inline;overflow:visible;visibility:visible;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+  </g>
+  <rect
+     x="548.5"
+     y="752.74896"
+     width="13"
+     height="4"
+     id="rect8509-5"
+     style="visibility:hidden;fill:#008000;fill-opacity:0.39199997"
+     class="dynCon0" />
   <path
      style="fill:#808080;stroke:#000000;stroke-width:1.00000012;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0"
      d="m 447,736.24894 71,0 0,14 -71,0 z"
@@ -3758,12 +3507,20 @@ state=$'name'.StCode;</desc>
      Symbol="Symbol: v0.0"
      transform="translate(-1926.5,-379.25106)">
     <desc
-       id="desc1400-7-9-7-9-4">[Visualization]
-name=A_1303_BZS16;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc1400-7-9-7-9-4">{&quot;name&quot;:&quot;=A-1047-BZS06&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;155&quot;,
+       &quot;OFFSET&quot;:&quot;202&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor Chain Fault&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;32&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Chain Fault&quot;
+        },
+        ]}</desc>
     <g
        class="dynShape"
        id="g5170-9-0-8-8-2-6"
@@ -3785,12 +3542,20 @@ state=$'name'.StCode;</desc>
      Symbol="Symbol: v0.0"
      transform="translate(-1915.5,-379.25106)">
     <desc
-       id="desc1400-7-9-7-0-1-6">[Visualization]
-name=A_1303_BZS15;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc1400-7-9-7-0-1-6">{&quot;name&quot;:&quot;=A-1047-BZS07&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7165&quot;,
+       &quot;DB&quot;:&quot;155&quot;,
+       &quot;OFFSET&quot;:&quot;91&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor Chain Warning&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;32&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Chain Warning&quot;
+        },
+        ]}</desc>
     <g
        class="dynShape"
        id="g5170-9-0-8-8-6-6-1"
@@ -3812,12 +3577,20 @@ state=$'name'.StCode;</desc>
      Symbol="Symbol: v0.0"
      transform="translate(-1502.5,-379.25106)">
     <desc
-       id="desc1400-7-9-0-4">[Visualization]
-name=A_1303_BLH07;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc1400-7-9-0-4">{&quot;name&quot;:&quot;=A-1047-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7165&quot;,
+       &quot;DB&quot;:&quot;155&quot;,
+       &quot;OFFSET&quot;:&quot;91&quot;,
+       &quot;description&quot;:&quot;Overflow Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;32&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;Overflow&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        id="g5170-9-0-8-7-8"
@@ -4767,12 +4540,28 @@ type=LineConnectorType1;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v2.0">
     <desc
-       id="desc2588-0-8-4">[Visualization]
-name=A_1315_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc2588-0-8-4">
+     {&quot;name&quot;:&quot;=A-1304-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;230&quot;,
+       &quot;description&quot;:&quot;Centrifugal Fan&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;Fan Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;Fan Start&quot;
+        }
+        ]}
+      </desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
@@ -4831,12 +4620,20 @@ state=$'name'.StCode;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v1.0">
     <desc
-       id="desc1341-5-7">[Visualization]
-name=A_1313_KFC10;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc1341-5-7">  {&quot;name&quot;:&quot;=A-1302-KFC10&quot;,
+       &quot;type&quot;:&quot;FB11&quot;,
+       &quot;ptype&quot;:&quot;7002&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;296&quot;,
+       &quot;description&quot;:&quot;Filter Controller&quot;,
+       &quot;ios&quot;:[
+     	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Enable Controller&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -4905,24 +4702,24 @@ state=$'name'.StCode;</desc>
      transform="translate(-454.5,53.49936)">
     <desc
        id="desc4150">
-      {&quot;name&quot;:&quot;=A-1300-MXZ01&quot;,
+      {&quot;name&quot;:&quot;=A-1303-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
        &quot;DB&quot;:&quot;141&quot;,
-       &quot;OFFSET&quot;:&quot;668&quot;,
-       &quot;description&quot;:&quot;Aspiration Blower&quot;,
+       &quot;OFFSET&quot;:&quot;164&quot;,
+       &quot;description&quot;:&quot;Airlock Motor&quot;,
        &quot;ios&quot;:[
         {
         &quot;type&quot;:&quot;I&quot;,
         &quot;pos&quot;:&quot;1&quot;,
-        &quot;offset&quot;:&quot;2&quot;,
-        &quot;description&quot;:&quot;Running&quot;
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Airlock Running&quot;
         },
-        {
+	{
         &quot;type&quot;:&quot;Q&quot;,
         &quot;pos&quot;:&quot;1&quot;,
-        &quot;offset&quot;:&quot;2&quot;,
-        &quot;description&quot;:&quot;Start&quot;
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Airlock Start&quot;
         }
         ]}
       </desc>
@@ -4978,20 +4775,26 @@ state=$'name'.StCode;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v2.0">
     <desc
-       id="desc2580-6-2-7-0">{&quot;name&quot;: &quot;=A-1006-BST13&quot;,
-&quot;type&quot;:&quot;FB14&quot;,
-&quot;ptype&quot;:&quot;7177&quot;,
-&quot;DB&quot;:&quot;160&quot;,
-&quot;OFFSET&quot;:&quot;210&quot;,
-&quot;description&quot;:&quot;Chain conveyor&quot;,
-&quot;ios&quot;:[
-{
-&quot;type&quot;:&quot;I&quot;,
-&quot;pos&quot;:&quot;41&quot;,
-&quot;offset&quot;:&quot;5&quot;,
-&quot;description&quot;:&quot;Speed Monitor Input&quot;
-}
-]}</desc>
+       id="desc2580-6-2-7-0">  {&quot;name&quot;:&quot;=A-1300-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;668&quot;,
+       &quot;description&quot;:&quot;Aspiration Blower&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Blower Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Blower Start&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        stroke-miterlimit="4"
@@ -5036,12 +4839,26 @@ state=$'name'.StCode;</desc>
      onclick="this.visualization.click(event)"
      id="g5007-3-9-0">
     <desc
-       id="desc5009-0-6-3">[Visualization]
-name=A_1321_BPS01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc5009-0-6-3"> {&quot;name&quot;:&quot;=A-1302-BPS01&quot;,
+       &quot;type&quot;:&quot;FB16&quot;,
+       &quot;ptype&quot;:&quot;7231&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Aspiration Pressure&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;50&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;Pressure Low&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;50&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Pressure High&quot;
+        }
+        ]}</desc>
     <g
        stroke-miterlimit="4"
        id="g5011-3-8-3"
@@ -6104,56 +5921,43 @@ state=$'name'.StCode;</desc>
      id="path5163"
      inkscape:connector-curvature="0" />
   <g
-     transform="translate(-1971.5,-22.87626)"
-     onclick="this.visualization.click(event)"
-     id="g8483-4"
-     Library="GM_2.2.0.1438.0"
-     Symbol="Symbol: v0.0">
-    <desc
-       id="desc2263-0">[Visualization]
-name=A_1015_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
-    <g
-       class="dynShape"
-       id="g8485-9"
-       style="fill:#c0c0c0;stroke:#000000">
-      <path
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0"
-         d="m 3211.5,294.87626 225,0 0,8 -225,0 z"
-         id="rect8487-4"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         d="m 3221.5,294.5 0,8"
-         style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         id="path8489-8"
-         inkscape:connector-curvature="0" />
-      <rect
-         x="3436.5"
-         y="290.5"
-         width="12"
-         height="12"
-         id="rect8491-8"
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path8493-2"
-         d="m 3442.5,301.5 5,-5 -5,-5 -5,5 z"
-         style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    </g>
+     style="fill:#c0c0c0;stroke:#000000"
+     id="g8485-9"
+     class="dynShape"
+     transform="translate(-1971.5,-22.87626)">
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="rect8487-4"
+       d="m 3211.5,294.87626 225,0 0,8 -225,0 z"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8489-8"
+       style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+       d="m 3221.5,294.5 0,8" />
     <rect
-       class="dynCon0"
-       x="3436"
-       y="300"
-       width="13"
-       height="4"
-       id="rect8495-4"
-       style="fill:#008000;fill-opacity:0.39199997;visibility:hidden" />
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect8491-8"
+       height="12"
+       width="12"
+       y="290.5"
+       x="3436.5" />
+    <path
+       style="display:inline;overflow:visible;visibility:visible;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+       d="m 3442.5,301.5 5,-5 -5,-5 -5,5 z"
+       id="path8493-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
   </g>
+  <rect
+     style="visibility:hidden;fill:#008000;fill-opacity:0.39199997"
+     id="rect8495-4"
+     height="4"
+     width="13"
+     y="277.12375"
+     x="1464.5"
+     class="dynCon0" />
   <g
      id="g4494-0-1"
      onclick="this.visualization.click(event)"
@@ -9040,4 +8844,33 @@ state=$'name'.StCode;</desc>
          height="16.970562"
          width="254.2049"
          id="rect3972" /></flowRegion><flowPara
-       id="flowPara3974">Compressed Air</flowPara></flowRoot></svg>
+       id="flowPara3974">Compressed Air</flowPara></flowRoot>  <g
+     class="dynShape"
+     style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00212097"
+     id="g3506-48-1-33-0-8-6-2-1-1-3-9-9"
+     transform="matrix(1,0,0,0.995771,-2282.4989,300.37955)">
+    <desc
+       id="desc4264-5"> {&quot;name&quot;:&quot;=A-1303-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7165&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;549&quot;,
+       &quot;description&quot;:&quot;Filter High Level&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;50&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;High Level&quot;
+        }
+        ]}</desc>
+    <rect
+       stroke-miterlimit="4"
+       y="80.461777"
+       x="2644.5"
+       width="9"
+       height="9.0382233"
+       id="rect3508-3-6-93-2-3-2-7-5-2-35-6-9"
+       style="stroke-width:1.00212097;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+  </g>
+</svg>
