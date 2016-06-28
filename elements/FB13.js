@@ -12,7 +12,7 @@ module.exports = {
     //===================================================>
     // No Ptype
     //===================================================>  
-    switch(status-512) {
+    switch(status) {
         case 11:
             response.color = "grey";
             response.status = "Low Number Start Delay";
