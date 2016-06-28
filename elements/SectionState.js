@@ -4,7 +4,12 @@ module.exports = {
     color:'yellow',
     status:'unknown'
     }
+    //console.log(status);
     switch(status){
+        case 0:
+            response.color="white"
+            response.status="Passive"
+        break;
         case 1:
             response.color="white"
             response.status="Passive"

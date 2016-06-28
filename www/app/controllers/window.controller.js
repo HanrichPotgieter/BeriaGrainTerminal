@@ -86,13 +86,12 @@ angular
                 var binData = JSON.parse(JSON.stringify(bin));
                 binData.DB = parseInt(lines.selectedLine.DB);
                 binData.OFFSET = parseInt(offset) + counter*8;
-                if(!bin.selected){
-                    binData.number = 0;
+                if(bin.selected){
+                    $http.post("/writeBin",binData).success(function (data) {
+                        console.log(data);
+                    });
+                    counter++;
                 }
-                $http.post("/writeBin",binData).success(function (data) {
-                    console.log(data);
-                });
-                counter++;
                 
             }
         }
