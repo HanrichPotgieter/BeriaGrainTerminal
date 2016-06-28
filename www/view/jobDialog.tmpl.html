@@ -1,10 +1,35 @@
-<md-dialog aria-label="Mango (Fruit)"  ng-cloak id="jobDialog">
+<md-dialog aria-label="Job Form"  ng-cloak id="jobDialog">
   <form>
-    <md-toolbar>
+    <md-toolbar class="md-toolbar-tools">
+        <h2>Job Form</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+            <ng-md-icon icon="close" size="24" ng-style="io.style"></ng-md-icon> 
+        </md-button>
     </md-toolbar>
     <md-dialog-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <div ng-repeat="item in sendRcvList">
+                <md-tab label="{{item.name}}">
+                    <md-content>
+                        <md-list>
+                            <md-list-item ng-repeat="bin in item.bins" class="md-2-line">
+                                <div class="md-list-item-text">
+                                    <h3>{{bin.name}}</h3>
+                                    <p>Number: {{bin.number}}</p>
+                                </div>
+                                <md-checkbox class="md-secondary" ng-model="bin.selected"></md-checkbox>
+                            </md-list-item>
+                        </md-list>
+                    </md-content>
+                </md-tab>
+            </div>
+        </md-tabs>
     </md-dialog-content>
     <md-dialog-actions layout="row">
+        <md-button class="md-primary" ng-click="downloadJob()">
+            Download Job
+        </md-button>
     </md-dialog-actions>
   </form>
 </md-dialog>

@@ -41,8 +41,66 @@ angular
     $http.post("/setBit", object).success(function (data) {}); 
     };
 
-    jobDialogController = function () {
-        
+    jobDialogController = function ($scope,$http,lines,$mdToast) {
+        $scope.cancel = function() {
+            $scope.Controlopen = false;
+            $mdDialog.cancel();
+        };
+        //Mock data.. 
+        $scope.sendRcvList = [
+            {
+                "name":"Truck/Ship",
+                "offset":"816",
+                "bins":[
+                    {
+                        "name":"Ship Intake",
+                        number:500
+                    },
+                    {
+                        "name":"Rail/Truck Intake",
+                        "number":"501"
+                    }
+                ]
+            },
+            {
+                "name":"Silo",
+                "offset":"894",
+                "bins":[
+                    {
+                        "name":"Product Silo",
+                        "number":"1"
+                    },
+                    {
+                        "name":"Product Silo",
+                        "number":"2"
+                    }
+                ]
+            }
+        ];
+
+        $scope.downloadJob = function() {
+            for(x in $scope.sendRcvList){
+                var items = $scope.sendRcvList[x].bins;
+                downloadBins(items,$scope.sendRcvList[x].offset);
+            }
+        }
+
+        var downloadBins = function(list,offset){
+            var counter = 0;
+            for(y in list){
+                var bin = list[y];
+                var binData = bin;
+                binData.DB = parseInt(lines.selectedLine.DB);
+                binData.OFFSET = parseInt(offset) + counter;
+                if(bin.selected){
+                    $http.post("/writeBin",binData).success(function (data) {
+                        console.log(data);
+                    });
+                    counter++;
+                }
+            }
+        }
+
     }
 
     $scope.createJob = function(object) {
@@ -56,5 +114,5 @@ angular
         }
         });
     };
-    
+
 })
