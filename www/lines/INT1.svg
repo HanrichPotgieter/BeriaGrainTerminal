@@ -521,7 +521,7 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="6.2632064"
-     inkscape:cx="935.09268"
+     inkscape:cx="934.05487"
      inkscape:cy="496.29617"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
@@ -1567,7 +1567,7 @@ state=$'name'.StCode;</desc>
         &quot;pos&quot;:&quot;42&quot;,
         &quot;offset&quot;:&quot;7&quot;,
         &quot;description&quot;:&quot;Speed Monitor&quot;
-        },
+        }
         ]}</desc>
     <g
        class="dynShape"

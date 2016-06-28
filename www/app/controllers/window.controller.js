@@ -66,7 +66,13 @@ angular
                     {"name":"Product Silo","number":"5"},
                     {"name":"Product Silo","number":"6"},
                     {"name":"Product Silo","number":"7"},
-                    {"name":"Product Silo","number":"8"}
+                    {"name":"Product Silo","number":"8"},
+                    {"name":"Product Silo","number":"9"},
+                    {"name":"Product Silo","number":"10"},
+                    {"name":"Product Silo","number":"11"},
+                    {"name":"Product Silo","number":"12"},
+                    {"name":"Product Silo","number":"13"},
+                    {"name":"Product Silo","number":"14"}
                 ]
             }
         ];
