@@ -215,9 +215,9 @@ app.post('/writeBin', function(req, res){
     var element = req.body;
     var buffer = new Buffer(2);
     buffer.writeUInt16BE(element.number, 0);
-    bufferrReverse(buffer);
-    console.log(parseInt(element.DB),parseInt(element.OFFSET),2,buffer);
-    s7client.DBWrite(parseInt(element.DB),parseInt(element.OFFSET),1,buffer,function(err,data){
+    
+    console.log(parseInt(element.DB),parseInt(element.OFFSET),2,buffer,element.number);
+    s7client.DBWrite(parseInt(element.DB),parseInt(element.OFFSET),2,buffer,function(err,data){
         if(err){
             res.sendStatus(200);
             return console.log(' >> DBRead Write. Code #' + err + ' - ' + s7client.ErrorText(err));    
