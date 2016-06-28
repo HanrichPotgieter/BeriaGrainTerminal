@@ -45,18 +45,16 @@ angular
         
     }
 
-    $scope.createJob = function(){
-        $scope.showAdvanced = function(object) {
-            var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'))  && $scope.customFullscreen;
-            $mdDialog.show({
-            controller: jobDialogController,
-            templateUrl: './view/jobDialog.tmpl.html',
-            parent: angular.element(document.body),
-            locals: {
-                item: object
-            }
-            });
-        };
-    }
-
+    $scope.createJob = function(object) {
+        var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'))  && $scope.customFullscreen;
+        $mdDialog.show({
+        controller: jobDialogController,
+        templateUrl: './view/jobDialog.tmpl.html',
+        parent: angular.element(document.body),
+        locals: {
+            item: object
+        }
+        });
+    };
+    
 })
