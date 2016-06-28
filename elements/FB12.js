@@ -15,7 +15,7 @@ module.exports = {
         // ptype 7056
         //===================================================>  
         case 7056:
-            switch(status-512) {
+            switch(status) {
                 case 1:
                 // StStopped
                     response.color = "gray";
@@ -87,8 +87,8 @@ module.exports = {
                     break;
                 case 3:
                 // StStartedFwd
-                    response.color = "Started Forward";
-                    response.status = "Starting";
+                    response.color = "lightgreen";
+                    response.status = "Started Forward";
                     callback(response);
                     break;
                 case 5:
