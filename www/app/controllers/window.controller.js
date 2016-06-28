@@ -89,21 +89,18 @@ angular
             var counter = 0;
             for(y in list){
                 var bin = list[y];
-                var binData = bin;
+                
+                var binData = JSON.parse(JSON.stringify(bin));
                 binData.DB = parseInt(lines.selectedLine.DB);
-                binData.OFFSET = parseInt(offset) + counter;
-                if(bin.selected){
-                    $http.post("/writeBin",binData).success(function (data) {
-                        console.log(data);
-                    });
-                    counter++;
+                binData.OFFSET = parseInt(offset) + counter*8;
+                if(!bin.selected){
+                    binData.number = 0;
                 }
-                else{
-                    $http.post("/writeBin",binData).success(function (data) {
-                        console.log(data);
-                    });
-                    counter++;
-                }
+                $http.post("/writeBin",binData).success(function (data) {
+                    console.log(data);
+                });
+                counter++;
+                
             }
         }
 
