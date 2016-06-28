@@ -6,6 +6,7 @@ var snap7 = require('node-snap7');
 var elementInfo = require('./elements/getStatus');
 var s7client = new snap7.S7Client();
 var ping = require('ping');
+var bufferrReverse = require("buffer-reverse")
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -214,6 +215,7 @@ app.post('/writeBin', function(req, res){
     var element = req.body;
     var buffer = new Buffer(2);
     buffer.writeUInt16BE(element.number, 0);
+    bufferrReverse(buffer);
     console.log(parseInt(element.DB),parseInt(element.OFFSET),2,buffer);
     s7client.DBWrite(parseInt(element.DB),parseInt(element.OFFSET),1,buffer,function(err,data){
         if(err){
