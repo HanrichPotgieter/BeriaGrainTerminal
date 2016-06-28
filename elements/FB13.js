@@ -53,6 +53,16 @@ module.exports = {
             response.status = "No Position";
             callback(response);
             break;
+        case 513:
+            response.color = "grey";
+            response.status = "Low Number";
+            callback(response);
+            break;
+        case 515:
+            response.color = "grey";
+            response.status = "High Number";
+            callback(response);
+            break;
         case 32:
         // StFault
             response.color = "red";
