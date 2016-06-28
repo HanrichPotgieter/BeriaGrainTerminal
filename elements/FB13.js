@@ -35,7 +35,7 @@ module.exports = {
             break;
         case 3:
             response.color = "green";
-            response.status = "State high Number";
+            response.status = "State High Number";
             callback(response);
             break;
         case 4:
