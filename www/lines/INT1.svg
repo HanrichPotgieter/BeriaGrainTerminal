@@ -521,8 +521,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="6.2632064"
-     inkscape:cx="948.74684"
-     inkscape:cy="511.17425"
+     inkscape:cx="935.09268"
+     inkscape:cy="496.29617"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -1650,12 +1650,6 @@ state=$'name'.StCode;</desc>
        class="dynFwdSlow"
        sodipodi:nodetypes="cc" />
   </g>
-  <circle
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-     id="path3840"
-     cx="1001.25"
-     cy="450.74893"
-     r="4" />
   <rect
      y="451.24893"
      x="874.75"
@@ -1722,19 +1716,16 @@ state=$'name'.StCode;
            style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
            id="g3850">
           <circle
-             sodipodi:cx="592"
-             sodipodi:cy="152"
-             sodipodi:rx="7.5"
-             sodipodi:ry="7.5"
-             sodipodi:type="arc"
              transform="translate(110.75191,190)"
              id="path3852"
              style="stroke-width:1.87497878"
-             d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z" />
+             cx="592"
+             cy="152"
+             r="7.5" />
         </g>
         <text
            xml:space="preserve"
-           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
+           style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
            x="699.50165"
            y="344.75"
            id="text3854"
