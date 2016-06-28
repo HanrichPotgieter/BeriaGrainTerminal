@@ -98,6 +98,13 @@ angular
                     });
                     counter++;
                 }
+                else{
+                    binData.number = 0;
+                    $http.post("/writeBin",binData).success(function (data) {
+                        console.log(data);
+                    });
+                    counter++;
+                }
             }
         }
 
