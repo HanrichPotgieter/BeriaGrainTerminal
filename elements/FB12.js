@@ -87,7 +87,7 @@ module.exports = {
                     break;
                 case 3:
                 // StStartedFwd
-                    response.color = "lightgreen";
+                    response.color = "green";
                     response.status = "Started Forward";
                     callback(response);
                     break;
