@@ -520,14 +520,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.2143779"
-     inkscape:cx="1948.8419"
-     inkscape:cy="650.66449"
+     inkscape:zoom="6.2632064"
+     inkscape:cx="948.74684"
+     inkscape:cy="511.17425"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1028"
+     inkscape:window-width="2560"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -706,40 +706,6 @@
        class="dynFwdSlow"
        sodipodi:nodetypes="cc" />
   </g>
-  <path
-     d="m 489.25,346.74894 -3e-5,8 152.00003,0 0,-8 z"
-     id="path13539"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccc"
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1">
-    <desc
-       id="desc4777"> {&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7056&quot;,
-       &quot;DB&quot;:&quot;160&quot;,
-       &quot;OFFSET&quot;:&quot;70&quot;,
-       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;41&quot;,
-        &quot;offset&quot;:&quot;1&quot;,
-        &quot;description&quot;:&quot;Conveyor Running&quot;
-        },
-	{
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;30&quot;,
-        &quot;offset&quot;:&quot;1&quot;,
-        &quot;description&quot;:&quot;Conveyor Start&quot;
-        }
-        ]}</desc>
-  </path>
-  <circle
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-     id="path13744"
-     cx="489.25"
-     cy="350.74893"
-     r="4" />
   <circle
      style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
      id="path13729"
@@ -987,13 +953,9 @@
        style="color:#000000;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
   <g
-     Symbol="v0.0"
-     Library="GM_2.2.1616.0"
-     id="g13769"
-     transform="matrix(0.5333273,0,0,0.53335145,266.45318,168.34261)"
-     onclick="this.visualization.click(event)">
+     id="g4695">
     <desc
-       id="desc13771"> {&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
+       id="desc4704"> {&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7056&quot;,
        &quot;DB&quot;:&quot;160&quot;,
@@ -1013,33 +975,52 @@
         &quot;description&quot;:&quot;Conveyor Start&quot;
         }
         ]}</desc>
+    <path
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path13539"
+       d="m 489.25,346.74894 -3e-5,8 152.00003,0 0,-8 z" />
+    <circle
+       r="4"
+       cy="350.74893"
+       cx="489.25"
+       id="path13744"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1" />
     <g
-       class="dynShape"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
-       id="g13773">
-      <path
-         transform="translate(110.75191,190)"
-         d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
-         sodipodi:ry="7.5"
-         sodipodi:rx="7.5"
-         sodipodi:cy="152"
-         sodipodi:cx="592"
-         id="path13783"
-         sodipodi:type="arc"
-         style="stroke-width:1.87497878" />
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
-       x="699.50165"
-       y="344.75"
-       id="text13785"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan13787"
-         x="699.50165"
+       onclick="this.visualization.click(event)"
+       transform="matrix(0.5333273,0,0,0.53335145,266.45318,168.34261)"
+       id="g13769"
+       Library="GM_2.2.1616.0"
+       Symbol="v0.0">
+      <g
+         id="g13773"
+         style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
+         class="dynShape">
+        <path
+           style="stroke-width:1.87497878"
+           sodipodi:type="arc"
+           id="path13783"
+           sodipodi:cx="592"
+           sodipodi:cy="152"
+           sodipodi:rx="7.5"
+           sodipodi:ry="7.5"
+           d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
+           transform="translate(110.75191,190)" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text13785"
          y="344.75"
-         style="font-size:8px">M</tspan></text>
+         x="699.50165"
+         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:8px"
+           y="344.75"
+           x="699.50165"
+           id="tspan13787"
+           sodipodi:role="line">M</tspan></text>
+    </g>
   </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -1480,34 +1461,6 @@ state=$'name'.StCode;</desc>
   </g>
   <circle
      style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-     id="path3746"
-     cx="699.25"
-     cy="400.74893"
-     r="4">
-    <desc
-       id="desc4728">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7053&quot;,
-       &quot;DB&quot;:&quot;158&quot;,
-       &quot;OFFSET&quot;:&quot;500&quot;,
-       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;41&quot;,
-        &quot;offset&quot;:&quot;3&quot;,
-        &quot;description&quot;:&quot;Conveyor Running&quot;
-        },
-	{
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;30&quot;,
-        &quot;offset&quot;:&quot;3&quot;,
-        &quot;description&quot;:&quot;Conveyor Start&quot;
-        }
-        ]}</desc>
-  </circle>
-  <circle
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
      id="path3748"
      cx="821.25"
      cy="400.74893"
@@ -1528,42 +1481,10 @@ state=$'name'.StCode;</desc>
      width="13"
      id="rect3752"
      style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none" />
-  <path
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-     sodipodi:nodetypes="ccccc"
-     inkscape:connector-curvature="0"
-     id="path3744"
-     d="m 699.25,396.74894 -3e-5,8 122.00003,0 0,-8 z">
-    <desc
-       id="desc4726">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7053&quot;,
-       &quot;DB&quot;:&quot;158&quot;,
-       &quot;OFFSET&quot;:&quot;500&quot;,
-       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;41&quot;,
-        &quot;offset&quot;:&quot;3&quot;,
-        &quot;description&quot;:&quot;Conveyor Running&quot;
-        },
-	{
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;30&quot;,
-        &quot;offset&quot;:&quot;3&quot;,
-        &quot;description&quot;:&quot;Conveyor Start&quot;
-        }
-        ]}</desc>
-  </path>
   <g
-     onclick="this.visualization.click(event)"
-     transform="matrix(0.5333273,0,0,0.53335145,446.45318,218.34261)"
-     id="g3754"
-     Library="GM_2.2.1616.0"
-     Symbol="v0.0">
+     id="g4706">
     <desc
-       id="desc3756">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
+       id="desc4715">{&quot;name&quot;:&quot;=A-1008-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
        &quot;DB&quot;:&quot;158&quot;,
@@ -1583,30 +1504,49 @@ state=$'name'.StCode;</desc>
         &quot;description&quot;:&quot;Conveyor Start&quot;
         }
         ]}</desc>
+    <path
+       d="m 699.25,396.74894 -3e-5,8 122.00003,0 0,-8 z"
+       id="path3744"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1" />
+    <circle
+       r="4"
+       cy="400.74893"
+       cx="699.25"
+       id="path3746"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1" />
     <g
-       id="g3758"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
-       class="dynShape">
-      <circle
-         r="7.5"
-         cy="152"
-         cx="592"
-         style="stroke-width:1.87497878"
-         id="path3760"
-         transform="translate(110.75191,190)" />
-    </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text3762"
-       y="344.75"
-       x="699.50165"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       xml:space="preserve"><tspan
-         style="font-size:8px"
-         y="344.75"
+       Symbol="v0.0"
+       Library="GM_2.2.1616.0"
+       id="g3754"
+       transform="matrix(0.5333273,0,0,0.53335145,446.45318,218.34261)"
+       onclick="this.visualization.click(event)">
+      <g
+         class="dynShape"
+         style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
+         id="g3758">
+        <circle
+           transform="translate(110.75191,190)"
+           id="path3760"
+           style="stroke-width:1.87497878"
+           cx="592"
+           cy="152"
+           r="7.5" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          x="699.50165"
-         id="tspan3764"
-         sodipodi:role="line">M</tspan></text>
+         y="344.75"
+         id="text3762"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3764"
+           x="699.50165"
+           y="344.75"
+           style="font-size:8px">M</tspan></text>
+    </g>
   </g>
   <g
      Symbol="v1.1"
@@ -1712,12 +1652,6 @@ state=$'name'.StCode;</desc>
   </g>
   <circle
      style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-     id="path3838"
-     cx="879.25"
-     cy="450.74893"
-     r="4" />
-  <circle
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
      id="path3840"
      cx="1001.25"
      cy="450.74893"
@@ -1739,9 +1673,9 @@ state=$'name'.StCode;</desc>
      y="451.24893"
      class="dynCon2" />
   <g
-     id="g4854">
+     id="g4717">
     <desc
-       id="desc4863">{&quot;name&quot;:&quot;=A-1009-MXZ01&quot;,
+       id="desc4728">{&quot;name&quot;:&quot;=A-1009-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
        &quot;DB&quot;:&quot;156&quot;,
@@ -1761,54 +1695,63 @@ state=$'name'.StCode;</desc>
         &quot;description&quot;:&quot;Conveyor Start&quot;
         }
         ]}</desc>
-    <path
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path3836"
-       d="m 879.25,446.74894 -3e-5,8 122.00003,0 0,-8 z" />
     <g
-       onclick="this.visualization.click(event)"
-       transform="matrix(0.5333273,0,0,0.53335145,626.45318,268.34261)"
-       id="g3846"
-       Library="GM_2.2.1616.0"
-       Symbol="v0.0">
-      <desc
-         id="desc3848">[Visualization]
+       id="g4854">
+      <path
+         d="m 879.25,446.74894 -3e-5,8 122.00003,0 0,-8 z"
+         id="path3836"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         style="fill:#c0c0c0;stroke:#000000;stroke-width:1" />
+      <g
+         Symbol="v0.0"
+         Library="GM_2.2.1616.0"
+         id="g3846"
+         transform="matrix(0.5333273,0,0,0.53335145,626.45318,268.34261)"
+         onclick="this.visualization.click(event)">
+        <desc
+           id="desc3848">[Visualization]
 name=undefined;
 type=GcObject;
 backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
 display=true;
 state=$'name'.StCode;
 </desc>
-      <g
-         id="g3850"
-         style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
-         class="dynShape">
-        <path
-           style="stroke-width:1.87497878"
-           sodipodi:type="arc"
-           id="path3852"
-           sodipodi:cx="592"
-           sodipodi:cy="152"
-           sodipodi:rx="7.5"
-           sodipodi:ry="7.5"
-           d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
-           transform="translate(110.75191,190)" />
-      </g>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3854"
-         y="344.75"
-         x="699.50165"
-         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
-         xml:space="preserve"><tspan
-           style="font-size:8px"
-           y="344.75"
+        <g
+           class="dynShape"
+           style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
+           id="g3850">
+          <circle
+             sodipodi:cx="592"
+             sodipodi:cy="152"
+             sodipodi:rx="7.5"
+             sodipodi:ry="7.5"
+             sodipodi:type="arc"
+             transform="translate(110.75191,190)"
+             id="path3852"
+             style="stroke-width:1.87497878"
+             d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
            x="699.50165"
-           id="tspan3856"
-           sodipodi:role="line">M</tspan></text>
+           y="344.75"
+           id="text3854"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3856"
+             x="699.50165"
+             y="344.75"
+             style="font-size:8px">M</tspan></text>
+      </g>
     </g>
+    <circle
+       r="4"
+       cy="450.74893"
+       cx="879.25"
+       id="path3838"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1" />
   </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -5995,102 +5938,14 @@ state=$'name'.StCode;</desc>
      d="m 1274,130.12373 20,0.019 0,82.98104"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      sodipodi:nodetypes="ccc" />
-  <g
-     transform="translate(-1531,-105.87627)"
-     id="g8497-8-6"
-     onclick="this.visualization.click(event)"
-     Library="GM_2.2.0.1438.0"
-     Symbol="Symbol: v0.0">
-    <desc
-       id="desc4776">{&quot;name&quot;:&quot;=A-1018-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7053&quot;,
-       &quot;DB&quot;:&quot;149&quot;,
-       &quot;OFFSET&quot;:&quot;434&quot;,
-       &quot;description&quot;:&quot;Chain Conveyor&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;0&quot;,
-        &quot;offset&quot;:&quot;3&quot;,
-        &quot;description&quot;:&quot;Conveyor Running&quot;
-        },
-	{
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;0&quot;,
-        &quot;offset&quot;:&quot;3&quot;,
-        &quot;description&quot;:&quot;Conveyor Start&quot;
-        }
-        ]}</desc>
-    <g
-       class="dynShape"
-       id="g8499-0-0"
-       style="fill:#c0c0c0;stroke:#000000">
-      <desc
-         id="desc4300">
-       {&quot;name&quot;:&quot;=A-1222-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7056&quot;,
-       &quot;DB&quot;:&quot;160&quot;,
-       &quot;OFFSET&quot;:&quot;500&quot;,
-       &quot;description&quot;:&quot;Chain conveyor above silos&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;1&quot;,
-        &quot;offset&quot;:&quot;2&quot;,
-        &quot;description&quot;:&quot;Start&quot;
-        },
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;1&quot;,
-        &quot;offset&quot;:&quot;2&quot;,
-        &quot;description&quot;:&quot;Running&quot;
-        },
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;1&quot;,
-        &quot;offset&quot;:&quot;2&quot;,
-        &quot;description&quot;:&quot;Healthy&quot;
-        }
-        ]}
-       </desc>
-      <path
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0"
-         d="m 2173.5,371.5 685,0 0,8 -685,0 z"
-         id="rect8501-0-7"
-         inkscape:connector-curvature="0"
-         transform="translate(598,-57)"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path8503-0-4"
-         style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         d="m 2781.5,314.5 0,8"
-         sodipodi:nodetypes="cc" />
-      <rect
-         style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-         id="rect8505-7-2"
-         height="12"
-         width="12"
-         y="310.5"
-         x="3456.5" />
-      <path
-         style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 3462.5,321.5 5,-5 -5,-5 -5,5 z"
-         id="path8507-2-2"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-    </g>
-    <rect
-       class="dynCon0"
-       style="fill:#008000;fill-opacity:0.39199997;visibility:hidden"
-       id="rect8509-5-7"
-       height="4"
-       width="13"
-       y="320"
-       x="3456" />
-  </g>
+  <rect
+     x="1925"
+     y="214.12373"
+     width="13"
+     height="4"
+     id="rect8509-5-7"
+     style="visibility:hidden;fill:#008000;fill-opacity:0.39199997"
+     class="dynCon0" />
   <g
      id="g4494-0-1-3-3-3-2"
      onclick="this.visualization.click(event)"
@@ -6127,6 +5982,59 @@ state=$'name'.StCode;</desc>
     </g>
   </g>
   <g
+     style="fill:#c0c0c0;stroke:#000000"
+     id="g8499-0-0"
+     class="dynShape"
+     transform="translate(-1531,-105.87627)">
+    <desc
+       id="desc4727">{&quot;name&quot;:&quot;=A-1018-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;149&quot;,
+       &quot;OFFSET&quot;:&quot;434&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;0&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;0&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
+    <path
+       sodipodi:nodetypes="ccccc"
+       transform="translate(598,-57)"
+       inkscape:connector-curvature="0"
+       id="rect8501-0-7"
+       d="m 2173.5,371.5 685,0 0,8 -685,0 z"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0" />
+    <path
+       sodipodi:nodetypes="cc"
+       d="m 2781.5,314.5 0,8"
+       style="stroke-width:1.00399995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+       id="path8503-0-4"
+       inkscape:connector-curvature="0" />
+    <rect
+       x="3456.5"
+       y="310.5"
+       width="12"
+       height="12"
+       id="rect8505-7-2"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path8507-2-2"
+       d="m 3462.5,321.5 5,-5 -5,-5 -5,5 z"
+       style="display:inline;overflow:visible;visibility:visible;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
+  </g>
+  <g
      Symbol="v1.0"
      Library="GM_2.2.1447.1"
      onclick="this.visualization.click(event)"
@@ -6159,7 +6067,7 @@ state=$'name'.StCode;</desc>
          id="text5857-4-6-9"
          y="814.83459"
          x="723.12317"
-         style="font-size:10.01037788px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
+         style="font-style:normal;font-weight:normal;font-size:10.01037788px;line-height:125%;font-family:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            y="814.83459"
            x="723.12317"
