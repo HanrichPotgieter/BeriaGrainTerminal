@@ -87,14 +87,14 @@ module.exports = {
                     break;
                 case 3:
                 // StStartedFwd
-                    response.color = "green";
+                    response.color = "Started Forward";
                     response.status = "Starting";
                     callback(response);
                     break;
                 case 5:
                 // StStartedRev
                     response.color = "green";
-                    response.status = "Started Forward";
+                    response.status = "Started Reverse";
                     callback(response);
                     break;
                 case 7:
