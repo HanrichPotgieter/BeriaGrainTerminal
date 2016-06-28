@@ -48,32 +48,25 @@ angular
         };
         //Mock data.. 
         $scope.sendRcvList = [
-            {
-                "name":"Truck/Ship",
-                "offset":"816",
-                "bins":[
-                    {
-                        "name":"Ship Intake",
-                        number:500
-                    },
-                    {
-                        "name":"Rail/Truck Intake",
-                        "number":"501"
-                    }
-                ]
+            {"name":"Truck/Ship",
+            "offset":"816",
+            "bins":[
+                    {"name":"Ship Intake","number":"500"},
+                    {"name":"Rail/Truck Intake","number":"501"}
+                    ]
             },
             {
                 "name":"Silo",
                 "offset":"894",
                 "bins":[
-                    {
-                        "name":"Product Silo",
-                        "number":"1"
-                    },
-                    {
-                        "name":"Product Silo",
-                        "number":"2"
-                    }
+                    {"name":"Product Silo","number":"1"},
+                    {"name":"Product Silo","number":"2"},
+                    {"name":"Product Silo","number":"3"},
+                    {"name":"Product Silo","number":"4"},
+                    {"name":"Product Silo","number":"5"},
+                    {"name":"Product Silo","number":"6"},
+                    {"name":"Product Silo","number":"7"},
+                    {"name":"Product Silo","number":"8"}
                 ]
             }
         ];
