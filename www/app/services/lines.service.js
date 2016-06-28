@@ -20,8 +20,10 @@ angular
                     lines.selectedLine.sections[data.id].style = {
                         "background" : data.color
                     }
-                    lines.selectedLine.sections[data.id].status.fault.style = {
-                        "background" : data.fault.color
+                    if(data.fault){
+                        lines.selectedLine.sections[data.id].status.fault.style = {
+                            "background" : data.fault.color
+                        }
                     }
                 }); 
             }   
