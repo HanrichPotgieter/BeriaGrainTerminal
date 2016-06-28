@@ -12,7 +12,6 @@ module.exports = {
     //===================================================>
     // No Ptype
     //===================================================>  
-    console.log(status);
     switch(status-512) {
         case 11:
             response.color = "grey";

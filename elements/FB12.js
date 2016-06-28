@@ -15,7 +15,7 @@ module.exports = {
         // ptype 7056
         //===================================================>  
         case 7056:
-            switch(status) {
+            switch(status-512) {
                 case 1:
                 // StStopped
                     response.color = "gray";
