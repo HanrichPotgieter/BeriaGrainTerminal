@@ -67,7 +67,7 @@ app.listen(3000, function () {
 
 app.post('/getStatus', function(req, res){    
     var element = req.body;
-    console.log(element);
+    //console.log(element);
     if(s7client.Connected()){
         s7client.DBRead(parseInt(element.DB),parseInt(element.OFFSET),2,function(err,data){
         if(err){
