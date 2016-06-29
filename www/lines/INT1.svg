@@ -521,8 +521,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="3.1316032"
-     inkscape:cx="554.00877"
-     inkscape:cy="576.02542"
+     inkscape:cx="2013.8482"
+     inkscape:cy="642.99765"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -1072,7 +1072,7 @@
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;155&quot;,
-       &quot;OFFSET&quot;:&quot;91&quot;,
+       &quot;OFFSET&quot;:&quot;86&quot;,
        &quot;description&quot;:&quot;Overflow Elevator&quot;,
        &quot;ios&quot;:[
         {
@@ -3580,7 +3580,7 @@ state=$'name'.StCode;</desc>
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;155&quot;,
-       &quot;OFFSET&quot;:&quot;91&quot;,
+       &quot;OFFSET&quot;:&quot;86&quot;,
        &quot;description&quot;:&quot;Overflow Chain Conveyor&quot;,
        &quot;ios&quot;:[
         {
@@ -4120,7 +4120,7 @@ type=LineConnectorType1;</desc>
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;151&quot;,
-       &quot;OFFSET&quot;:&quot;571&quot;,
+       &quot;OFFSET&quot;:&quot;566&quot;,
        &quot;description&quot;:&quot;Scale Hopper High High Level&quot;,
        &quot;ios&quot;:[
         {
@@ -4261,7 +4261,7 @@ type=LineConnectorType1;</desc>
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;151&quot;,
-       &quot;OFFSET&quot;:&quot;91&quot;,
+       &quot;OFFSET&quot;:&quot;86&quot;,
        &quot;description&quot;:&quot;Overflow Elevator&quot;,
        &quot;ios&quot;:[
         {
@@ -5362,7 +5362,7 @@ display=true;</desc>
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;151&quot;,
-       &quot;OFFSET&quot;:&quot;629&quot;,
+       &quot;OFFSET&quot;:&quot;624&quot;,
        &quot;description&quot;:&quot;Scale Hopper High Level&quot;,
        &quot;ios&quot;:[
         {
@@ -6191,7 +6191,7 @@ state=$'name'.StCode;</desc>
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;147&quot;,
-       &quot;OFFSET&quot;:&quot;91&quot;,
+       &quot;OFFSET&quot;:&quot;86&quot;,
        &quot;description&quot;:&quot;Overflow Conveyor&quot;,
        &quot;ios&quot;:[
         {
@@ -6323,7 +6323,7 @@ state=$'name'.StCode;</desc>
      Library="GM_2.2.0.1438.0"
      Symbol="Symbol: v0.0">
     <desc
-       id="desc5093">{&quot;name&quot;:&quot;=A-1048-MXZ01&quot;,
+       id="desc5093">{&quot;name&quot;:&quot;=A-1070-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
        &quot;DB&quot;:&quot;143&quot;,
@@ -7604,7 +7604,7 @@ state=$'name'.StCode;</desc>
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;145&quot;,
-       &quot;OFFSET&quot;:&quot;91&quot;,
+       &quot;OFFSET&quot;:&quot;86&quot;,
        &quot;description&quot;:&quot;Overflow Conveyor&quot;,
        &quot;ios&quot;:[
         {
