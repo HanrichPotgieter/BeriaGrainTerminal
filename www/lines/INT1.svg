@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.2632064"
-     inkscape:cx="934.05487"
-     inkscape:cy="496.29617"
+     inkscape:zoom="3.1316032"
+     inkscape:cx="554.00877"
+     inkscape:cy="576.02542"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -9497,7 +9497,7 @@ state=$'name'.StCode;</desc>
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7165&quot;,
        &quot;DB&quot;:&quot;141&quot;,
-       &quot;OFFSET&quot;:&quot;549&quot;,
+       &quot;OFFSET&quot;:&quot;544&quot;,
        &quot;description&quot;:&quot;Filter High Level&quot;,
        &quot;ios&quot;:[
         {
