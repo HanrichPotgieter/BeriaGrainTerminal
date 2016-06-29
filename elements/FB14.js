@@ -7,10 +7,7 @@ module.exports = {
     var response = {
     color:'yellow',
     status:'Unknown Status '+status
-    }
-    //===================================================>
-    // ptype 7177
-    //===================================================>    
+    } 
     switch(status) {
         case 1:
         // StFalse
