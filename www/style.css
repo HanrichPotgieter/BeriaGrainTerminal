@@ -32,4 +32,9 @@
   padding: 0 8px; 
 }
 
+.settingsButton {
+    vertical-align: middle !important;
+    margin: auto !important;
+}
+
 

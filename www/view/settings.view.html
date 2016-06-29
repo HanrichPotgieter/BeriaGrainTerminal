@@ -1,13 +1,34 @@
-<md-card flex-xs flex-gt-xs="50" ng-controller="SettingsCtrl">
+<md-card ng-controller="SettingsCtrl">
     <md-toolbar>
         <div class="md-toolbar-tools">
         <h2 class="md-flex">Settings</h2>
         </div>
     </md-toolbar>
-    <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
-    <md-input-container>
-        <label>PLC IP Address</label>
-        <input ng-model="plc.ip" type="text">
-    </md-input-container>
+    <md-content>
+    <div>
+        <md-subheader class="md-no-sticky">Line Settings</md-subheader>
+        <md-list ng-repeat="line in lines">
+            <md-divider ></md-divider>
+            <md-list-item class="md-2-line">
+                <md-button aria-label="" class="md-icon-button settingsButton" ng-click="toggleLine(line)">
+                    <md-tooltip md-direction="top">
+                        Close/Expand line
+                    </md-tooltip>
+                    <ng-md-icon icon="label" size="24"></ng-md-icon> 
+                </md-button>
+                <div class="md-list-item-text">
+                <h3>Line Name: {{line.name}}</h3>
+                <p>Data Block: {{line.DB}}</p>
+                </div>
+            </md-list-item>
+            <md-list-item ng-repeat="section in line.sections" ng-show="line.show" class="md-2-line">
+                <ng-md-icon icon="label_outline" size="24" class="settingsButton"></ng-md-icon> 
+                <div class="md-list-item-text">
+                <h3>Section Name: {{section.name}}</h3>
+                <p>Data Block: {{section.DB}}</p>
+                </div>
+            </md-list-item>
+        </md-list>
+    </div>
     </md-content>
 </md-card>
