@@ -16,6 +16,7 @@ module.exports = {
     else if(status - 256 > 0){
         status = status - 256;
     }
+    console.log(data);
     switch(status) {
         case 1:
         // StFalse
