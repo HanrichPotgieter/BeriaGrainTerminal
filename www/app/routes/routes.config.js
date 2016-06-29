@@ -48,7 +48,7 @@ angular
                 url:'/SETTINGS',
                 views:{
                     '@': {
-                    templateUrl: 'lines/SETTINGS.view.html'
+                    templateUrl: 'view/SETTINGS.view.html'
                     }
                 }
             })
