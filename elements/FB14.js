@@ -8,6 +8,10 @@ module.exports = {
     color:'yellow',
     status:'Unknown Status '+status
     }
+    if(status % 512 > 0)
+    {
+        status = status - 512;
+    }
     switch(status) {
         case 1:
         // StFalse
