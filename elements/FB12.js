@@ -58,6 +58,7 @@ module.exports = {
             response.status = "Fault";
             callback(response);
             break;
+        default: callback(response);
     }
   }
 };
