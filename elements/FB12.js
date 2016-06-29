@@ -8,7 +8,14 @@ module.exports = {
     color:'yellow',
     status:'Unknown Status '+status
     }
-
+    
+    if(status - 512 > 0)
+    {
+        status = status - 512;
+    }
+    else if(status - 256 > 0){
+        status = status - 256;
+    }
     switch(status) {
         case 1:
         // StStopped
