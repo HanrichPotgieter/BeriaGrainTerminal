@@ -10,10 +10,10 @@ angular
                 }]
             },
             {
-                name:"Intake",
+                name:"Wheat Transfer",
                 DB:600,
                 sections:[{
-                    name:"Wheat intake",
+                    name:"Wheat Transfer",
                     DB:601
                 }]
             }]
