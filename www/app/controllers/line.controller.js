@@ -110,7 +110,7 @@ angular
                                 .success(function (data) {
                                     var parent = object.node.parentNode;
                                     d3.select(parent).style('fill',data.color);
-                                    d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 4.0s ease');
+                                    d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
                                 }); 
                             }
                         };
