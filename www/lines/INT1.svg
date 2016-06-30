@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5658016"
-     inkscape:cx="246.94959"
-     inkscape:cy="667.44747"
+     inkscape:zoom="2.2143779"
+     inkscape:cx="1153.4353"
+     inkscape:cy="698.21572"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -1073,7 +1073,7 @@
        id="desc4719">{&quot;name&quot;:&quot;=A-1010-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
-       &quot;DB&quot;:&quot;156&quot;,
+       &quot;DB&quot;:&quot;153&quot;,
        &quot;OFFSET&quot;:&quot;434&quot;,
        &quot;description&quot;:&quot;Bucket Elevator&quot;,
        &quot;ios&quot;:[
@@ -3728,8 +3728,8 @@ state=$'name'.StCode;</desc>
        id="desc1208">{&quot;name&quot;:&quot;=A-1012-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
-       &quot;DB&quot;:&quot;156&quot;,
-       &quot;OFFSET&quot;:&quot;434&quot;,
+       &quot;DB&quot;:&quot;151&quot;,
+       &quot;OFFSET&quot;:&quot;988&quot;,
        &quot;description&quot;:&quot;Drum Sieve&quot;,
        &quot;ios&quot;:[
         {

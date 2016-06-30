@@ -106,6 +106,7 @@ angular
                             });
                             //console.log(object);
                             if(object.type != "LineParams"){
+                                //setTimeout(1000);
                                 $http.post("/getStatus", object)
                                 .success(function (data) {
                                     var parent = object.node.parentNode;
@@ -116,7 +117,7 @@ angular
                         };
                     }).call(function(){
                         if($scope.open)
-                            setTimeout(changeColor, 1000);
+                            setTimeout(changeColor, 100);
                     });
                 
             }

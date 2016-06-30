@@ -800,8 +800,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.28"
-     inkscape:cx="1464.7514"
-     inkscape:cy="737.27905"
+     inkscape:cx="1030.5175"
+     inkscape:cy="581.02905"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -1056,7 +1056,7 @@ state=$'name'.StCode;
        id="desc995">{&quot;name&quot;:&quot;=A-1010-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
-       &quot;DB&quot;:&quot;156&quot;,
+       &quot;DB&quot;:&quot;153&quot;,
        &quot;OFFSET&quot;:&quot;434&quot;,
        &quot;description&quot;:&quot;Bucket Elevator&quot;,
        &quot;ios&quot;:[
@@ -2977,8 +2977,8 @@ state=$'name'.StCode;
        id="desc1208">{&quot;name&quot;:&quot;=A-1012-MXZ01&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
-       &quot;DB&quot;:&quot;156&quot;,
-       &quot;OFFSET&quot;:&quot;434&quot;,
+       &quot;DB&quot;:&quot;151&quot;,
+       &quot;OFFSET&quot;:&quot;988&quot;,
        &quot;description&quot;:&quot;Drum Sieve&quot;,
        &quot;ios&quot;:[
         {
@@ -13050,6 +13050,15 @@ display=true;</desc>
      Library="GM_2.2.1616.0"
      Symbol="v0.0"
      transform="translate(-517,233.74894)">
+    <desc
+       id="desc8283"> {&quot;name&quot;:&quot;=A-1015-PWC10&quot;,
+       &quot;type&quot;:&quot;FB40&quot;,
+       &quot;ptype&quot;:&quot;7342&quot;,
+       &quot;DB&quot;:&quot;151&quot;,
+       &quot;OFFSET&quot;:&quot;682&quot;,
+       &quot;description&quot;:&quot;Dump Scale&quot;,
+       &quot;ios&quot;:[
+        ]}</desc>
     <rect
        class="dynCon0"
        x="1404"
