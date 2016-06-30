@@ -116,7 +116,7 @@ angular
                         };
                     }).call(function(){
                         if($scope.open)
-                            setTimeout(changeColor, 1000);
+                            setTimeout(changeColor, 2000);
                     });
                 
             }
