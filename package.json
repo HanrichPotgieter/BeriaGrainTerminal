@@ -25,7 +25,8 @@
     "nedb": "^1.8.0",
     "node-gyp": "^3.3.1",
     "node-snap7": "^0.2.3",
-    "ping": "^0.1.10"
+    "ping": "^0.1.10",
+    "socket.io": "^1.4.8"
   },
   "devDependencies": {
     "gulp-nodemon": "^2.1.0",
