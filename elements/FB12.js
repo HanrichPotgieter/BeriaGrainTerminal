@@ -16,6 +16,7 @@ module.exports = {
     else if(status - 256 > 0){
         status = status - 256;
     }
+    
     switch(status) {
         case 1:
         // StStopped

@@ -23,7 +23,6 @@ module.exports = {
                     break;
                 case 3:
                     response.color = "lightgreen";
-                    
                     response.status = "Normal Pressure";
                     callback(response);
                     break;
