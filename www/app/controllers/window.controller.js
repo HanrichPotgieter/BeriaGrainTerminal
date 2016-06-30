@@ -46,7 +46,10 @@ angular
             $scope.Controlopen = false;
             $mdDialog.cancel();
         };
+
+        $scope.sendRcvList = lines.selectedLine.sendRcvList;
         //Mock data.. 
+        /*
         $scope.sendRcvList = [
             {"name":"Truck/Ship",
             "offset":"816",
@@ -76,6 +79,7 @@ angular
                 ]
             }
         ];
+        */
 
         $scope.downloadJob = function() {
             for(x in $scope.sendRcvList){

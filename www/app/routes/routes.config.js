@@ -36,6 +36,22 @@ angular
                     }
                 }
             })
+            .state('OTL1',{
+                url:'/OTL1',
+                views:{
+                    '@': {
+                    templateUrl: 'lines/OTL1.view.html'
+                    }
+                }
+            })
+            .state('OTL2',{
+                url:'/OTL2',
+                views:{
+                    '@': {
+                    templateUrl: 'lines/OTL2.view.html'
+                    }
+                }
+            })
             .state('WTR1',{
                 url:'/WTR1',
                 views:{

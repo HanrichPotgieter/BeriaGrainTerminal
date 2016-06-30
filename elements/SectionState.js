@@ -27,7 +27,7 @@ module.exports = {
             response.status="Emptying"
         break;
         case 32:
-            response.color="yellow"
+            response.color="cyan"
             response.status="Emptied"
         break;
         case 64:

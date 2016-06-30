@@ -521,13 +521,13 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5658016"
-     inkscape:cx="1832.2002"
-     inkscape:cy="590.80941"
+     inkscape:cx="246.94959"
+     inkscape:cy="667.44747"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -574,7 +574,36 @@
 &quot;name&quot;:&quot;Wheat Intake&quot;,
 &quot;DB&quot;:&quot;601&quot;,
 &quot;description&quot;:&quot;Updating...&quot;
-}]
+}],
+&quot;sendRcvList&quot;:[
+            {&quot;name&quot;:&quot;Truck/Ship&quot;,
+            &quot;offset&quot;:&quot;816&quot;,
+            &quot;bins&quot;:[
+                    {&quot;name&quot;:&quot;Ship Intake&quot;,&quot;number&quot;:&quot;500&quot;},
+                    {&quot;name&quot;:&quot;Rail/Truck Intake&quot;,&quot;number&quot;:&quot;501&quot;}
+                    ]
+            },
+            {
+                &quot;name&quot;:&quot;Silo&quot;,
+                &quot;offset&quot;:&quot;894&quot;,
+                &quot;bins&quot;:[
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;1&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;2&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;3&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;4&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;5&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;6&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;7&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;8&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;9&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;10&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;11&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;12&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;13&quot;},
+                    {&quot;name&quot;:&quot;Product Silo&quot;,&quot;number&quot;:&quot;14&quot;}
+                ]
+            }
+        ]
 }</desc>
     <rect
        y="10"
