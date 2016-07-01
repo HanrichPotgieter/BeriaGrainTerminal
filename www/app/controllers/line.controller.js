@@ -18,6 +18,47 @@ angular
             }
             $scope.ios = item.ios;
 
+            if(item.type == "FB40"){
+                var offsetStart = "708";
+                var buffer = [];
+                var counter = 0;
+
+                $scope.flowrate = 0;
+                $scope.jobWeight = 0;
+                $scope.totalWeight = 0;
+                $scope.weightDosed = 0;
+                $scope.scaleWeight = 0;
+
+                for(var i = 0;i<5;i++){
+                    buffer[i] = {
+                        DB:item.DB,
+                        OFFSET:(parseInt(offsetStart) + counter)
+                    }
+                    counter = counter + 4;
+                }
+               
+                var updateScaleInfo = function(){
+                    for(x in buffer){
+                        buffer[x].id = x;
+                        $http.post("/getValue", buffer[x])
+                        .success(function (data) {
+                            buffer[data.id].result = data.value;
+                        });
+                    }
+
+                    $scope.flowrate = buffer[0].result;
+                    $scope.jobWeight = buffer[1].result;
+                    $scope.totalWeight = buffer[2].result;
+                    $scope.weightDosed = buffer[3].result;
+                    $scope.scaleWeight = buffer[4].result;
+
+                    if($scope.Controlopen){
+                        setTimeout(function() {updateScaleInfo();},1000);
+                    }
+                }
+                updateScaleInfo();
+            }
+
             function getStatus(){
                 //Update the status of the element
                 $http.post("/getStatus", item)
@@ -40,7 +81,7 @@ angular
                     }); 
                 }
                 if($scope.Controlopen){
-                    setTimeout(function() {getStatus();}, 200);
+                    setTimeout(function() {getStatus();}, 1000);
                 }
                 else{
                     $mdDialog.cancel();
@@ -117,7 +158,7 @@ angular
                         };
                     }).call(function(){
                         if($scope.open)
-                            setTimeout(changeColor, 1000);
+                            setTimeout(changeColor, 2000);
                     });
                 
             }
