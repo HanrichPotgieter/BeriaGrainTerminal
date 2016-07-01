@@ -1,5 +1,6 @@
+
 angular
-    .module('app', ['ngMaterial','ngMdIcons','ui.router','myroutes'])
+    .module('app', ['ngMaterial','ngMdIcons','ui.router','myroutes',angularChartist.name])
     .controller('app', function ($scope, $timeout, $mdSidenav, $log, lines) {
         $scope.line = {
             name:''

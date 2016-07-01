@@ -6,6 +6,18 @@ angular
             $scope.open = false;
         });
         function DialogController($scope,$http, item, $mdDialog) {
+        
+            $scope.lineData = {
+                labels: [],
+                series: [[]]
+            };
+
+            $scope.lineOptions = {
+                width: 300,
+                height: 200,
+                axisTitle: 'Flowrate',
+            };
+
             $scope.Controlopen = true;
             $scope.cancel = function() {
                 $scope.Controlopen = false;
@@ -52,8 +64,14 @@ angular
                     $scope.weightDosed = buffer[3].result;
                     $scope.scaleWeight = buffer[4].result;
 
+                    $scope.lineData.labels.push('');
+                    $scope.lineData.series[0].push($scope.flowrate);
+                    if($scope.lineData.series[0].length > 10){
+                        $scope.lineData.labels.splice(0,1);
+                        $scope.lineData.series[0].splice(0,1);
+                    }
                     if($scope.Controlopen){
-                        setTimeout(function() {updateScaleInfo();},1000);
+                        setTimeout(function() {updateScaleInfo();},5000);
                     }
                 }
                 updateScaleInfo();
