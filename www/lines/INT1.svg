@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.2143779"
-     inkscape:cx="1166.3528"
-     inkscape:cy="689.97743"
+     inkscape:zoom="1.107189"
+     inkscape:cx="130.35641"
+     inkscape:cy="583.48543"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -9402,6 +9402,12 @@ state=$'name'.StCode;</desc>
         &quot;pos&quot;:&quot;1&quot;,
         &quot;offset&quot;:&quot;1&quot;,
         &quot;description&quot;:&quot;Dispenser Start&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Dispenser Start&quot;
         }
         ]}</desc>
     <g
@@ -9580,4 +9586,50 @@ state=$'name'.StCode;</desc>
          style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
     </g>
   </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="4098-3"
+     style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+     d="m 1121.5317,60.107069 0,7 -7,0 0,8 -7,0 0,-8 -7,0 0,-7 z"
+     stroke-miterlimit="4"
+     class="dynShape" />
+  <rect
+     class="dynCon1"
+     x="1101.2261"
+     y="-66.719971"
+     width="6"
+     height="6"
+     id="4105-4-6"
+     style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+     transform="scale(1,-1)">
+    <desc
+       id="desc4892">in</desc>
+  </rect>
+  <rect
+     class="dynCon1"
+     x="1107.9679"
+     y="-66.590981"
+     width="6"
+     height="6"
+     id="4105-4-6-3"
+     style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+     transform="scale(1,-1)" />
+  <rect
+     class="dynCon1"
+     x="1114.8546"
+     y="-66.574898"
+     width="6"
+     height="6"
+     id="4105-4-6-2"
+     style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+     transform="scale(1,-1)" />
+  <rect
+     class="dynCon1"
+     x="1108.0486"
+     y="-73.752144"
+     width="6"
+     height="6"
+     id="4105-4-6-3-1"
+     style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+     transform="scale(1,-1)" />
 </svg>
