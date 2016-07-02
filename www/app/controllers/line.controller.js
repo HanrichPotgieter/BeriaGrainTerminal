@@ -5,6 +5,7 @@ angular
         $scope.$on('$locationChangeStart', function(event) {
             $scope.open = false;
         });
+        // POP UP ----------------->
         function DialogController($scope,$http, item, $mdDialog) {
         
             $scope.lineData = {
@@ -66,7 +67,7 @@ angular
 
                     $scope.lineData.labels.push('');
                     $scope.lineData.series[0].push($scope.flowrate);
-                    if($scope.lineData.series[0].length > 10){
+                    if($scope.lineData.series[0].length > 12){
                         $scope.lineData.labels.splice(0,1);
                         $scope.lineData.series[0].splice(0,1);
                     }
