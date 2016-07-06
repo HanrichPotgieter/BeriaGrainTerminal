@@ -170,9 +170,54 @@ angular
                                 $http.post("/getStatus", object)
                                 .success(function (data) {
                                     var parent = object.node.parentNode;
-                                    d3.select(parent).style('fill',data.color);
-                                    d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
+                                    //d3.select(parent).style('fill',data.color);
+                                    //d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
                                     //Here! Code needs to change --->
+
+                                    ////////////////////////////WIAN CODE/////////////////////////
+                                    if(object.type == "FB13" && object.description == "Way Flap")
+                                    {
+                                        var square;
+                                        var children = parent.getElementsByTagName('rect');
+                                        for(var i = 0, max = children.length; i < max; i++) 
+                                        {
+                                            square = JSON.parse(children[i].textContent);
+
+                                            if(square.input == "YES" || "-")
+                                            {
+                                                d3.select(children[i]).style('fill', data.color).style('visibility', 'visible').style('transition','fill 2.0s ease');
+                                            }
+
+                                            if(data.status == "State High Number")
+                                            {
+                                                if(square.out == "HN")
+                                                {
+                                                    d3.select(children[i]).style('fill', data.color).style('visibility', 'visible').style('transition','fill 2.0s ease');
+                                                }
+                                                else if(square.out == "LN")
+                                                {
+                                                    d3.select(children[i]).style('fill', 'white').style('visibility', 'visible').style('transition','fill 2.0s ease');
+                                                }
+                                                //put LN off
+                                            }
+                                            else //State Low Number
+                                            {
+                                                if(square.out == "LN")
+                                                {
+                                                    d3.select(children[i]).style('fill', data.color).style('visibility', 'visible').style('transition','fill 2.0s ease');
+                                                }
+                                                else if(square.out == "HN")
+                                                {
+                                                    d3.select(children[i]).style('fill', 'white').style('visibility', 'visible').style('transition','fill 2.0s ease');
+                                                }
+                                            }
+                                        }                         
+                                    }
+                                    else{
+                                        d3.select(parent).style('fill',data.color);
+                                        d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
+                                    }
+                                    ////////////////////////////WIAN CODE/////////////////////////
                                 }); 
                             }
                         };

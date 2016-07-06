@@ -163,6 +163,20 @@
          style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
          transform="scale(0.4,0.4)" />
     </marker>
+    <marker
+       inkscape:stockid="TriangleOutM_black"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM_black-18-3-6-8-7-4-2-1"
+       style="overflow:visible">
+      <path
+         id="path4062-2-3-1-4-3-0-5-3"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -171,9 +185,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-436.83929"
-     inkscape:cy="381.87152"
+     inkscape:zoom="4"
+     inkscape:cx="1122.7782"
+     inkscape:cy="284.88045"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -316,12 +330,20 @@ state=$'parent.name'.VisuStatus;</desc>
      transform="translate(-1907.1692,-198.25897)"
      id="g14747">
     <desc
-       id="desc14749">[Visualization]
-name=undefined;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc14749">{&quot;name&quot;:&quot;=A-1107-BLH&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7146&quot;,
+       &quot;DB&quot;:&quot;120&quot;,
+       &quot;OFFSET&quot;:&quot;882&quot;,
+       &quot;description&quot;:&quot;High Level - Bin 15&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;11&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;High Level - Bin 15&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -340,12 +362,20 @@ state=$'name'.StCode;</desc>
      Library="GM_2.2.1616.0"
      Symbol="v0.1">
     <desc
-       id="desc14757">[Visualization]
-name=undefined;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc14757">{&quot;name&quot;:&quot;==A-1110BLL0&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7145&quot;,
+       &quot;DB&quot;:&quot;119&quot;,
+       &quot;OFFSET&quot;:&quot;1578&quot;,
+       &quot;description&quot;:&quot;Low Level - Bin 15&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;13&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Low Level - Bin 15&quot;
+        }
+        ]}</desc>
     <g
        id="g14759"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -470,12 +500,20 @@ state=$'parent.name'.VisuStatus;</desc>
      Library="GM_2.2.1616.0"
      Symbol="v0.1">
     <desc
-       id="desc8135">[Visualization]
-name=undefined;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc8135">{&quot;name&quot;:&quot;=A-1108-BLH&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7146&quot;,
+       &quot;DB&quot;:&quot;120&quot;,
+       &quot;OFFSET&quot;:&quot;940&quot;,
+       &quot;description&quot;:&quot;High Level - Bin 16&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;11&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;High Level - Bin 16&quot;
+        }
+        ]}</desc>
     <g
        id="g8137"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -494,12 +532,20 @@ state=$'name'.StCode;</desc>
      transform="translate(-1869.1692,-43.258971)"
      id="g8141">
     <desc
-       id="desc8143">[Visualization]
-name=undefined;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc8143">{&quot;name&quot;:&quot;==A-1111BLL0&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7145&quot;,
+       &quot;DB&quot;:&quot;119&quot;,
+       &quot;OFFSET&quot;:&quot;1636&quot;,
+       &quot;description&quot;:&quot;Low Level - Bin 16&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;14&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Low Level - Bin 16&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -529,14 +575,70 @@ state=$'name'.StCode;</desc>
      d="m 903.33078,387.741 15,0 -7.5,7 z"
      stroke-miterlimit="4"
      sodipodi:nodetypes="cccc"
-     style="fill:#cccccc;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+     style="fill:#cccccc;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+    <desc
+       id="desc26211">{&quot;name&quot;:&quot;=A-1113-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7081&quot;,
+       &quot;DB&quot;:&quot;207&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;8&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;8&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;8&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
+  </path>
   <path
      style="fill:#cccccc;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
      sodipodi:nodetypes="cccc"
      stroke-miterlimit="4"
      d="m 941.33078,387.741 15,0 -7.5,7 z"
      id="path3153"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0">
+    <desc
+       id="desc26213">{&quot;name&quot;:&quot;=A-1114-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7081&quot;,
+       &quot;DB&quot;:&quot;206&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;8&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;8&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;8&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
+  </path>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker5253);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 745.33078,372.49918 0,20"
@@ -561,12 +663,26 @@ state=$'name'.StCode;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v2.0">
     <desc
-       id="desc2588-0-8-4">[Visualization]
-name=A_1315_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc2588-0-8-4">       {&quot;name&quot;:&quot;=A-1304-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;230&quot;,
+       &quot;description&quot;:&quot;Centrifugal Fan&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;Fan Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;Fan Start&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
@@ -621,12 +737,20 @@ state=$'name'.StCode;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v1.0">
     <desc
-       id="desc1341-5-7">[Visualization]
-name=A_1313_KFC10;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc1341-5-7">  {&quot;name&quot;:&quot;=A-1302-KFC10&quot;,
+       &quot;type&quot;:&quot;FB11&quot;,
+       &quot;ptype&quot;:&quot;7002&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;296&quot;,
+       &quot;description&quot;:&quot;Filter Controller&quot;,
+       &quot;ios&quot;:[
+     	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Enable Controller&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -694,12 +818,26 @@ state=$'name'.StCode;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v2.0">
     <desc
-       id="desc2639-5-2">[Visualization]
-name=A_1314_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc2639-5-2">      {&quot;name&quot;:&quot;=A-1303-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;164&quot;,
+       &quot;description&quot;:&quot;Airlock Motor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Airlock Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;Airlock Start&quot;
+        }
+        ]}  </desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
@@ -758,12 +896,26 @@ state=$'name'.StCode;</desc>
      Library="Library: v3.1"
      Symbol="Symbol: v2.0">
     <desc
-       id="desc2580-6-2-7-0">[Visualization]
-name=A_1320_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc2580-6-2-7-0">       {&quot;name&quot;:&quot;=A-1300-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;668&quot;,
+       &quot;description&quot;:&quot;Aspiration Blower&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Blower Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;1&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Blower Start&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        stroke-miterlimit="4"
@@ -804,12 +956,26 @@ state=$'name'.StCode;</desc>
      onclick="this.visualization.click(event)"
      id="g5007-3-9-0">
     <desc
-       id="desc5009-0-6-3">[Visualization]
-name=A_1321_BPS01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc5009-0-6-3">  {&quot;name&quot;:&quot;=A-1302-BPS01&quot;,
+       &quot;type&quot;:&quot;FB16&quot;,
+       &quot;ptype&quot;:&quot;7231&quot;,
+       &quot;DB&quot;:&quot;141&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Aspiration Pressure&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;50&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;Pressure Low&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;50&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Pressure High&quot;
+        }
+        ]}</desc>
     <g
        stroke-miterlimit="4"
        id="g5011-3-8-3"
@@ -1185,13 +1351,14 @@ display=true;</desc>
      id="g3248"
      onclick="this.visualization.click(event)">
     <desc
-       id="desc3250">[Visualization]
-name=undefined_RegistrationScale;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;
-callFunction=RegistrationScale;</desc>
+       id="desc3250"> {&quot;name&quot;:&quot;=A-2002-PWC10&quot;,
+       &quot;type&quot;:&quot;FB40&quot;,
+       &quot;ptype&quot;:&quot;7342&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1578&quot;,
+       &quot;description&quot;:&quot;Dump Scale&quot;,
+       &quot;ios&quot;:[
+        ]}</desc>
     <rect
        style="fill:#008000;fill-opacity:0.39199997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;visibility:hidden"
        id="rect3252"
@@ -1243,12 +1410,20 @@ callFunction=RegistrationScale;</desc>
      onclick="this.visualization.click(event)"
      id="g3266">
     <desc
-       id="desc3268">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc3268"> {&quot;name&quot;:&quot;==A-2002-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7146&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1520&quot;,
+       &quot;description&quot;:&quot;Scale High Level&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;47&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;High Level&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000"
        id="g3270"
@@ -1414,17 +1589,25 @@ state=$'name'.StCode;</desc>
   </g>
   <g
      id="g5964"
-     transform="translate(-1682.9492,399.63143)"
+     transform="translate(-1689.4492,400.88143)"
      onclick="this.visualization.click(event)"
      Library="GM_2.2.1444.0"
      Symbol="v1.1">
     <desc
-       id="desc5967">[Visualization]
-name=A_1303_BSA12;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc5967">{&quot;name&quot;:&quot;=A-2003-BSA08&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1164&quot;,
+       &quot;description&quot;:&quot;Speed Monitor Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;47&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
        id="g5969"
@@ -1461,26 +1644,41 @@ state=$'name'.StCode;</desc>
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      sodipodi:nodetypes="cc" />
   <g
-     transform="translate(-2310.4492,334.00769)"
+     transform="matrix(1.0258488,0,0,0.99966257,-2398.2029,334.0956)"
      id="g3606"
      onclick="this.visualization.click(event)"
      Library="GM_2.2.1616.0"
      Symbol="v1.1">
     <desc
-       id="desc3608">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc3608">{&quot;name&quot;:&quot;=A-2003-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1454&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;35&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        id="g5169"
        style="fill:#c0c0c0;stroke:#000000">
       <path
          id="path5165"
-         d="m 3281.5,255.5 12,0 0,12 -12,0 z"
-         inkscape:connector-curvature="0" />
+         d="m 3276.4859,259.52876 17.0282,0 0,7.98537 -17.0282,0 z"
+         inkscape:connector-curvature="0"
+         style="stroke-width:0.97174352" />
       <path
          d="m 3383.5,258.5 11,0 0,9 -11,0 z"
          id="path5163"
@@ -1490,12 +1688,6 @@ state=$'name'.StCode;</desc>
          id="path3614"
          inkscape:connector-curvature="0"
          transform="translate(508,47)" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3626"
-         d="m 2779.5,219.5 5,-5 -5,-5 -5,5 z"
-         transform="translate(508,47)"
-         sodipodi:nodetypes="ccccc" />
       <path
          inkscape:connector-curvature="0"
          id="path3624"
@@ -1517,7 +1709,7 @@ state=$'name'.StCode;</desc>
     </g>
     <rect
        class="dynCon0"
-       style="fill:#008000;fill-opacity:0.39199997;visibility:hidden"
+       style="visibility:hidden;fill:#008000;fill-opacity:0.39199997"
        id="rect3628"
        height="4"
        width="12"
@@ -1541,14 +1733,40 @@ type=LineConnectorType1;</desc>
      id="g5770"
      Library="Library: v3.1"
      Symbol="Symbol: v1.0"
-     transform="translate(-3363.4492,553.00769)">
+     transform="translate(-3351.4492,553.00769)">
     <desc
-       id="desc5772">[Visualization]
-name=A_1038_QXV_BZS01_02;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc5772">{&quot;name&quot;:&quot;=A-2007-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;200&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate - Packing 18&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;45&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;45&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        id="g5774"
@@ -1570,7 +1788,7 @@ state=$'name'.StCode;</desc>
        height="4"
        ry="0"
        id="rect5778"
-       style="fill:#008000;fill-opacity:0.39215997;visibility:hidden" />
+       style="visibility:hidden;fill:#008000;fill-opacity:0.39215997" />
   </g>
   <path
      sodipodi:nodetypes="cc"
@@ -1585,12 +1803,38 @@ state=$'name'.StCode;</desc>
      Symbol="Symbol: v1.0"
      transform="translate(-3152.4492,553.00769)">
     <desc
-       id="desc5802">[Visualization]
-name=A_1041_QXV_BZS01_02;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc10105">{&quot;name&quot;:&quot;=A-2005-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;200&quot;,
+       &quot;OFFSET&quot;:&quot;334&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate - Rail 2&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;46&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;46&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        id="g5804"
@@ -1621,12 +1865,20 @@ state=$'name'.StCode;</desc>
      Library="GM_2.2.1444.0"
      Symbol="v1.1">
     <desc
-       id="desc5812">[Visualization]
-name=A_1015_BSA12;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc5812">{&quot;name&quot;:&quot;=A-2004-BSA08&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;734&quot;,
+       &quot;description&quot;:&quot;Speed Monitor Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;46&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000;stroke-miterlimit:4"
        id="g5814"
@@ -1663,12 +1915,26 @@ state=$'name'.StCode;</desc>
      onclick="this.visualization.click(event)"
      transform="translate(-2148.4492,368.63143)">
     <desc
-       id="desc5828">[Visualization]
-name=A_1015_MXZ01;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc5828">{&quot;name&quot;:&quot;=A-2004-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1024&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;35&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000"
        id="g5830"
@@ -1714,12 +1980,20 @@ state=$'name'.StCode;</desc>
      onclick="this.visualization.click(event)"
      id="g5842">
     <desc
-       id="desc5844">[Visualization]
-name=A_1015_BLH07;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc5844">{&quot;name&quot;:&quot;=A-2004-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7165&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;676&quot;,
+       &quot;description&quot;:&quot;Overflow Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;40&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Overflow&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000"
        id="g5846"
@@ -1778,21 +2052,47 @@ state=$'name'.StCode;</desc>
   <path
      inkscape:connector-curvature="0"
      id="path3729"
-     d="m 1113.5508,678.00769 0,34"
-     style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+     d="m 1125.5508,678.00769 0,34"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
   <g
-     transform="translate(-3333.4492,553.00769)"
+     transform="translate(-3321.4492,553.00769)"
      Symbol="Symbol: v1.0"
      Library="Library: v3.1"
      id="g3649"
      onclick="this.visualization.click(event)">
     <desc
-       id="desc3651">[Visualization]
-name=A_1038_QXV_BZS01_02;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc3651">{&quot;name&quot;:&quot;=A-2008-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;200&quot;,
+       &quot;OFFSET&quot;:&quot;136&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate - Packing 19&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;45&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;45&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000"
        id="g3653"
@@ -1806,7 +2106,7 @@ state=$'name'.StCode;</desc>
          stroke-miterlimit="4" />
     </g>
     <rect
-       style="fill:#008000;fill-opacity:0.39215997;visibility:hidden"
+       style="visibility:hidden;fill:#008000;fill-opacity:0.39215997"
        id="rect3657"
        ry="0"
        height="4"
@@ -1820,14 +2120,40 @@ state=$'name'.StCode;</desc>
      id="g3659"
      Library="Library: v3.1"
      Symbol="Symbol: v1.0"
-     transform="translate(-3303.4492,553.00769)">
+     transform="translate(-3291.4492,553.00769)">
     <desc
-       id="desc3661">[Visualization]
-name=A_1038_QXV_BZS01_02;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc3661">{&quot;name&quot;:&quot;=A-2009-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;200&quot;,
+       &quot;OFFSET&quot;:&quot;202&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate - Packing 20&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;40&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;40&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;24&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        id="g3663"
@@ -1848,7 +2174,7 @@ state=$'name'.StCode;</desc>
        height="4"
        ry="0"
        id="rect3667"
-       style="fill:#008000;fill-opacity:0.39215997;visibility:hidden" />
+       style="visibility:hidden;fill:#008000;fill-opacity:0.39215997" />
   </g>
   <path
      sodipodi:nodetypes="cc"
@@ -1863,12 +2189,38 @@ state=$'name'.StCode;</desc>
      id="g3669"
      onclick="this.visualization.click(event)">
     <desc
-       id="desc3671">[Visualization]
-name=A_1041_QXV_BZS01_02;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc3671">{&quot;name&quot;:&quot;=A-2006-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;200&quot;,
+       &quot;OFFSET&quot;:&quot;268&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate - Truck 2&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;46&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;46&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000"
        id="g3673"
@@ -1893,13 +2245,13 @@ state=$'name'.StCode;</desc>
        class="dynCon0" />
   </g>
   <path
-     style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="m 1080.5508,678.00769 0,34"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     d="m 1092.5508,678.00769 0,34"
      id="path3727"
      inkscape:connector-curvature="0" />
   <g
      id="g8426"
-     transform="translate(733.55078,293.00769)">
+     transform="translate(745.55078,293.00769)">
     <path
        sodipodi:nodetypes="cccccc"
        d="m 281.5,372.5 31,0 0,0 -15.5,65 -15.5,-65 z"
@@ -1913,15 +2265,23 @@ state=$'name'.StCode;</desc>
      Symbol="v0.1"
      Library="GM_2.2.1616.0"
      onclick="this.visualization.click(event)"
-     transform="translate(-1737.4492,306.00769)"
+     transform="translate(-1725.4492,306.00769)"
      id="g5380">
     <desc
-       id="desc5382">[Visualization]
-name=undefined;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc5382"> {&quot;name&quot;:&quot;=A-2010-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7146&quot;,
+       &quot;DB&quot;:&quot;120&quot;,
+       &quot;OFFSET&quot;:&quot;1056&quot;,
+       &quot;description&quot;:&quot;High Level - Bin 18&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;45&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;High Level&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -1934,7 +2294,7 @@ state=$'name'.StCode;</desc>
     </g>
   </g>
   <g
-     transform="translate(766.55078,293.00769)"
+     transform="translate(778.55078,293.00769)"
      id="g3701">
     <path
        transform="translate(50,38)"
@@ -1947,17 +2307,25 @@ state=$'name'.StCode;</desc>
   </g>
   <g
      id="g3705"
-     transform="translate(-1704.4492,306.00769)"
+     transform="translate(-1692.4492,306.00769)"
      onclick="this.visualization.click(event)"
      Library="GM_2.2.1616.0"
      Symbol="v0.1">
     <desc
-       id="desc3707">[Visualization]
-name=undefined;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc3707"> {&quot;name&quot;:&quot;=A-2011-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7146&quot;,
+       &quot;DB&quot;:&quot;120&quot;,
+       &quot;OFFSET&quot;:&quot;1114&quot;,
+       &quot;description&quot;:&quot;High Level - Bin 19&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;45&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;High Level&quot;
+        }
+        ]}</desc>
     <g
        id="g3709"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -1970,13 +2338,13 @@ state=$'name'.StCode;</desc>
     </g>
   </g>
   <path
-     style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-     d="m 1146.5508,678.00769 0,34"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     d="m 1158.5508,678.00769 0,34"
      id="path3731"
      inkscape:connector-curvature="0" />
   <g
      id="g3713"
-     transform="translate(799.55078,293.00769)">
+     transform="translate(811.55078,293.00769)">
     <path
        sodipodi:nodetypes="cccccc"
        d="m 281.5,372.5 31,0 0,0 -15.5,65 -15.5,-65 z"
@@ -1990,15 +2358,23 @@ state=$'name'.StCode;</desc>
      Symbol="v0.1"
      Library="GM_2.2.1616.0"
      onclick="this.visualization.click(event)"
-     transform="translate(-1671.4492,306.00769)"
+     transform="translate(-1659.4492,306.00769)"
      id="g3717">
     <desc
-       id="desc3719">[Visualization]
-name=undefined;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc3719"> {&quot;name&quot;:&quot;=A-2012-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7146&quot;,
+       &quot;DB&quot;:&quot;120&quot;,
+       &quot;OFFSET&quot;:&quot;1172&quot;,
+       &quot;description&quot;:&quot;High Level - Bin 20&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;40&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;High Level&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
@@ -2013,8 +2389,8 @@ state=$'name'.StCode;</desc>
   <flowRoot
      xml:space="preserve"
      id="flowRoot3432-4"
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
-     transform="translate(276.55078,-6.9923106)"><flowRegion
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Arial;-inkscape-font-specification:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(288.55078,-6.9923106)"><flowRegion
        id="flowRegion3434-0"><rect
          id="rect3436-8"
          width="254.2049"
@@ -2057,12 +2433,20 @@ state=$'name'.StCode;</desc>
      onclick="this.visualization.click(event)"
      id="g10850">
     <desc
-       id="desc1442">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc1442"> {&quot;name&quot;:&quot;GEN02_Pressure&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7144&quot;,
+       &quot;DB&quot;:&quot;115&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Aspiration Pressure&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;28&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Air Pressure&quot;
+        }
+	]}</desc>
     <g
        transform="translate(0,0.14)"
        stroke-miterlimit="4"
@@ -2121,13 +2505,14 @@ state=$'name'.StCode;</desc>
      id="g18465"
      onclick="this.visualization.click(event)">
     <desc
-       id="desc2771">[Visualization]
-name=undefined_RegistrationScale;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;
-callFunction=RegistrationScale;</desc>
+       id="desc2771"> {&quot;name&quot;:&quot;=A-1123-PWC10&quot;,
+       &quot;type&quot;:&quot;FB40&quot;,
+       &quot;ptype&quot;:&quot;7342&quot;,
+       &quot;DB&quot;:&quot;203&quot;,
+       &quot;OFFSET&quot;:&quot;558&quot;,
+       &quot;description&quot;:&quot;Dump Scale&quot;,
+       &quot;ios&quot;:[
+        ]}</desc>
     <rect
        style="fill:#008000;fill-opacity:0.39199997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dashoffset:0;visibility:hidden"
        id="rect18475"
@@ -2179,12 +2564,20 @@ callFunction=RegistrationScale;</desc>
      onclick="this.visualization.click(event)"
      id="g18485">
     <desc
-       id="desc2715">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc2715"> {&quot;name&quot;:&quot;=A-1123-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7146&quot;,
+       &quot;DB&quot;:&quot;203&quot;,
+       &quot;OFFSET&quot;:&quot;500&quot;,
+       &quot;description&quot;:&quot;Scale High Level&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;29&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;High Level&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048"
        id="g18487"
@@ -2352,15 +2745,23 @@ state=$'name'.StCode;</desc>
      Symbol="v1.1"
      Library="GM_2.2.1444.0"
      onclick="this.visualization.click(event)"
-     transform="matrix(-0.99999914,0,0,1,3579.8292,399.09375)"
+     transform="matrix(-0.99999914,0,0,1,3584.5792,400.59375)"
      id="g5964-2">
     <desc
-       id="desc5967-2">[Visualization]
-name=A_1303_BSA12;
-type=GcObject;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-state=$'name'.StCode;</desc>
+       id="desc5967-2">{&quot;name&quot;:&quot;=A-1124-BSA0&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;203&quot;,
+       &quot;OFFSET&quot;:&quot;144&quot;,
+       &quot;description&quot;:&quot;Speed Monitor Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;33&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;Speed Monitor&quot;
+        }
+        ]}</desc>
     <g
        class="dynShape"
        stroke-miterlimit="4"
@@ -2397,22 +2798,36 @@ state=$'name'.StCode;</desc>
      Library="GM_2.2.1616.0"
      onclick="this.visualization.click(event)"
      id="g3606-1"
-     transform="matrix(-0.99999914,0,0,1,4207.3286,333.47001)">
+     transform="matrix(-1.0711564,0,0,0.99907772,4441.4738,333.71026)">
     <desc
-       id="desc3608-8">[Visualization]
-name=undefined;
-type=GcObject;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-display=true;
-state=$'name'.StCode;</desc>
+       id="desc3608-8">{&quot;name&quot;:&quot;=A-1124-MXZO11&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;203&quot;,
+       &quot;OFFSET&quot;:&quot;434&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;37&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;22&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
     <g
        style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048"
        id="g5169-9"
        class="dynShape">
       <path
-         style="stroke-width:1.00000048"
+         style="stroke-width:0.9792695"
          inkscape:connector-curvature="0"
-         d="m 3281.5,255.5 12,0 0,12 -12,0 z"
+         d="m 3275.9896,259.73963 17.7708,0 0,7.77074 -17.7708,0 z"
          id="path5165-2" />
       <path
          style="stroke-width:1.00000048"
@@ -2425,13 +2840,6 @@ state=$'name'.StCode;</desc>
          inkscape:connector-curvature="0"
          id="path3614-9"
          d="m 2785.5,204.5 38,0 0,7 52,0 0,9 -90,0 z" />
-      <path
-         style="stroke-width:1.00000048"
-         sodipodi:nodetypes="ccccc"
-         transform="translate(508,47)"
-         d="m 2779.5,219.5 5,-5 -5,-5 -5,5 z"
-         id="path3626-5"
-         inkscape:connector-curvature="0" />
       <path
          style="stroke-width:1.00000048"
          d="m 3389,259.5 3.5,3.5 -3.5,3.5 -3.5,-3.5 z"
@@ -2461,7 +2869,7 @@ state=$'name'.StCode;</desc>
        width="12"
        height="4"
        id="rect3628-3"
-       style="fill:#008000;fill-opacity:0.39199997;visibility:hidden"
+       style="visibility:hidden;fill:#008000;fill-opacity:0.39199997"
        class="dynCon0" />
   </g>
   <rect
@@ -2488,7 +2896,41 @@ type=LineConnectorType1;</desc>
      stroke-miterlimit="4"
      d="m 825.33188,600.97017 15.00008,0 -7.50009,6.99999 z"
      id="path6226-1"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0">
+    <desc
+       id="desc27723">{&quot;name&quot;:&quot;=A-1126-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;202&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;15&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;15&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
+  </path>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2.00000095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 906.83195,606.47016 0,36.00003 40.00009,0 0,69.99996"
@@ -2501,7 +2943,41 @@ type=LineConnectorType1;</desc>
      d="m 899.33198,600.97017 15.00004,0 -7.50007,6.99999 z"
      stroke-miterlimit="4"
      sodipodi:nodetypes="cccc"
-     style="fill:#cccccc;stroke:#000000;stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none" />
+     style="fill:#cccccc;stroke:#000000;stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none">
+    <desc
+       id="desc27725">{&quot;name&quot;:&quot;=A-1127-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;202&quot;,
+       &quot;OFFSET&quot;:&quot;136&quot;,
+       &quot;description&quot;:&quot;Pneumatic Slide Gate&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;26&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;26&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;15&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;15&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+        ]}</desc>
+  </path>
   <g
      id="g9917"
      transform="translate(305.83139,-627.53007)">
@@ -3920,4 +4396,441 @@ state=$'name'.StCode;</desc>
          id="tspan9436-1"
          sodipodi:role="line">Image Properties</tspan></text>
   </g>
+  <g
+     id="g4760-4"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(0.747629,0,0,0.86271874,-136.03656,446.05069)">
+    <desc
+       id="desc4762-2">{&quot;name&quot;:&quot;=A-1124-BZS07&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;203&quot;,
+       &quot;OFFSET&quot;:&quot;260&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor - Tension Position Maximum&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;33&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Max Tension position&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-7"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-5"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g4760-4-5"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(0.747629,0,0,0.86271874,-129.84938,446.05069)">
+    <desc
+       id="desc4762-2-4">{&quot;name&quot;:&quot;=A-1124-BZS06&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;203&quot;,
+       &quot;OFFSET&quot;:&quot;202&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor - Tension Position&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;33&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Tension Position&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-7-8"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-5-4"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g4760-4-7"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(0.747629,0,0,0.86271874,-76.100639,446.37822)">
+    <desc
+       id="desc4762-2-6">{&quot;name&quot;:&quot;=A-2003-BZS07&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1280&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor - Tension Position Maximum&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;47&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Max Tension position&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-7-4"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-5-7"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g4760-4-74"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(0.69470207,0,0,0.86576047,-7.0082361,445.88406)">
+    <desc
+       id="desc4762-2-3">{&quot;name&quot;:&quot;=A-2003-BZS06&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1222&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor - Tension Position&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;47&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;Tension Position&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-7-5"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-5-5"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g4760-4-5-5"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(0.74189077,0,0,0.983578,-224.441,424.35613)">
+    <desc
+       id="desc4762-2-4-0">{&quot;name&quot;:&quot;=A-1124-BLH&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7165&quot;,
+       &quot;DB&quot;:&quot;203&quot;,
+       &quot;OFFSET&quot;:&quot;86&quot;,
+       &quot;description&quot;:&quot;Overflow Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;33&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;Overflow&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-7-8-2"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-5-4-1"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g4760-4-5-5-9"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(0.74189077,0,0,0.983578,24.182921,424.88646)">
+    <desc
+       id="desc4762-2-4-0-7">{&quot;name&quot;:&quot;=A-2003-BLH01&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7165&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1106&quot;,
+       &quot;description&quot;:&quot;Overflow Chain Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Overflow&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-7-8-2-7"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-5-4-1-6"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g4760-9"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(1.0060751,0,0,0.8884213,-344.02863,511.98153)">
+    <desc
+       id="desc4762-3">{&quot;name&quot;:&quot;=A-2004-BZS15&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;792&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor - Tension Position&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;45&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Tension Position&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-1"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-6"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g4760-9-6"
+     onclick="this.visualization.click(event)"
+     Library="GM_2.2.1616.0"
+     Symbol="v0.0"
+     transform="matrix(1.0060751,0,0,0.8884213,-335.14992,511.98858)">
+    <desc
+       id="desc4762-3-3">{&quot;name&quot;:&quot;=A-2004-BZS16&quot;,
+       &quot;type&quot;:&quot;FB14&quot;,
+       &quot;ptype&quot;:&quot;7154&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;850&quot;,
+       &quot;description&quot;:&quot;Chain Conveyor - Tension Position Maximum&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;47&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;Max Tension position&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g4764-1-9"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1.00000048">
+      <rect
+         style="stroke-width:1.00000048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4766-6-8"
+         height="9"
+         width="9"
+         stroke-miterlimit="4"
+         y="170.5"
+         x="1404.5" />
+    </g>
+  </g>
+  <g
+     id="g30363">
+    <desc
+       id="desc30373">       {&quot;name&quot;:&quot;=A-2013-KFC10&quot;,
+       &quot;type&quot;:&quot;FB11&quot;,
+       &quot;ptype&quot;:&quot;7002&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1904&quot;,
+       &quot;description&quot;:&quot;Aspiration Filter Controller&quot;,
+       &quot;ios&quot;:[
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;Run&quot;
+        }
+        ]}</desc>
+    <g
+       transform="matrix(1.652816,0,0,1.5880456,-1066.6706,377.59839)"
+       Symbol="v0.0"
+       Library="GM_2.2.1616.0"
+       onclick="this.visualization.click(event)"
+       id="g3292-3">
+      <desc
+         id="desc3294-4">[Visualization]
+name=undefined;
+type=GcObject;
+backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
+display=true;
+state=$'name'.StCode;</desc>
+      <g
+         style="fill:#c0c0c0;stroke:#000000"
+         id="g3296-3"
+         class="dynShape">
+        <rect
+           x="1404.5"
+           y="170.5"
+           stroke-miterlimit="4"
+           width="9"
+           height="9"
+           id="rect3298-1"
+           style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      </g>
+    </g>
+    <g
+       transform="matrix(1.552766,0,0,1.5918421,-919.75035,376.93573)"
+       Symbol="v0.0"
+       Library="GM_2.2.1616.0"
+       onclick="this.visualization.click(event)"
+       id="g3292-3-7">
+      <desc
+         id="desc3294-4-3">[Visualization]
+name=undefined;
+type=GcObject;
+backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
+display=true;
+state=$'name'.StCode;</desc>
+      <g
+         style="fill:#c0c0c0;stroke:#000000"
+         id="g3296-3-2"
+         class="dynShape">
+        <rect
+           x="1404.5"
+           y="170.5"
+           stroke-miterlimit="4"
+           width="9"
+           height="9"
+           id="rect3298-1-6"
+           style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+      </g>
+    </g>
+  </g>
+  <g
+     transform="translate(507.17983,313.6991)"
+     id="g8459-5-8-3-5-0-2-5-3-8-3-2-7"
+     onclick="this.visualization.click(event)"
+     Library="Library: v3.1"
+     Symbol="Symbol: v2.0">
+    <desc
+       id="desc5633-8-4-0-0-2-9">       {&quot;name&quot;:&quot;=A-2014-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7053&quot;,
+       &quot;DB&quot;:&quot;201&quot;,
+       &quot;OFFSET&quot;:&quot;1838&quot;,
+       &quot;description&quot;:&quot;MKV Fan&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;35&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Fan Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;25&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;Fan Start&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="g8461-6-2-1-7-8-6-0-8-5-2-1-9"
+       stroke-miterlimit="4">
+      <path
+         style="stroke-width:1;stroke-linecap:square"
+         inkscape:connector-curvature="0"
+         id="path8463-9-4-1-6-9-1-4-8-6-3-1-5"
+         d="m 559,242.5 c -5.8,0 -10.5,-4.7 -10.5,-10.5 0,-5.8 4.7,-10.5 10.5,-10.5 5.8,0 10.5,4.7 10.5,10.5 0,5.8 -4.7,10.5 -10.5,10.5 z"
+         transform="translate(192,71)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path8465-0-5-3-1-5-9-1-2-4-1-5-1"
+         style="stroke-width:1;stroke-linecap:square;stroke-dashoffset:0;enable-background:accumulate"
+         d="m 552.5,239.5 3,-17"
+         transform="translate(192,71)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path8467-8-5-8-4-8-5-4-3-3-4-6-5"
+         style="stroke-width:1;stroke-linecap:square;stroke-dashoffset:0;enable-background:accumulate"
+         d="m 565.5,239.5 -3,-17"
+         transform="translate(192,71)" />
+      <path
+         d="m 559,225.5 0,6 -4,4 4,-4 4,4"
+         style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+         id="path8474-8-1-7-8-2-9-7-4-6-2-3-1-1"
+         inkscape:connector-curvature="0"
+         transform="translate(192,71)" />
+    </g>
+    <rect
+       class="dynCon0"
+       x="747.5"
+       y="290"
+       width="7"
+       height="6"
+       id="rect8469-3-7-4-3-2-0-5-8-8-6-6-3"
+       style="visibility:hidden;fill:#0000ff;fill-opacity:0.39199997" />
+    <rect
+       class="dynCon0"
+       x="747.5"
+       y="310"
+       width="7"
+       height="6"
+       id="rect8472-3-1-2-2-4-6-0-2-0-7-6-5"
+       style="visibility:hidden;fill:#0000ff;fill-opacity:0.39199997" />
+  </g>
+  <path
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2.05701709;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#TriangleOutM_black-18-3-6-8-7-4-2-1);enable-background:accumulate"
+     d="m 1258.1713,605.67983 0,-16.92528"
+     id="path3507-4-6-6-1-2-7-5-1-4-6-9-4"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:1.55291963;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     d="m 1258.1006,627.25261 0,20.49826"
+     id="path3270-6"
+     inkscape:connector-curvature="0" />
 </svg>
