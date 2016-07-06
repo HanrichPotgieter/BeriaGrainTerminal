@@ -27,7 +27,7 @@ module.exports = {
             callback(response);
             break;
         case 1:
-            response.color = "grey";
+            response.color = "green";
             response.status = "State Low Number";
             callback(response);
             break;
