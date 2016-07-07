@@ -252,36 +252,44 @@ io.on('connection', function(socket){
     var updateElements = function(){
         //console.log('updating elements');
         for(x in elements){
-            var data = {
-                status:{color:'orange',status:'PLC Disconnected'},
-                element:elements[x]
-            };
-            if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
-                try{
-                    s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
-                    if(err){
-                            //res.sendStatus(200);
-                            console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
-                    }
-                    else
-                        var status = data.readUIntBE(0, 2);
+            var tmp = function(x,elements){
+                    var index = x;
+                    var data = {
+                        status:{color:'orange',status:'PLC Disconnected'},
+                        element:elements[x]
+                    };
+                    //console.log('Hellos')
+                    if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
+                        try{
                         
-                        elementInfo.getStatus(elements[x],status,function(status){
-                            data.status = status;
-                            socket.emit(elements[x].name,data); 
-                        });
-                    });
+                            s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
+                            if(err){
+                                    //res.sendStatus(200);
+                                    console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
+                            }
+                            else
+                                var status = data.readUIntBE(0, 2);
+                                
+                                elementInfo.getStatus(elements[x],status,function(status){
+                                    data.status = status;
+                                    socket.emit(elements[x].name,data); 
+                                });
+                            });
+                        }
+                        catch(err){
+                            console.log(err);
+                        }
+                    }
+                    else{
+                        
+                        socket.emit(elements[x].name,data);
+                        //res.send({color:'orange',status:'PLC Disconnected'});
+                    }           
                 }
-                catch(err){
-                    console.log(err);
-                }
-            }
-            else{
-                
-                socket.emit(elements[x].name,data);
-                //res.send({color:'orange',status:'PLC Disconnected'});
-            }           
-        }
+                tmp(x,elements);
+            };
+           
+            
         setTimeout(updateElements,5000);
     } 
     updateElements();

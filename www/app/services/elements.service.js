@@ -20,8 +20,10 @@ angular
                 sel.selectAll("*").select("desc").each(function () {
                     if(isJsonString(this.textContent)){
                         var object = JSON.parse(this.textContent);
+                        console.log(data.element);
                         if(object.name == data.element.name)
                         {
+                            console.log(data);
                             d3.select(this.parentNode).selectAll('*').style('fill',data.status.color).style('transition','fill 2.0s ease');
                         }
                     }
