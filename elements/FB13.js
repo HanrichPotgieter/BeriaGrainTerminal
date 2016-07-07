@@ -22,12 +22,12 @@ module.exports = {
     //===================================================>  
     switch(status) {
         case 11:
-            response.color = "green";
+            response.color = "grey";
             response.status = "Low Number Start Delay";
             callback(response);
             break;
         case 1:
-            response.color = "green";
+            response.color = "grey";
             response.status = "State Low Number";
             callback(response);
             break;

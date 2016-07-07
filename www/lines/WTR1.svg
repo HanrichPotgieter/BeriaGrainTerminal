@@ -799,9 +799,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="998.90755"
-     inkscape:cy="502.56982"
+     inkscape:zoom="1.8101934"
+     inkscape:cx="907.30236"
+     inkscape:cy="327.26902"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -3061,76 +3061,11 @@ state=$'name'.StCode;
      d="m 877.5,138.51949 180,0.019 0,72.98104"
      id="path5187"
      inkscape:connector-curvature="0" />
-  <g
-     id="4096"
-     onclick="this.visualization.click()"
-     transform="matrix(1,0,0,-1,-3547.5,509.51949)"
-     Library="GM_2.2.1616.0"
-     Symbol="v0.3">
-    <desc
-       id="desc3226">[Visualization]
-name=undefined;
-type=DivertorType1;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-position=$'name'.StCode(Byte00);
-inPosition1=1;
-inPosition2=3;
-state=$'name'.StCode;</desc>
-    <g
-       id="g3238">
-      <path
-         inkscape:connector-curvature="0"
-         id="4098"
-         style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
-         stroke-miterlimit="4"
-         class="dynShape" />
-      <path
-         inkscape:connector-curvature="0"
-         id="4103"
-         d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         class="dynCon0Con1"
-         transform="matrix(0,-1,1,0,4285,3551)" />
-      <path
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
-         id="path3300"
-         inkscape:connector-curvature="0"
-         class="dynCon0Con2"
-         transform="matrix(0,-1,1,0,4285,3551)" />
-    </g>
-    <rect
-       style="opacity:0.5;fill:#000000;stroke:none;visibility:hidden"
-       id="4104"
-       height="6"
-       width="6"
-       y="358"
-       x="4413"
-       class="dynCon0" />
-    <rect
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       id="4105"
-       height="6"
-       width="6"
-       y="368"
-       x="4422"
-       class="dynCon1" />
-    <rect
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       id="4101"
-       height="6"
-       width="6"
-       y="368"
-       x="4404"
-       class="dynCon2" />
-  </g>
   <path
      inkscape:connector-curvature="0"
      id="path5191"
-     d="m 768.5,445.51949 -0.1163,-358.999159 270.1163,0.01816 0,32.981039"
-     style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="m 768.5031,445.51805 -0.11677,-358.996286 271.21587,0.01816 0,32.980776"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#000000;stroke-width:2.0040586;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
      sodipodi:nodetypes="cccc" />
   <g
      id="g8595"
@@ -3180,8 +3115,9 @@ state=$'name'.StCode;</desc>
        transform="translate(32,36)" />
   </g>
   <g
-     id="g20770"
-     transform="translate(-1241.5,-1243.4805)">
+     id="C"
+     transform="translate(-1241.5,-1243.4805)"
+     inkscape:label="#g20770">
     <text
        x="2099"
        y="1519"
@@ -3620,71 +3556,6 @@ state=$'name'.StCode;</desc>
      id="path5165"
      d="m 991.5,117.51949 0,11 40,0"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <g
-     Symbol="v0.3"
-     Library="GM_2.2.1616.0"
-     transform="translate(-3377.5,-242.48051)"
-     onclick="this.visualization.click()"
-     id="g5169">
-    <desc
-       id="desc5171">[Visualization]
-name=undefined;
-type=DivertorType1;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-position=$'name'.StCode(Byte00);
-inPosition1=1;
-inPosition2=3;
-state=$'name'.StCode;</desc>
-    <g
-       id="g5173">
-      <path
-         class="dynShape"
-         stroke-miterlimit="4"
-         d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
-         style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         id="path5175"
-         inkscape:connector-curvature="0" />
-      <path
-         transform="matrix(0,-1,1,0,4285,3551)"
-         class="dynCon0Con1"
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
-         id="path5177"
-         inkscape:connector-curvature="0" />
-      <path
-         transform="matrix(0,-1,1,0,4285,3551)"
-         class="dynCon0Con2"
-         inkscape:connector-curvature="0"
-         id="path5179"
-         d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
-         style="color:#000000;fill:#ffffff;enable-background:accumulate" />
-    </g>
-    <rect
-       class="dynCon0"
-       x="4413"
-       y="358"
-       width="6"
-       height="6"
-       id="rect5181"
-       style="opacity:0.5;fill:#000000;stroke:none;visibility:hidden" />
-    <rect
-       class="dynCon1"
-       x="4422"
-       y="368"
-       width="6"
-       height="6"
-       id="rect5183"
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden" />
-    <rect
-       class="dynCon2"
-       x="4404"
-       y="368"
-       width="6"
-       height="6"
-       id="rect5185"
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden" />
-  </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 776.5,453.51949 0,331"
@@ -3742,26 +3613,6 @@ type=LineConnectorType1;</desc>
      id="path4526"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccccc" />
-  <g
-     id="g20770-4"
-     transform="translate(-1207.5,-781.73009)">
-    <text
-       x="2099"
-       y="1519"
-       xml:space="preserve"
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
-       id="text20772-5"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-         x="2099.5"
-         y="1518.75"
-         id="tspan20774-1">X</tspan></text>
-    <path
-       stroke-miterlimit="4"
-       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-       id="path20776-8"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
   <path
      style="color:#000000;fill:#000000;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 1041,284.89512 0,30"
@@ -4877,166 +4728,15 @@ state=$'parent.name'.VisuStatus;</desc>
      d="m 96.5,443.26927 -26,0"
      id="path4783"
      inkscape:connector-curvature="0" />
-  <g
-     id="4096-0"
-     onclick="this.visualization.click()"
-     transform="matrix(1,0,0,-1,-4310.5,814.26931)"
-     Library="GM_2.2.1616.0"
-     Symbol="v0.3">
-    <desc
-       id="desc3226-7">[Visualization]
-name=undefined;
-type=DivertorType1;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-position=$'name'.StCode(Byte00);
-inPosition1=1;
-inPosition2=3;
-state=$'name'.StCode;</desc>
-    <g
-       id="g3238-2">
-      <path
-         inkscape:connector-curvature="0"
-         id="4098-1"
-         style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
-         stroke-miterlimit="4"
-         class="dynShape" />
-      <path
-         inkscape:connector-curvature="0"
-         id="4103-5"
-         d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         class="dynCon0Con1"
-         transform="matrix(0,-1,1,0,4285,3551)" />
-      <path
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
-         id="path3300-9"
-         inkscape:connector-curvature="0"
-         class="dynCon0Con2"
-         transform="matrix(0,-1,1,0,4285,3551)" />
-    </g>
-    <rect
-       style="opacity:0.5;fill:#000000;stroke:none;visibility:hidden"
-       id="4104-3"
-       height="6"
-       width="6"
-       y="358"
-       x="4413"
-       class="dynCon0" />
-    <rect
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       id="4105-6"
-       height="6"
-       width="6"
-       y="368"
-       x="4422"
-       class="dynCon1" />
-    <rect
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       id="4101-6"
-       height="6"
-       width="6"
-       y="368"
-       x="4404"
-       class="dynCon2" />
-  </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker5253);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 141.5,451.15327 0,20"
      id="path4779"
      inkscape:connector-curvature="0" />
   <g
-     onclick="this.visualization.click(event)"
-     id="g8128"
-     transform="translate(-4274.5,111.26927)"
-     Library="GM_2.2.1616.0"
-     Symbol="v0.3">
-    <desc
-       id="desc8130">[Visualization]
-name=undefined;
-type=DivertorType1;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-position=$'name'.StCode(Byte00);
-inPosition1=1;
-inPosition2=3;
-state=$'name'.StCode;</desc>
-    <g
-       id="g8132">
-      <path
-         stroke-miterlimit="4"
-         d="m 3176.5,141.5 7,0 0,-7 8,0 0,-7 -8,0 0,-7 -7,0 z"
-         style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         id="path8134"
-         inkscape:connector-curvature="0"
-         transform="matrix(-1,0,0,-1,7596,463)"
-         class="dynShape" />
-      <path
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         d="m 3177,141 6,0 0,-20 -6,0 z"
-         id="path8136"
-         inkscape:connector-curvature="0"
-         class="dynCon0Con1"
-         transform="matrix(-1,0,0,-1,7596,463)"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
-         id="path8138"
-         inkscape:connector-curvature="0"
-         class="dynCon0Con2"
-         transform="matrix(-1,0,0,-1,7596,463)" />
-    </g>
-    <rect
-       x="4413"
-       y="320"
-       width="6"
-       height="6"
-       id="rect8146"
-       style="opacity:0.5;fill:#000000;stroke:none;visibility:hidden"
-       class="dynCon0" />
-    <rect
-       x="4413"
-       y="338"
-       width="6"
-       height="6"
-       id="rect8150"
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       class="dynCon1" />
-    <rect
-       x="4403"
-       y="329"
-       width="6"
-       height="6"
-       id="rect8148"
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       class="dynCon2" />
-  </g>
-  <g
-     id="g20770-4-3"
-     transform="translate(-2041.5,-1072.2307)">
-    <text
-       x="2099"
-       y="1519"
-       xml:space="preserve"
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
-       id="text20772-5-5"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-         x="2099.5"
-         y="1518.75"
-         id="tspan20774-1-0">X</tspan></text>
-    <path
-       stroke-miterlimit="4"
-       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-       id="path20776-8-2"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
-  </g>
-  <g
      transform="translate(-1994,-1031.7307)"
-     id="g4956">
+     id="Z"
+     inkscape:label="#g4956">
     <text
        id="text4958"
        style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
@@ -5055,8 +4755,9 @@ state=$'name'.StCode;</desc>
        stroke-miterlimit="4" />
   </g>
   <g
-     id="g4964"
-     transform="translate(-1958,-1031.7307)">
+     id="Y"
+     transform="translate(-1958,-1031.7307)"
+     inkscape:label="#g4964">
     <text
        x="2099"
        y="1519"
@@ -12950,73 +12651,6 @@ display=true;</desc>
      id="path7832"
      d="m 1019.696,753.39512 49,0 50,0"
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#TriangleOutM_black-174);visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  <g
-     onclick="this.visualization.click(event)"
-     id="g8128-7"
-     transform="matrix(-1,0,0,1,5428.5,421.26927)"
-     Library="GM_2.2.1616.0"
-     Symbol="v0.3">
-    <desc
-       id="desc8130-0">[Visualization]
-name=undefined;
-type=DivertorType1;
-display=true;
-backgroundColor=ptype.color.$'name'.Ptype:$'name'.StCode(Byte00);
-position=$'name'.StCode(Byte00);
-inPosition1=1;
-inPosition2=3;
-state=$'name'.StCode;</desc>
-    <g
-       id="g8132-7">
-      <path
-         stroke-miterlimit="4"
-         d="m 3176.5,141.5 7,0 0,-7 8,0 0,-7 -8,0 0,-7 -7,0 z"
-         style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
-         id="path8134-5"
-         inkscape:connector-curvature="0"
-         transform="matrix(-1,0,0,-1,7596,463)"
-         class="dynShape" />
-      <path
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         d="m 3177,141 6,0 0,-20 -6,0 z"
-         id="path8136-2"
-         inkscape:connector-curvature="0"
-         class="dynCon0Con1"
-         transform="matrix(-1,0,0,-1,7596,463)"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         style="color:#000000;fill:#ffffff;enable-background:accumulate"
-         d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
-         id="path8138-4"
-         inkscape:connector-curvature="0"
-         class="dynCon0Con2"
-         transform="matrix(-1,0,0,-1,7596,463)" />
-    </g>
-    <rect
-       x="4413"
-       y="320"
-       width="6"
-       height="6"
-       id="rect8146-5"
-       style="opacity:0.5;fill:#000000;stroke:none;visibility:hidden"
-       class="dynCon0" />
-    <rect
-       x="4413"
-       y="338"
-       width="6"
-       height="6"
-       id="rect8150-3"
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       class="dynCon1" />
-    <rect
-       x="4403"
-       y="329"
-       width="6"
-       height="6"
-       id="rect8148-8"
-       style="opacity:0.5;fill:#808080;stroke:none;visibility:hidden"
-       class="dynCon2" />
-  </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-start:url(#marker4721);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 892.5,744.89512 0,40"
@@ -13107,47 +12741,57 @@ type=LineConnectorType1;</desc>
          width="254.2049"
          id="rect3972" /></flowRegion><flowPara
        id="flowPara3974">Compressed Air</flowPara></flowRoot>  <g
-     stroke-miterlimit="4"
-     style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-     id="g4011-9-5-4-6-6-4-7"
-     transform="matrix(1.1014288,0,0,1.0191581,180.74568,128.14163)">
+     id="PTR1"
+     inkscape:label="#g23205"
+     transform="translate(-4.9718446,-1.1048543)">
     <desc
-       id="desc4013-2-4-0-3-7-0-6">[Visualization]
+       id="desc23213">[Visualization]
+name=PTR1;
+type=Group;
+display=true;</desc>
+    <g
+       transform="matrix(1.1014288,0,0,1.0191581,180.74568,128.14163)"
+       id="g4011-9-5-4-6-6-4-7"
+       style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       stroke-miterlimit="4">
+      <desc
+         id="desc4013-2-4-0-3-7-0-6">[Visualization]
 name=undefined;
 type=Shape;
 backgroundColor=GcsUpperLayerDisplayState.color:$Line_'parent.name'.DisplayState;
 display=true;
 strokeColor=#000000;</desc>
-    <rect
-       style="fill:#f3f3f3;fill-opacity:1;stroke:#000000;stroke-width:0.94384569;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect4015-3-2-9-7-4-9-6"
-       height="12.754374"
-       width="34.500698"
-       x="865.92462"
-       y="607.1228"
-       stroke-miterlimit="4"
-       class="dynShape" />
-  </g>
-  <text
-     transform="scale(1.0395788,0.96192804)"
-     xml:space="default"
-     id="text4017-2-7-4-6-8-4-5"
-     y="785.88251"
-     x="1109.1339"
-     style="font-size:11px">
-    <desc
-       id="desc4019-2-2-8-2-3-8-8">[Visualization]
+      <rect
+         class="dynShape"
+         stroke-miterlimit="4"
+         y="607.1228"
+         x="865.92462"
+         width="34.500698"
+         height="12.754374"
+         id="rect4015-3-2-9-7-4-9-6"
+         style="fill:#f3f3f3;fill-opacity:1;stroke:#000000;stroke-width:0.94384569;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <text
+       style="font-size:11px"
+       x="1110.1967"
+       y="785.88251"
+       id="text4017-2-7-4-6-8-4-5"
+       xml:space="default"
+       transform="scale(1.0395788,0.96192804)">
+      <desc
+         id="desc4019-2-2-8-2-3-8-8">[Visualization]
 name=undefined;
 type=TextOutput;
 value=$'parent.name';
 display=true;</desc>
-    <tspan
-       id="tspan4021-2-6-8-7-6-8-2"
-       style="font-size:11px;font-weight:bold;text-align:center;text-anchor:middle;font-family:Arial"
-       y="786.94196"
-       x="1109.1339"
-       class="dynText">PTR1</tspan>
-  </text>
+      <tspan
+         class="dynText"
+         x="1110.1967"
+         y="786.94196"
+         style="font-weight:bold;font-size:11px;font-family:Arial;text-align:center;text-anchor:middle"
+         id="tspan4021-2-6-8-7-6-8-2">PTR1</tspan>
+    </text>
+  </g>
   <g
      stroke-miterlimit="4"
      style="stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
@@ -16675,5 +16319,699 @@ tag=$'name'.StCode(Byte00);</desc>
        id="path7194"
        d="m 797.613,636.801 -4,2 0,5 4,-2 z"
        style="fill:#808080;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     transform="matrix(-0.99997176,-0.00751523,0.00751523,-0.99997176,2131.6319,276.27886)"
+     id="g11960-5">
+    <desc
+       id="desc11971-6">{&quot;name&quot;:&quot;=A-1017-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;150&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Way Flap&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;2&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;3&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+	],
+	&quot;positions&quot;:[	
+	{
+	&quot;pos&quot;:&quot;1&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;LN&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;2&quot;,
+	&quot;input&quot;:&quot;-&quot;,
+	&quot;out&quot;:&quot;-&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;3&quot;,
+	&quot;input&quot;:&quot;YES&quot;,
+	&quot;out&quot;:&quot;NO&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;4&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;HN&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	}
+	]}</desc>
+    <g
+       Symbol="v0.3"
+       Library="GM_2.2.1616.0"
+       transform="matrix(1,0,0,-1,-3322.6129,510.63604)"
+       onclick="this.visualization.click()"
+       id="4096-9">
+      <g
+         id="g3238-4">
+        <path
+           class="dynShape"
+           stroke-miterlimit="4"
+           d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
+           style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+           id="4098-9"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con1"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate"
+           d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
+           id="4103-0"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con2"
+           inkscape:connector-curvature="0"
+           id="path3300-6"
+           d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate" />
+      </g>
+    </g>
+    <rect
+       class="dynCon1"
+       x="1083.3362"
+       y="-142.65639"
+       width="7.0463171"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-2"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3785"
+       y="-142.65639"
+       width="6.0443425"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-8-4"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1096.4106"
+       y="-142.64227"
+       width="7.0463171"
+       height="6.0209613"
+       id="4105-4-6-3-9-7-5-3-9"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3663"
+       y="-150.65639"
+       width="6.016118"
+       height="8.0107975"
+       id="4105-4-6-3-9-7-5-7-5"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+  </g>
+  <g
+     id="g11960"
+     transform="translate(-224.80469,-1.165045)">
+    <desc
+       id="desc11971">{&quot;name&quot;:&quot;=A-1011-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;152&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Way Flap&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;0&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;3&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+	],
+	&quot;positions&quot;:[	
+	{
+	&quot;pos&quot;:&quot;1&quot;,
+	&quot;input&quot;:&quot;YES&quot;,
+	&quot;out&quot;:&quot;NO&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;2&quot;,
+	&quot;input&quot;:&quot;-&quot;,
+	&quot;out&quot;:&quot;-&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;3&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;LN&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;4&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;HN&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	}
+	]}</desc>
+    <g
+       Symbol="v0.3"
+       Library="GM_2.2.1616.0"
+       transform="matrix(1,0,0,-1,-3322.6129,510.63604)"
+       onclick="this.visualization.click()"
+       id="4096">
+      <g
+         id="g3238">
+        <path
+           class="dynShape"
+           stroke-miterlimit="4"
+           d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
+           style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+           id="4098"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con1"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate"
+           d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
+           id="4103"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con2"
+           inkscape:connector-curvature="0"
+           id="path3300"
+           d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate" />
+      </g>
+    </g>
+    <rect
+       class="dynCon1"
+       x="1083.3362"
+       y="-142.65639"
+       width="7.0463171"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3785"
+       y="-142.65639"
+       width="6.0443425"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-8"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1096.4106"
+       y="-142.64227"
+       width="7.0463171"
+       height="6.0209613"
+       id="4105-4-6-3-9-7-5-3"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3663"
+       y="-150.65639"
+       width="6.016118"
+       height="8.0107975"
+       id="4105-4-6-3-9-7-5-7"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+  </g>
+  <g
+     id="g11960-4-6"
+     transform="translate(-987.96025,303.63889)">
+    <desc
+       id="desc11971-8-1">{&quot;name&quot;:&quot;=A-1306-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;140&quot;,
+       &quot;OFFSET&quot;:&quot;136&quot;,
+       &quot;description&quot;:&quot;Way Flap&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;47&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;47&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;20&quot;,
+        &quot;offset&quot;:&quot;6&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;20&quot;,
+        &quot;offset&quot;:&quot;7&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+	],
+	&quot;positions&quot;:[	
+	{
+	&quot;pos&quot;:&quot;1&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;LN&quot;,
+	&quot;link&quot;:&quot;X&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;2&quot;,
+	&quot;input&quot;:&quot;-&quot;,
+	&quot;out&quot;:&quot;-&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;3&quot;,
+	&quot;input&quot;:&quot;YES&quot;,
+	&quot;out&quot;:&quot;NO&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;4&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;HN&quot;,
+	&quot;link&quot;:&quot;Z&quot;
+	}
+	]}</desc>
+    <g
+       Symbol="v0.3"
+       Library="GM_2.2.1616.0"
+       transform="matrix(1,0,0,-1,-3322.6129,510.63604)"
+       onclick="this.visualization.click()"
+       id="4096-3-3">
+      <g
+         id="g3238-9-5">
+        <path
+           class="dynShape"
+           stroke-miterlimit="4"
+           d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
+           style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+           id="4098-4-5"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con1"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate"
+           d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
+           id="4103-3-5"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con2"
+           inkscape:connector-curvature="0"
+           id="path3300-4-9"
+           d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate" />
+      </g>
+    </g>
+    <rect
+       class="dynCon1"
+       x="1083.3362"
+       y="-142.65639"
+       width="7.0463171"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-0-0"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3785"
+       y="-142.65639"
+       width="6.0443425"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-8-1-4"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1096.4106"
+       y="-142.64227"
+       width="7.0463171"
+       height="6.0209613"
+       id="4105-4-6-3-9-7-5-3-5-5"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3663"
+       y="-150.65639"
+       width="6.016118"
+       height="8.0107975"
+       id="4105-4-6-3-9-7-5-7-8-4"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+  </g>
+  <g
+     id="g11960-4"
+     transform="matrix(0.00106958,0.99999943,-0.99999943,0.00106958,279.69887,-650.45104)">
+    <desc
+       id="desc11971-8">{&quot;name&quot;:&quot;=A-1305-QXV01&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;140&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Way Flap&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;28&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;28&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;16&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;16&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+	],
+	&quot;positions&quot;:[	
+	{
+	&quot;pos&quot;:&quot;1&quot;,
+	&quot;input&quot;:&quot;YES&quot;,
+	&quot;out&quot;:&quot;NO&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;2&quot;,
+	&quot;input&quot;:&quot;-&quot;,
+	&quot;out&quot;:&quot;-&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;3&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;LN&quot;,
+	&quot;link&quot;:&quot;Y&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;4&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;HN&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	}
+	]}</desc>
+    <g
+       Symbol="v0.3"
+       Library="GM_2.2.1616.0"
+       transform="matrix(1,0,0,-1,-3322.6129,510.63604)"
+       onclick="this.visualization.click()"
+       id="4096-3">
+      <g
+         id="g3238-9">
+        <path
+           class="dynShape"
+           stroke-miterlimit="4"
+           d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
+           style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+           id="4098-4"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con1"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate"
+           d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
+           id="4103-3"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con2"
+           inkscape:connector-curvature="0"
+           id="path3300-4"
+           d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate" />
+      </g>
+    </g>
+    <rect
+       class="dynCon1"
+       x="1083.3362"
+       y="-142.65639"
+       width="7.0463171"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-0"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3785"
+       y="-142.65639"
+       width="6.0443425"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-8-1"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1096.4106"
+       y="-142.64227"
+       width="7.0463171"
+       height="6.0209613"
+       id="4105-4-6-3-9-7-5-3-5"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3663"
+       y="-150.65639"
+       width="6.016118"
+       height="8.0107975"
+       id="4105-4-6-3-9-7-5-7-8"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+  </g>
+  <g
+     id="g11960-7"
+     transform="matrix(0.00977108,-0.99995226,0.99995226,0.00977108,862.28519,1845.4053)">
+    <desc
+       id="desc11971-64">{&quot;name&quot;:&quot;=A-1045-QXV02&quot;,
+       &quot;type&quot;:&quot;FB13&quot;,
+       &quot;ptype&quot;:&quot;7082&quot;,
+       &quot;DB&quot;:&quot;173&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Way Flap&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;20&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Closed Limit&quot;
+        },
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;20&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Limit&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;13&quot;,
+        &quot;offset&quot;:&quot;4&quot;,
+        &quot;description&quot;:&quot;LN-Close Solenoid&quot;
+        },
+        {
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;13&quot;,
+        &quot;offset&quot;:&quot;5&quot;,
+        &quot;description&quot;:&quot;HN-Open Solenoid&quot;
+        }
+	],
+	&quot;positions&quot;:[	
+	{
+	&quot;pos&quot;:&quot;1&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;HN&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;2&quot;,
+	&quot;input&quot;:&quot;-&quot;,
+	&quot;out&quot;:&quot;-&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;3&quot;,
+	&quot;input&quot;:&quot;YES&quot;,
+	&quot;out&quot;:&quot;NO&quot;,
+	&quot;link&quot;:&quot;-&quot;
+	},
+	{
+	&quot;pos&quot;:&quot;4&quot;,
+	&quot;input&quot;:&quot;NO&quot;,
+	&quot;out&quot;:&quot;LN&quot;,
+	&quot;link&quot;:&quot;PTR1&quot;
+	}
+	]}</desc>
+    <g
+       Symbol="v0.3"
+       Library="GM_2.2.1616.0"
+       transform="matrix(1,0,0,-1,-3322.6129,510.63604)"
+       onclick="this.visualization.click()"
+       id="4096-1">
+      <g
+         id="g3238-1">
+        <path
+           class="dynShape"
+           stroke-miterlimit="4"
+           d="m 4426.5,374.5 0,-7 -7,0 0,-8 -7,0 0,8 -7,0 0,7 z"
+           style="fill:#f7ebce;stroke:#000000;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;enable-background:accumulate"
+           id="4098-6"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con1"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate"
+           d="m 3177,141 6,0 0,-7 8,0 0,-6 -14,0 z"
+           id="4103-4"
+           inkscape:connector-curvature="0" />
+        <path
+           transform="matrix(0,-1,1,0,4285,3551)"
+           class="dynCon0Con2"
+           inkscape:connector-curvature="0"
+           id="path3300-1"
+           d="m 3177,121 6,0 0,7 8,0 0,6 -14,0 z"
+           style="color:#000000;fill:#ffffff;enable-background:accumulate" />
+      </g>
+    </g>
+    <rect
+       class="dynCon1"
+       x="1083.3362"
+       y="-142.65639"
+       width="7.0463171"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-9"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3785"
+       y="-142.65639"
+       width="6.0443425"
+       height="6.0350733"
+       id="4105-4-6-3-9-7-5-8-7"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1096.4106"
+       y="-142.64227"
+       width="7.0463171"
+       height="6.0209613"
+       id="4105-4-6-3-9-7-5-3-1"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+    <rect
+       class="dynCon1"
+       x="1090.3663"
+       y="-150.65639"
+       width="6.016118"
+       height="8.0107975"
+       id="4105-4-6-3-9-7-5-7-50"
+       style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
+       transform="scale(1,-1)" />
+  </g>
+  <g
+     id="g20770-4"
+     transform="translate(-1207.5,-781.73009)">
+    <text
+       x="2099"
+       y="1519"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;text-anchor:middle;fill:#000000;stroke-width:0"
+       id="text20772-5"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         x="2099.5"
+         y="1518.75"
+         id="tspan20774-1">X</tspan></text>
+  </g>
+  <g
+     id="X"
+     inkscape:label="#g17557">
+    <g
+       transform="translate(-2041.5,-1072.2307)"
+       id="g20770-4-3">
+      <text
+         id="text20772-5-5"
+         style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"
+         y="1519"
+         x="2099"><tspan
+           id="tspan20774-1-0"
+           y="1518.75"
+           x="2099.5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">X</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path20776-8-2"
+         d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         stroke-miterlimit="4" />
+    </g>
+    <path
+       stroke-miterlimit="4"
+       d="m 897,733.76991 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+       id="path20776-8"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
 </svg>
