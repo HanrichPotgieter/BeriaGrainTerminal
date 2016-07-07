@@ -161,6 +161,7 @@ angular
                         if(isJsonString(this.textContent))
                         {    
                             var object = JSON.parse(this.textContent);
+                            object.node = this;
                             elements.addElement(object);
                             //console.log(object)
                             object.node = this;

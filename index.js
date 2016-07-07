@@ -250,17 +250,22 @@ app.post('/getValue', function(req, res){
 io.on('connection', function(socket){
     var elements = [];
     var updateElements = function(){
-        console.log('updating elements');
+        //console.log('updating elements');
         for(x in elements){
-            if(elements[x].DB && elements[x].OFFSET){
+            var data = {
+                status:{color:'orange',status:'PLC Disconnected'},
+                element:elements[x]
+            };
+            if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
                 try{
                     s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
                     if(err){
                             //res.sendStatus(200);
-                            //console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
+                            console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
                     }
                     else
                         var status = data.readUIntBE(0, 2);
+                        
                         elementInfo.getStatus(elements[x],status,function(data){
                             console.log(data);
                         });
@@ -271,10 +276,12 @@ io.on('connection', function(socket){
                 }
             }
             else{
+                
+                socket.emit(elements[x].name,data);
                 //res.send({color:'orange',status:'PLC Disconnected'});
             }           
         }
-        setTimeout(updateElements,1000);
+        setTimeout(updateElements,5000);
     } 
     updateElements();
     socket.on('addElement', function(element){
