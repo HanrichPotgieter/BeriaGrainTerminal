@@ -253,7 +253,6 @@ io.on('connection', function(socket){
         //console.log('updating elements');
         for(x in elements){
             var tmp = function(x,elements){
-                    var index = x;
                     var data = {
                         status:{color:'orange',status:'PLC Disconnected'},
                         element:elements[x]
@@ -290,7 +289,7 @@ io.on('connection', function(socket){
             };
            
             
-        setTimeout(updateElements,5000);
+        setTimeout(updateElements,1000);
     } 
     updateElements();
     socket.on('addElement', function(element){
