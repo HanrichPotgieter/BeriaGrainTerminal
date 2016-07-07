@@ -23,7 +23,7 @@ angular
                     sel.selectAll("*").select("desc").each(function () {
                         if(isJsonString(this.textContent)){
                             var object = JSON.parse(this.textContent);
-                            //console.log(data.element);
+                            
                             if(object.name == data.element.name)
                             {
                                 //console.log(data);
