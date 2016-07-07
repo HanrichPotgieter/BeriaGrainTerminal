@@ -266,8 +266,9 @@ io.on('connection', function(socket){
                     else
                         var status = data.readUIntBE(0, 2);
                         
-                        elementInfo.getStatus(elements[x],status,function(data){
-                            console.log(data);
+                        elementInfo.getStatus(elements[x],status,function(status){
+                            data.status = status;
+                            socket.emit(elements[x].name,data); 
                         });
                     });
                 }
