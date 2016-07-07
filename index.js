@@ -246,5 +246,43 @@ app.post('/getValue', function(req, res){
         res.sendStatus(404);    
     }
 });
+// This needs to go into a seprate module
+io.on('connection', function(socket){
+    var elements = [];
+    var updateElements = function(){
+        console.log('updating elements');
+        for(x in elements){
+            if(elements[x].DB && elements[x].OFFSET){
+                try{
+                    s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
+                    if(err){
+                            //res.sendStatus(200);
+                            //console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
+                    }
+                    else
+                        var status = data.readUIntBE(0, 2);
+                        elementInfo.getStatus(elements[x],status,function(data){
+                            console.log(data);
+                        });
+                    });
+                }
+                catch(err){
+                    console.log(err);
+                }
+            }
+            else{
+                //res.send({color:'orange',status:'PLC Disconnected'});
+            }           
+        }
+        setTimeout(updateElements,1000);
+    } 
+    updateElements();
+    socket.on('addElement', function(element){
+        if(!elements[element.name]){
+            elements[element.name] = element;
+        }
+    });
+});
+
 
 

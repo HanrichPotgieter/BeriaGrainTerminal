@@ -1,6 +1,6 @@
 angular
     .module('app')
-    .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia,lines) {
+    .controller('LineCtrl', function ($scope,$http,$mdDialog,$mdMedia,lines,elements) {
         $scope.open = true;
         $scope.$on('$locationChangeStart', function(event) {
             $scope.open = false;
@@ -144,10 +144,10 @@ angular
                     $scope.infoStatus = true;
                 });
         }
-
+        var selectionSize
         function changeColor() {
             var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
-
+            
             if(sel.empty()) {
                 setTimeout(changeColor, 1000);
             } else {
@@ -157,9 +157,11 @@ angular
                 }
                 
                 var tmp = sel.selectAll("*").select("desc").each(function () {
+                       
                         if(isJsonString(this.textContent))
                         {    
                             var object = JSON.parse(this.textContent);
+                            elements.addElement(object);
                             //console.log(object)
                             object.node = this;
                             d3.select(object.node.parentNode).on("click", function($event) {
@@ -168,6 +170,7 @@ angular
                             //console.log(object);
                             if(object.type != "LineParams"){
                                 //setTimeout(1000);
+                                /*
                                 $http.post("/getStatus", object)
                                 .success(function (data) {
                                     var parent = object.node.parentNode;
@@ -288,6 +291,7 @@ angular
                                     }
                                     ////////////////////////////WIAN CODE/////////////////////////
                                 }); 
+                                */
 
                             }
                         };

@@ -15,15 +15,18 @@ angular
                 object.id = x;
                 $http.post("/getSectionStatus", object)
                 .success(function (data) {
+                    
                     //console.log(data.fault);
                     lines.selectedLine.sections[data.id].status = data;
                     lines.selectedLine.sections[data.id].style = {
                         "background" : data.color,
                         'transition':'background 2.0s ease'
                     }
-                    lines.selectedLine.sections[data.id].status.fault.style = {
-                        "background" : data.fault.color,
-                        'transition':'background 2.0s ease'
+                    if(data.fault){
+                        lines.selectedLine.sections[data.id].status.fault.style = {
+                            "background" : data.fault.color,
+                            'transition':'background 2.0s ease'
+                        }
                     }
                 }); 
             }   
