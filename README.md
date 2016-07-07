@@ -23,7 +23,7 @@ Download the project using git
 git clone https://github.com/HanrichPotgieter/BeriaGrainTerminal.git
 ```
 ##Downloading depedencies and compiling the S7 driver.
-Set Visual Studios 2013 as your building enviroment for npm
+This step is only valid if working on Windows. Set Visual Studios 2013 as your building enviroment for npm
 ```
 npm config set msvs_version 2013
 ```
