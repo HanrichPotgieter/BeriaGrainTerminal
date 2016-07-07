@@ -253,14 +253,14 @@ io.on('connection', function(socket){
         //console.log('updating elements');
         for(x in elements){
             var tmp = function(x,elements){
-                    var data = {
+                    var dataToSend = {
                         status:{color:'orange',status:'PLC Disconnected'},
                         element:elements[x]
                     };
                     //console.log('Hellos')
                     if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
                         try{
-                        
+                            //sconsole.log(elements[x]);
                             s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
                             if(err){
                                     //res.sendStatus(200);
@@ -270,8 +270,10 @@ io.on('connection', function(socket){
                                 var status = data.readUIntBE(0, 2);
                                 
                                 elementInfo.getStatus(elements[x],status,function(status){
-                                    data.status = status;
-                                    socket.emit(elements[x].name,data); 
+                                    //console.log(elements[x].name);
+                                    dataToSend.status = status;
+                                    dataToSend.element = elements[x];
+                                    socket.emit(elements[x].name,dataToSend); 
                                 });
                             });
                         }
@@ -280,8 +282,8 @@ io.on('connection', function(socket){
                         }
                     }
                     else{
-                        
-                        socket.emit(elements[x].name,data);
+                        //console.log(data);
+                        socket.emit(elements[x].name,dataToSend);
                         //res.send({color:'orange',status:'PLC Disconnected'});
                     }           
                 }
