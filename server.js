@@ -257,21 +257,24 @@ io.on('connection', function(socket){
 
         var sendData = function(){
             // Only Copy the necessary data before sending.
+            //console.log(elements);
             var tmp = [];
-            for(x in elements){
-                //if(elements[x].status){
+            for(z in elements){
+                //console.log(elements[z].dataToSend);
+                if(elements[z].dataToSend){
                 tmp.push({
-                    name:elements[x].name,
-                    status:elements[x].dataToSend.status
+                    name:elements[z].name,
+                    status:elements[z].dataToSend.status
                 });
-                //}
+                }
+                
             }
             // Send data to the server
             socket.emit('updateElements',tmp);
         }
 
         var updateElement = function(x){
-            elements[x].dataToSend = dataToSend;
+           //elements[x].dataToSend = dataToSend;
             if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
                 s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
                     if(err){
@@ -283,11 +286,13 @@ io.on('connection', function(socket){
                     else{
                         var status = data.readUIntBE(0, 2);
                         elementInfo.getStatus(elements[x],status,function(status){
-                            console.log(status);
+                           
                             dataToSend.status = status;
                             elements[x].dataToSend = dataToSend; 
+                            //console.log(elements[x].dataToSend);
                         });
                         if(counter === ammountOfElements){
+
                             sendData();
                         }
                     };   
