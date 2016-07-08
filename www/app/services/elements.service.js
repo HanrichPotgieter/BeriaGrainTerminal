@@ -23,7 +23,7 @@ angular
     }
 
     var updateElement = function(element,index,data){
-        //debugger;
+        debugger;
         //d3.select(parent).style('fill',data[index].status.color);
         d3.select(element.parentNode).selectAll('*').style('fill',data[index].status.color).style('transition','fill 2.0s ease');
     }
