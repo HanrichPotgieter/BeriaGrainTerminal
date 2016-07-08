@@ -30,7 +30,8 @@ angular
                 var element= JSON.parse(this.textContent);
                 for(x in data){
                     if(data[x].name == element.name){
-                        d3.select(this.parentNode).selectAll('*').style('fill',data[x].status.color).style('transition','fill 2.0s ease');
+                        var color = data[x].status.color;
+                        d3.select(this.parentNode).selectAll('*').style('fill',color).style('transition','fill 2.0s ease');
                     }
                 }
             }
