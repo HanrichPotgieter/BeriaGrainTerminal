@@ -256,6 +256,7 @@ io.on('connection', function(socket){
         };
 
         var updateElement = function(x){
+            elements[x].dataToSend = dataToSend;
             if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
                 s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
                     if(err){
@@ -267,17 +268,30 @@ io.on('connection', function(socket){
                     else{
                         var status = data.readUIntBE(0, 2);
                         elementInfo.getStatus(elements[x],status,function(status){
+                            //console.log(status);
                             dataToSend.status = status;
                             elements[x].dataToSend = dataToSend; 
                         });
+                        if(counter === ammountOfElements){
+                            // Only Copy the necessary data before sending.
+                            var tmp = [];
+                            for(x in elements){
+                                //if(elements[x].status){
+                                tmp.push({
+                                    name:elements[x].name,
+                                    status:elements[x].dataToSend.status
+                                });
+                                //}
+                            }
+                            // Send data to the server
+                            socket.emit('updateElements',tmp);
+                        }
                     };   
                 });
             }else{
                 elements[x].dataToSend = dataToSend; 
             };
-            if(counter === ammountOfElements){
-                
-            }
+            
         };
         var ammountOfElements = 0;
         for(x in elements){
@@ -290,16 +304,7 @@ io.on('connection', function(socket){
             updateElement(x,counter++);
         }       
 
-        // Only Copy the necessary data before sending.
-        var tmp = [];
-        for(x in elements){
-            tmp.push({
-                name:elements[x].name,
-                status:elements[x].dataToSend.status
-            });
-        }
-        // Send data to the server
-        socket.emit('updateElements',tmp);
+        
 
         setTimeout(updateElements,2000);
     } 
