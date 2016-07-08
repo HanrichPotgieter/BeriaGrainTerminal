@@ -255,6 +255,21 @@ io.on('connection', function(socket){
             status:{color:'orange',status:'PLC Disconnected'}
         };
 
+        var sendData = function(){
+            // Only Copy the necessary data before sending.
+            var tmp = [];
+            for(x in elements){
+                //if(elements[x].status){
+                tmp.push({
+                    name:elements[x].name,
+                    status:elements[x].dataToSend.status
+                });
+                //}
+            }
+            // Send data to the server
+            socket.emit('updateElements',tmp);
+        }
+
         var updateElement = function(x){
             elements[x].dataToSend = dataToSend;
             if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
@@ -273,23 +288,15 @@ io.on('connection', function(socket){
                             elements[x].dataToSend = dataToSend; 
                         });
                         if(counter === ammountOfElements){
-                            // Only Copy the necessary data before sending.
-                            var tmp = [];
-                            for(x in elements){
-                                //if(elements[x].status){
-                                tmp.push({
-                                    name:elements[x].name,
-                                    status:elements[x].dataToSend.status
-                                });
-                                //}
-                            }
-                            // Send data to the server
-                            socket.emit('updateElements',tmp);
+                            sendData();
                         }
                     };   
                 });
             }else{
                 elements[x].dataToSend = dataToSend; 
+                if(counter === ammountOfElements){
+                    sendData();
+                }
             };
             
         };

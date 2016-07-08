@@ -23,6 +23,7 @@ angular
     }
 
     socket.on('updateElements',function(data) {
+        console.log('Updating elements');
         var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
         sel.select("desc").each(function () {
             if(isJsonString(this.textContent)){
