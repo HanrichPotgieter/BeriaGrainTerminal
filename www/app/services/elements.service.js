@@ -17,13 +17,14 @@ angular
             socket.emit('addElement',element);
             if(releaseEvents[element.name] !== element.name){
                 console.log('event Added');
-                releaseEvents[element.name] = element.name;
+                /*
+               releaseEvents[element.name] = element.name;
                 socket.on(element.name,function(data) {
+                    console.log('Update Recieved');
                     var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
                     sel.selectAll("*").select("desc").each(function () {
                         if(isJsonString(this.textContent)){
                             var object = JSON.parse(this.textContent);
-                            
                             if(object.name == data.element.name)
                             {
                                 //console.log(data);
@@ -33,6 +34,7 @@ angular
                     });
                     
                 });
+                */
             };
         }  
     };
