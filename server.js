@@ -250,58 +250,75 @@ app.post('/getValue', function(req, res){
 io.on('connection', function(socket){
     var elements = [];
     var updateElements = function(){
-        console.log('updating elements');
-        var counter  = 0;
-        for(x in elements){
-            counter++;
-            console.log(counter);
-            var tmp = function(x,elements){
-                    var dataToSend = {
-                        status:{color:'orange',status:'PLC Disconnected'},
-                        element:elements[x]
-                    };
-                    //console.log('Hellos')
-                    if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
-                        try{
-                            //sconsole.log(elements[x]);
-                            s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
-                            if(err){
-                                    //res.sendStatus(200);
-                                    console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
-                            }
-                            else
-                                var status = data.readUIntBE(0, 2);
-                                
-                                elementInfo.getStatus(elements[x],status,function(status){
-                                    //console.log(elements[x].name);
-                                    dataToSend.status = status;
-                                    dataToSend.element = elements[x];
-                                    socket.emit(elements[x].name,dataToSend); 
-                                });
-                            });
-                        }
-                        catch(err){
-                            console.log(err);
-                        }
+        console.log('Updating elements');
+        var dataToSend = {
+            status:{color:'orange',status:'PLC Disconnected'}
+        };
+
+        var updateElement = function(x){
+            if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
+                s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
+                    if(err){
+                        dataToSend.status.status = 'Failed to Read DB';
+                        dataToSend.status.color = 'red';
+                        elements[x].dataToSend = dataToSend; 
+                        console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
                     }
                     else{
-                        //console.log(data);
-                        socket.emit(elements[x].name,dataToSend);
-                        //res.send({color:'orange',status:'PLC Disconnected'});
-                    }           
-                }
-                tmp(x,elements);
+                        var status = data.readUIntBE(0, 2);
+                        elementInfo.getStatus(elements[x],status,function(status){
+                            dataToSend.status = status;
+                            elements[x].dataToSend = dataToSend; 
+                        });
+                    };   
+                });
+            }else{
+                elements[x].dataToSend = dataToSend; 
             };
-           
-            
+            if(counter === ammountOfElements){
+                
+            }
+        };
+        var ammountOfElements = 0;
+        for(x in elements){
+            ammountOfElements++;
+        }
+
+        // Update the status of all the elements from the PLC.
+        var counter = 0;
+        for(x in elements){
+            updateElement(x,counter++);
+        }       
+
+        // Only Copy the necessary data before sending.
+        var tmp = [];
+        for(x in elements){
+            tmp.push({
+                name:elements[x].name,
+                status:elements[x].dataToSend.status
+            });
+        }
+        // Send data to the server
+        socket.emit('updateElements',tmp);
+
         setTimeout(updateElements,2000);
     } 
     updateElements();
+    var containsElement = function(tmp){
+        for(y in elements){
+            if(elements[y].name === tmp.name){
+                return true;
+            }
+        }
+        return false;
+    }
+
     socket.on('addElement', function(element){
-        if(!elements[element.name]){
-            elements[element.name] = element;
+        if(!containsElement(element)){
+            elements.push(element);
         }
     });
+
 });
 
 
