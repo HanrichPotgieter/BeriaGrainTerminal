@@ -283,7 +283,7 @@ io.on('connection', function(socket){
                     else{
                         var status = data.readUIntBE(0, 2);
                         elementInfo.getStatus(elements[x],status,function(status){
-                            //console.log(status);
+                            console.log(status);
                             dataToSend.status = status;
                             elements[x].dataToSend = dataToSend; 
                         });
