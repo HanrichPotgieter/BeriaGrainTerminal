@@ -520,9 +520,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.107189"
-     inkscape:cx="913.61513"
-     inkscape:cy="548.62435"
+     inkscape:zoom="12.526414"
+     inkscape:cx="337.46517"
+     inkscape:cy="474.03002"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -555,6 +555,48 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     id="Y"
+     transform="translate(-1733,-1030.5006)"
+     inkscape:label="#g4964">
+    <path
+       stroke-miterlimit="4"
+       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+       id="path4970"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       x="2099"
+       y="1519"
+       xml:space="preserve"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
+       id="text4966"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
+         x="2099.5"
+         y="1518.75"
+         id="tspan4968">Y</tspan></text>
+  </g>
+  <g
+     transform="translate(-1769,-1030.5006)"
+     id="Z"
+     inkscape:label="#g4956">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       id="path4962"
+       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+       stroke-miterlimit="4" />
+    <text
+       id="text4958"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"
+       y="1519"
+       x="2099"><tspan
+         id="tspan4960"
+         y="1518.75"
+         x="2099.5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Z</tspan></text>
+  </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;marker-end:url(#marker5253);visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      d="m 330.5,452.38336 0,20"
@@ -4966,6 +5008,12 @@ type=LineConnectorType1;</desc>
     <g
        transform="translate(-982.5,-780.50064)"
        id="g20770-4">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path20776-8"
+         d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         stroke-miterlimit="4" />
       <text
          id="text20772-5"
          style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
@@ -4976,16 +5024,16 @@ type=LineConnectorType1;</desc>
            y="1518.75"
            x="2099.5"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">X</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-         inkscape:connector-curvature="0"
-         id="path20776-8"
-         d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-         stroke-miterlimit="4" />
     </g>
     <g
        transform="translate(-1816.5,-1071.0006)"
        id="g20770-4-3">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+         inkscape:connector-curvature="0"
+         id="path20776-8-2"
+         d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         stroke-miterlimit="4" />
       <text
          id="text20772-5-5"
          style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
@@ -4996,55 +5044,7 @@ type=LineConnectorType1;</desc>
            y="1518.75"
            x="2099.5"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">X</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-         inkscape:connector-curvature="0"
-         id="path20776-8-2"
-         d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-         stroke-miterlimit="4" />
     </g>
-  </g>
-  <g
-     transform="translate(-1769,-1030.5006)"
-     id="Z"
-     inkscape:label="#g4956">
-    <text
-       id="text4958"
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
-       xml:space="preserve"
-       y="1519"
-       x="2099"><tspan
-         id="tspan4960"
-         y="1518.75"
-         x="2099.5"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Z</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-       inkscape:connector-curvature="0"
-       id="path4962"
-       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-       stroke-miterlimit="4" />
-  </g>
-  <g
-     id="Y"
-     transform="translate(-1733,-1030.5006)"
-     inkscape:label="#g4964">
-    <text
-       x="2099"
-       y="1519"
-       xml:space="preserve"
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
-       id="text4966"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
-         x="2099.5"
-         y="1518.75"
-         id="tspan4968">Y</tspan></text>
-    <path
-       stroke-miterlimit="4"
-       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-       id="path4970"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
   <g
      onclick="runtime.navigateImage(this.visualization.name)"
@@ -9207,7 +9207,7 @@ state=$'parent.name'.VisuStatus;</desc>
      Symbol="v0.0"
      transform="translate(-1846,-317)">
     <desc
-       id="desc6590">{&quot;name&quot;:&quot;=A-1016-MXZ01&quot;,
+       id="desc6590">{&quot;name&quot;:&quot;=A-1200-MXZO1&quot;,
        &quot;type&quot;:&quot;FB12&quot;,
        &quot;ptype&quot;:&quot;7053&quot;,
        &quot;DB&quot;:&quot;149&quot;,
@@ -9219,12 +9219,6 @@ state=$'parent.name'.VisuStatus;</desc>
         &quot;pos&quot;:&quot;1&quot;,
         &quot;offset&quot;:&quot;1&quot;,
         &quot;description&quot;:&quot;Dispenser Running&quot;
-        },
-	{
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;1&quot;,
-        &quot;offset&quot;:&quot;1&quot;,
-        &quot;description&quot;:&quot;Dispenser Start&quot;
         },
 	{
         &quot;type&quot;:&quot;Q&quot;,
@@ -9381,11 +9375,11 @@ state=$'parent.name'.VisuStatus;</desc>
      onclick="this.visualization.click(event)"
      id="g4760-8">
     <desc
-       id="desc4762-0"> {&quot;name&quot;:&quot;=A-1015-BLH02&quot;,
+       id="desc4762-0"> {&quot;name&quot;:&quot;=A-1200-BLL03&quot;,
        &quot;type&quot;:&quot;FB14&quot;,
        &quot;ptype&quot;:&quot;7154&quot;,
-       &quot;DB&quot;:&quot;500&quot;,
-       &quot;OFFSET&quot;:&quot;629&quot;,
+       &quot;DB&quot;:&quot;149&quot;,
+       &quot;OFFSET&quot;:&quot;500&quot;,
        &quot;description&quot;:&quot;Pellet Dispenser Low Level&quot;,
        &quot;ios&quot;:[
         {

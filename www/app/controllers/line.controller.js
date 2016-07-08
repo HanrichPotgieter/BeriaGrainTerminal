@@ -175,10 +175,11 @@ angular
                                     //d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
                                     //Here! Code needs to change --->
 
+                                    var linkers;
+
                                     ////////////////////////////WIAN CODE/////////////////////////
                                     if(object.type == "FB13" && object.description == "Way Flap")
                                     {
-                                        var linkers;
                                         var squares = object.positions;
                                         var children = parent.getElementsByTagName('rect');
                                         for(var i = 0, max = squares.length; i < max; i++) 
@@ -188,44 +189,18 @@ angular
 
                                             if(square.input == "YES" || "-")
                                             {
-                                                d3.select(children[i]).style('fill', data.color)
-                                                .style('visibility', 'visible')
-                                                .style('transition','fill 2.0s ease')
-                                                .style('opacity', '1');
+                                                changeLinkColor(sel,children[i], data.color, '-', 'grey');
                                             }
 
                                             if(data.status == "State High Number")
-                                            {
+                                            {          
                                                 if(square.out == "HN")
                                                 {
-                                                    d3.select(children[i]).style('fill', data.color)
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path, rect").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', data.color).style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
-
+                                                   changeLinkColor(sel,children[i], data.color, square.link, data.color);
                                                 }
                                                 else if(square.out == "LN")
                                                 {
-                                                    d3.select(children[i]).style('fill', 'grey')
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', 'none').style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
+                                                    changeLinkColor(sel,children[i], 'grey', square.link, 'grey');
                                                 }         
                                             }
                                             else if(data.status == "State Low Number") //State Low Number
@@ -233,51 +208,16 @@ angular
                                                 data.color = 'green';
                                                 if(square.out == "LN")
                                                 {
-                                                    d3.select(children[i]).style('fill', data.color)
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', data.color).style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
-
+                                                    changeLinkColor(sel,children[i], data.color, square.link, data.color);
                                                 }
                                                 else if(square.out == "HN")
                                                 {
-                                                    d3.select(children[i]).style('fill', 'grey')
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', 'none').style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
+                                                    changeLinkColor(sel,children[i], 'grey', square.link, 'grey');
                                                 }
                                             }
                                             else
                                             {
-                                                 d3.select(children[i]).style('fill', data.color)
-                                                 .style('visibility', 'visible')
-                                                 .style('transition','fill 2.0s ease')
-                                                 .style('opacity', '1');     
-
-                                                 if(square.link != "-")
-                                                {
-                                                    linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                    {
-                                                        d3.select(this).style('fill', data.color).style('transition','fill 2.0s ease');
-                                                    });
-                                                    
-                                                } 
+                                                 changeLinkColor(sel,children[i], data.color, square.link, data.color);
                                             }
                                         }          
                                                       
@@ -307,6 +247,23 @@ angular
                 return false;
             }
             return true;
+        }
+
+        function changeLinkColor(selection, child, childColor, wayLink, linkColor)
+        {
+            d3.select(child).style('fill', childColor)
+            .style('visibility', 'visible')
+            .style('transition','fill 2.0s ease')
+            .style('opacity', '1');
+
+            if(wayLink != "-")
+            {
+                linkers = selection.selectAll("#" + wayLink).selectAll("path, rect").each(function()
+                {
+                    d3.select(this).style('fill', linkColor).style('transition','fill 2.0s ease');
+                });
+            }
+            
         }
           
     })

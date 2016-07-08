@@ -185,9 +185,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="836.63025"
-     inkscape:cy="711.00587"
+     inkscape:zoom="4.0000001"
+     inkscape:cx="763.23145"
+     inkscape:cy="623.1352"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -1075,6 +1075,12 @@ state=$'parent.name'.VisuStatus;</desc>
      id="X"
      transform="translate(-1401.6692,-1150.8849)"
      inkscape:label="#g20770-4-3">
+    <path
+       stroke-miterlimit="4"
+       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+       id="path20776-8-2"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
        x="2099"
        y="1519"
@@ -1085,17 +1091,17 @@ state=$'parent.name'.VisuStatus;</desc>
          x="2099.5"
          y="1518.75"
          id="tspan20774-1-0">X</tspan></text>
-    <path
-       stroke-miterlimit="4"
-       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-       id="path20776-8-2"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
   <g
      transform="translate(-1354.1692,-1110.3848)"
      id="Z"
      inkscape:label="#g4956">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       id="path4962"
+       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+       stroke-miterlimit="4" />
     <text
        id="text4958"
        style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-anchor:middle;fill:#000000;stroke-width:0;font-family:Arial;-inkscape-font-specification:Arial"
@@ -1106,17 +1112,17 @@ state=$'parent.name'.VisuStatus;</desc>
          y="1518.75"
          x="2099.5"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial">Z</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-       inkscape:connector-curvature="0"
-       id="path4962"
-       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-       stroke-miterlimit="4" />
   </g>
   <g
      id="Y"
      transform="translate(-1318.1692,-1110.3848)"
      inkscape:label="#g4964">
+    <path
+       stroke-miterlimit="4"
+       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+       id="path4970"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
        x="2099"
        y="1519"
@@ -1127,12 +1133,6 @@ state=$'parent.name'.VisuStatus;</desc>
          x="2099.5"
          y="1518.75"
          id="tspan4968">Y</tspan></text>
-    <path
-       stroke-miterlimit="4"
-       d="m 2104.5,1515.5 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
-       id="path4970"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" />
   </g>
   <g
      transform="matrix(1.1124071,0,0,1.0191581,-43.943347,-432.7458)"
