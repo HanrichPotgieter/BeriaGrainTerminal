@@ -34,9 +34,9 @@ angular
                 var element= JSON.parse(this.textContent);
                 for(x in data){
                     if(data[x].name == element.name){
-                        (function(x,element){
+                        (function(x,element,data){
                             updateElement(element,x,data);
-                        })(x,this); 
+                        })(x,this,data); 
                     }
                 }
             }
