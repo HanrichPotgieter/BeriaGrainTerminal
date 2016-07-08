@@ -311,8 +311,6 @@ io.on('connection', function(socket){
             updateElement(x,counter++);
         }       
 
-        
-
         setTimeout(updateElements,2000);
     } 
     updateElements();
