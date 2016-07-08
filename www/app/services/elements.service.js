@@ -23,8 +23,7 @@ angular
     }
 
     var updateElement = function(element,index,data){
-        var color = data[index].status.color;
-        d3.select(element.parentNode).selectAll('*').style('fill',color).style('transition','fill 2.0s ease');
+        d3.select(element.parentNode).selectAll('*').style('fill',data[x].status.color).style('transition','fill 2.0s ease');
     }
 
     socket.on('updateElements',function(data) {
@@ -34,9 +33,10 @@ angular
             if(isJsonString(this.textContent)){
                 var element= JSON.parse(this.textContent);
                 for(x in data){
-                    //console.log(data[x]);
                     if(data[x].name == element.name){
-                        updateElement(this,x,data);
+                        (function(x,element){
+                            updateElement(element,x,data);
+                        })(x,this); 
                     }
                 }
             }
