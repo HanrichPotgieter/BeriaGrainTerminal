@@ -23,12 +23,15 @@ angular
     }
 
     var updateElement = function(element,index,dataArray){
+    
         //debugger;
         //d3.select(parent).style('fill',data[index].status.color);
         //d3.select(element.parentNode).selectAll('*').style('fill',data[index].status.color).style('transition','fill 2.0s ease');
         var object = element;
         var parent = element.parentNode;
         var data = dataArray[index].status;
+        object.type = dataArray[index].type;
+        //debugger;
         if(object.type == "FB13" && object.description == "Way Flap")
         {
             var linkers;
