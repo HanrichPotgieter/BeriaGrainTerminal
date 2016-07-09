@@ -277,10 +277,15 @@ io.on('connection', function(socket){
                 }
             })(elements[x]);
         }  
-
+        var tmp = []
         for(y in elements){
-            console.log(elements[y].data);
-        }   
+            tmp.push({
+                name:elements[y].name,
+                status:elements[y].data
+            });
+        }  
+
+        socket.emit('updateElements',tmp); 
 
         setTimeout(updateElements,2000);
     } 
