@@ -155,17 +155,26 @@ angular
                 {
                     getLineInfo();
                 }
-                var tmp = sel.selectAll("*").select("desc").each(function () {    
-                if(isJsonString(this.textContent))
-                {    
-                    var object = JSON.parse(this.textContent);
-                    object.node = this;
-                    elements.addElement(object);
-                };
-                }).call(function(){
-                    if($scope.open)
-                        setTimeout(changeColor, 2000);
-                });
+                
+                var tmp = sel.selectAll("*").select("desc").each(function () {
+                       
+                        if(isJsonString(this.textContent))
+                        {    
+                            var object = JSON.parse(this.textContent);
+                            object.node = this;
+                            if(object.type != "LineParams"){
+                                elements.addElement(object);
+                            }
+                            object.node = this;
+                            d3.select(object.node.parentNode).on("click", function($event) {
+                                itemClicked(object,$event);
+                            });
+                        };
+                    }).call(function(){
+                        if($scope.open)
+                            setTimeout(changeColor, 2000);
+                    });
+                
             }
         }
         changeColor();
