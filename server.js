@@ -264,7 +264,7 @@ io.on('connection', function(socket){
                         }
                         else
                             var status = data.readUIntBE(0, 2);
-                            //console.log(status);
+   
                             elementInfo.getStatus(item,status,function(data){
                                 item.data = data;
                             });
