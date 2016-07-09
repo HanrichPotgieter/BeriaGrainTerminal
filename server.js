@@ -256,7 +256,7 @@ io.on('connection', function(socket){
         var counter = 0;
         for(x in elements){
             (function(item){
-                if(connected && S7Client.Connected()){
+                if(connected && s7client.Connected()){
                     if(item.DB && item.OFFSET){
                         s7client.DBRead(parseInt(item.DB),parseInt(item.OFFSET),2,function(err,data){
                         if(err){
@@ -264,7 +264,8 @@ io.on('connection', function(socket){
                         }
                         else
                             var status = data.readUIntBE(0, 2);
-                            elementInfo.getSectionStatus(status,function(data){
+                            //console.log(status);
+                            elementInfo.getStatus(item,status,function(data){
                                 item.data = data;
                             });
                         }); 
@@ -280,6 +281,7 @@ io.on('connection', function(socket){
         }  
         var tmp = []
         for(y in elements){
+           // console.log(elements[y].data);
             tmp.push({
                 name:elements[y].name,
                 status:elements[y].data
