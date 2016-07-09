@@ -22,15 +22,14 @@ angular
         return true;
     }
 
-    var updateElement = function(element,index,dataArray){
+    var updateElement = function(element,index,dataArray,node){
     
         //debugger;
         //d3.select(parent).style('fill',data[index].status.color);
         //d3.select(element.parentNode).selectAll('*').style('fill',data[index].status.color).style('transition','fill 2.0s ease');
         var object = element;
-        var parent = element.parentNode;
+        var parent = node.parentNode;
         var data = dataArray[index].status;
-        object.type = dataArray[index].type;
         //debugger;
         if(object.type == "FB13" && object.description == "Way Flap")
         {
@@ -152,9 +151,9 @@ angular
                 var element= JSON.parse(this.textContent);
                 for(x in data){
                     if(data[x].name == element.name){
-                        (function(x,element,data){
-                            updateElement(element,x,data);
-                        })(x,this,data); 
+                        (function(x,element,data,item){
+                            updateElement(item,x,data,element);
+                        })(x,this,data,element); 
                     }
                 }
             }
