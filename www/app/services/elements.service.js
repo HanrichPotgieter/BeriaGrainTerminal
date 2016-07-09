@@ -149,11 +149,7 @@ angular
             if(isJsonString(this.textContent)){
                 var element= JSON.parse(this.textContent);
                 for(x in data){
-                    if(
-                     data[x].name == element.name
-                     && data[x].type == element.type
-                     && data[x].description == element.description
-                     ){
+                    if(data[x].name == element.name){
                         (function(x,element,data,item){
                             updateElement(item,x,data,element);
                         })(x,this,data,element); 

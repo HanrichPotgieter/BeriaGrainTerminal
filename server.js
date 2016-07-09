@@ -283,6 +283,7 @@ io.on('connection', function(socket){
         for(y in elements){
            // console.log(elements[y].data);
             tmp.push({
+                description:elements[y].description,
                 type:elements[y].type,
                 name:elements[y].name,
                 status:elements[y].data
