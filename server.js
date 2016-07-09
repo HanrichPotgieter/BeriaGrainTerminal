@@ -251,75 +251,36 @@ io.on('connection', function(socket){
     var elements = [];
     var updateElements = function(){
         console.log('Updating elements');
-        var dataToSend = {
-            status:{color:'orange',status:'PLC Disconnected'}
-        };
 
-        var sendData = function(elementsData){
-            // Only Copy the necessary data before sending.
-            //console.log(elements);
-            var tmp = [];
-            for(z in elementsData){
-                //console.log(elementsData[z].dataToSend);
-                if(elementsData[z].dataToSend){
-                if(elementsData[z].dataToSend){
-                tmp.push({
-                    name:elementsData[z].name,
-                    status:elementsData[z].dataToSend.status
-                });
-                }
-                }
-                
-            }
-            // Send data to the server
-            socket.emit('updateElements',tmp);
-        }
-
-        var updateElement = function(t,x){
-           //elements[x].dataToSend = dataToSend;
-            if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
-                (function(x){
-                s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
-                    if(err){
-                        dataToSend.status.status = 'Failed to Read DB';
-                        dataToSend.status.color = 'red';
-                        elements[x].dataToSend = dataToSend; 
-                        console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
-                    }
-                    else{
-                        var status = data.readUIntBE(0, 2);
-                        elementInfo.getStatus(elements[x],status,function(status){
-                           
-                            dataToSend.status = status;
-                            elements[x].dataToSend = dataToSend; 
-                            //console.log(elements[x].dataToSend);
-                        });
-                        if(counter === ammountOfElements){
-
-                            sendData(elements);
-                        }
-                    };   
-                });
-                })(x);
-
-            }else{
-                elements[x].dataToSend = dataToSend; 
-                if(counter === ammountOfElements){
-                   // sendData();
-                }
-            };
-            
-        };
-        var ammountOfElements = 0;
-        for(x in elements){
-            ammountOfElements++;
-        }
-
-        // Update the status of all the elements from the PLC.
         var counter = 0;
         for(x in elements){
-            updateElement(x,counter++);
-        }       
+            (function(item){
+                if(connected && S7Client.Connected()){
+                    if(item.DB && item.OFFSET){
+                        s7client.DBRead(parseInt(item.DB),parseInt(item.OFFSET),2,function(err,data){
+                        if(err){
+                            return console.log(' >> DBRead failed. Code #' + err + ' - ' + s7client.ErrorText(err));    
+                        }
+                        else
+                            var status = data.readUIntBE(0, 2);
+                            elementInfo.getSectionStatus(status,function(data){
+                                item.data = data;
+                            });
+                        }); 
+                    }
+                    else{
+                        item.data = {status:'Incorrect DB',color:'orange'};
+                    }  
+                }
+                else{
+                    item.data = {status:'PLC Disconnected',color:'orange'};
+                }
+            })(elements[x]);
+        }  
+
+        for(y in elements){
+            console.log(elements[y].data);
+        }   
 
         setTimeout(updateElements,2000);
     } 
