@@ -155,152 +155,17 @@ angular
                 {
                     getLineInfo();
                 }
-                
-                var tmp = sel.selectAll("*").select("desc").each(function () {
-                       
-                        if(isJsonString(this.textContent))
-                        {    
-                            var object = JSON.parse(this.textContent);
-                            object.node = this;
-                            elements.addElement(object);
-                            //console.log(object)
-                            object.node = this;
-                            d3.select(object.node.parentNode).on("click", function($event) {
-                                itemClicked(object,$event);
-                            });
-                            //console.log(object);
-                            if(object.type != "LineParams"){
-                                //setTimeout(1000);
-                                /*
-                                $http.post("/getStatus", object)
-                                .success(function (data) {
-                                    var parent = object.node.parentNode;
-                                    //d3.select(parent).style('fill',data.color);
-                                    //d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
-                                    //Here! Code needs to change --->
-
-                                    ////////////////////////////WIAN CODE/////////////////////////
-                                    if(object.type == "FB13" && object.description == "Way Flap")
-                                    {
-                                        var linkers;
-                                        var squares = object.positions;
-                                        var children = parent.getElementsByTagName('rect');
-                                        for(var i = 0, max = squares.length; i < max; i++) 
-                                        {
-                                            square = squares[i];
-                                            //console.log(square.link);
-
-                                            if(square.input == "YES" || "-")
-                                            {
-                                                d3.select(children[i]).style('fill', data.color)
-                                                .style('visibility', 'visible')
-                                                .style('transition','fill 2.0s ease')
-                                                .style('opacity', '1');
-                                            }
-
-                                            if(data.status == "State High Number")
-                                            {
-                                                if(square.out == "HN")
-                                                {
-                                                    d3.select(children[i]).style('fill', data.color)
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path, rect").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', data.color).style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
-
-                                                }
-                                                else if(square.out == "LN")
-                                                {
-                                                    d3.select(children[i]).style('fill', 'grey')
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', 'none').style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
-                                                }         
-                                            }
-                                            else if(data.status == "State Low Number") //State Low Number
-                                            {
-                                                data.color = 'green';
-                                                if(square.out == "LN")
-                                                {
-                                                    d3.select(children[i]).style('fill', data.color)
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', data.color).style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
-
-                                                }
-                                                else if(square.out == "HN")
-                                                {
-                                                    d3.select(children[i]).style('fill', 'grey')
-                                                    .style('visibility', 'visible')
-                                                    .style('transition','fill 2.0s ease')
-                                                    .style('opacity', '1');
-
-                                                    if(square.link != "-")
-                                                    {
-                                                        linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                        {
-                                                            d3.select(this).style('fill', 'none').style('transition','fill 2.0s ease');
-                                                        });
-                                                    }
-                                                }
-                                            }
-                                            else
-                                            {
-                                                 d3.select(children[i]).style('fill', data.color)
-                                                 .style('visibility', 'visible')
-                                                 .style('transition','fill 2.0s ease')
-                                                 .style('opacity', '1');     
-
-                                                 if(square.link != "-")
-                                                {
-                                                    linkers = sel.selectAll("#" + square.link).selectAll("path").each(function()
-                                                    {
-                                                        d3.select(this).style('fill', data.color).style('transition','fill 2.0s ease');
-                                                    });
-                                                    
-                                                } 
-                                            }
-                                        }          
-                                                      
-                                    }
-                                    else{
-                                        d3.select(parent).style('fill',data.color);
-                                        d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
-                                    }
-                                    ////////////////////////////WIAN CODE/////////////////////////
-                                }); 
-                                */
-
-                            }
-                        };
-                    }).call(function(){
-                        if($scope.open)
-                            setTimeout(changeColor, 2000);
-                    });
-                
+                var tmp = sel.selectAll("*").select("desc").each(function () {    
+                if(isJsonString(this.textContent))
+                {    
+                    var object = JSON.parse(this.textContent);
+                    object.node = this;
+                    elements.addElement(object);
+                };
+                }).call(function(){
+                    if($scope.open)
+                        setTimeout(changeColor, 2000);
+                });
             }
         }
         changeColor();
