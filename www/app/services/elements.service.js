@@ -39,7 +39,6 @@ angular
             for(var i = 0, max = squares.length; i < max; i++) 
             {
                 square = squares[i];
-                //console.log(square.link);
 
                 if(square.input == "YES" || "-")
                 {
@@ -150,7 +149,7 @@ angular
             if(isJsonString(this.textContent)){
                 var element= JSON.parse(this.textContent);
                 for(x in data){
-                    if(data[x].name == element.name){
+                    if(data[x].name == element.name && data[x].type == element.type){
                         (function(x,element,data,item){
                             updateElement(item,x,data,element);
                         })(x,this,data,element); 
