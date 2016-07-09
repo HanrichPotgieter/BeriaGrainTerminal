@@ -255,17 +255,19 @@ io.on('connection', function(socket){
             status:{color:'orange',status:'PLC Disconnected'}
         };
 
-        var sendData = function(){
+        var sendData = function(elementsData){
             // Only Copy the necessary data before sending.
             //console.log(elements);
             var tmp = [];
-            for(z in elements){
-                //console.log(elements[z].dataToSend);
-                if(elements[z].dataToSend){
+            for(z in elementsData){
+                //console.log(elementsData[z].dataToSend);
+                if(elementsData[z].dataToSend){
+                if(elementsData[z].dataToSend){
                 tmp.push({
-                    name:elements[z].name,
-                    status:elements[z].dataToSend.status
+                    name:elementsData[z].name,
+                    status:elementsData[z].dataToSend.status
                 });
+                }
                 }
                 
             }
@@ -273,9 +275,10 @@ io.on('connection', function(socket){
             socket.emit('updateElements',tmp);
         }
 
-        var updateElement = function(x){
+        var updateElement = function(t,x){
            //elements[x].dataToSend = dataToSend;
             if(elements[x].DB && elements[x].OFFSET && s7client.Connected() && connected){
+                (function(x){
                 s7client.DBRead(parseInt(elements[x].DB),parseInt(elements[x].OFFSET),2,function(err,data){
                     if(err){
                         dataToSend.status.status = 'Failed to Read DB';
@@ -293,14 +296,16 @@ io.on('connection', function(socket){
                         });
                         if(counter === ammountOfElements){
 
-                            sendData();
+                            sendData(elements);
                         }
                     };   
                 });
+                })(x);
+
             }else{
                 elements[x].dataToSend = dataToSend; 
                 if(counter === ammountOfElements){
-                    sendData();
+                   // sendData();
                 }
             };
             
