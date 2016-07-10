@@ -23,13 +23,15 @@ angular
     }
 
     var updateElement = function(element,index,dataArray,node){
-    
-        //debugger;
+
         //d3.select(parent).style('fill',data[index].status.color);
         //d3.select(element.parentNode).selectAll('*').style('fill',data[index].status.color).style('transition','fill 2.0s ease');
         var object = element;
         var parent = node.parentNode;
-        var data = dataArray[index].status;
+        var data = dataArray[index].data;
+        //debugger;
+        var sel = d3.select(document.getElementById("image").contentDocument).selectAll("*");
+        if(element.name = '=A-1006-MXZ01')
         //debugger;
         if(object.type == "FB13" && object.description == "Way Flap")
         {
@@ -137,7 +139,7 @@ angular
                             
         }
         else{
-            d3.select(parent).style('fill',data.color);
+            //d3.select(parent).style('fill',data.color);
             d3.select(parent).selectAll('*').style('fill',data.color).style('transition','fill 2.0s ease');
         }
     }
@@ -150,9 +152,15 @@ angular
                 var element= JSON.parse(this.textContent);
                 for(x in data){
                     if(data[x].name == element.name){
-                        (function(x,element,data,item){
-                            updateElement(item,x,data,element);
-                        })(x,this,data,element); 
+                        var b = JSON.parse(JSON.stringify(data[x]));
+                        //Removing unesessary stuff for comaprison.
+                        delete b['data'];
+                        delete b['node'];
+                        if(JSON.stringify(b) == JSON.stringify(element)){
+                            (function(x,element,data,item){
+                                updateElement(item,x,data,element);
+                            })(x,this,data,element); 
+                        }
                     }
                 }
             }

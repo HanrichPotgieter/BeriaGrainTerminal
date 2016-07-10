@@ -279,18 +279,8 @@ io.on('connection', function(socket){
                 }
             })(elements[x]);
         }  
-        var tmp = []
-        for(y in elements){
-           // console.log(elements[y].data);
-            tmp.push({
-                description:elements[y].description,
-                type:elements[y].type,
-                name:elements[y].name,
-                status:elements[y].data
-            });
-        }  
 
-        socket.emit('updateElements',tmp); 
+        socket.emit('updateElements',elements); 
 
         setTimeout(updateElements,2000);
     } 
