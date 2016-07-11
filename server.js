@@ -10,8 +10,11 @@ var bufferrReverse = require("buffer-reverse");
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var Datastore = require('nedb');
+var scaleData = require('./elements/scaleData.js');
+
 
 dbElements = new Datastore({ filename: __dirname + '/database/elements_data', autoload: true });
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -330,6 +333,5 @@ io.on('connection', function(socket){
     });
 
 });
-
-
-
+//Start Recording data for scales;
+scaleData.init(dbElements,Datastore,s7client,__dirname);

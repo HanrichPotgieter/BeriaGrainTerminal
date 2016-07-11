@@ -6,7 +6,7 @@ angular
             name:''
         };
         //Start Socket io
-        var socket = io();
+  
         function getLineName(){
             $scope.line.name = lines.selectedLine.name;
             setTimeout(getLineName,100)
