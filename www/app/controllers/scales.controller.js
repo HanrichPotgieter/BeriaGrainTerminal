@@ -6,6 +6,9 @@ angular
             $scope.scales = data;
         });
 
-       //scales.getScales();
+       $scope.init = function() {
+           console.log('hello');
+           scales.getScales();
+       }
 
     });
