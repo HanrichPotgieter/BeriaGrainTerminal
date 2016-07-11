@@ -279,8 +279,8 @@ io.on('connection', function(socket){
                 }
             })(elements[x]);
         }  
-
-        socket.emit('updateElements',elements); 
+        //Send elements to all connected clients
+        io.sockets.emit('updateElements',elements); 
         (function(){
             setTimeout(updateElements,2000);
         }
