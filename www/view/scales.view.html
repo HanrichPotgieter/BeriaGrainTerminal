@@ -1,0 +1,14 @@
+<md-card ng-controller="ScalesCtrl">
+    <md-toolbar class="md-toolbar-tools">
+         <h2>Scale Information Page</h2>
+    </md-toolbar>
+    <md-card-content>
+        <md-list>
+            <md-list-item ng-repeat="scale in scales" class="md-2-line">
+                <div class="md-list-item-text">
+                    <h3>{{scale.name}}</h3>
+                </div>
+            </md-list-item>
+        </md-list>
+    </md-card-content>
+</md-card>
