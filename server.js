@@ -11,7 +11,7 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 var Datastore = require('nedb');
 
- db = new Datastore({ filename: '/database/data', autoload: true });
+dbElements = new Datastore({ filename: __dirname + '/database/elements_data', autoload: true });
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -252,9 +252,10 @@ app.post('/getValue', function(req, res){
 // This needs to go into a seprate module
 var updatingStarted = false;
 var elements = [];
-db.find({},function(err,docs){
+dbElements.find({},function(err,docs){
     elements = docs;
 });
+
 io.on('connection', function(socket){
 
     var updateElements = function(){
@@ -308,11 +309,11 @@ io.on('connection', function(socket){
 
     socket.on('addElement', function(element){
         if(!containsElement(element)){
-            db.find(element,function(err,docs){
+            dbElements.find(element,function(err,docs){
                 if(err)
                     return console.log(err);
                 if(docs.length ==0){
-                    db.insert(element,function(err){
+                    dbElements.insert(element,function(err){
                         if(err) return console.log(err);
                     })
                 }
