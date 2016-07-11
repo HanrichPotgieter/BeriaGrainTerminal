@@ -1,6 +1,6 @@
 angular
     .module('app')
-    .factory('elements', function($http) {
+    .factory('elements', function($http,socket) {
     var releaseEvents = [];
  
     function isJsonString(str) {
@@ -11,7 +11,7 @@ angular
         }
         return true;
     }
-    var socket = io();
+
 
     function isJsonString(str) {
     try {

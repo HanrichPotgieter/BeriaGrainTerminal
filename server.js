@@ -322,6 +322,13 @@ io.on('connection', function(socket){
         }
     });
 
+    socket.on('getScales',function(){
+        dbElements.find({type:'FB40'},function(err,docs){
+            if(err) return console.log(err)
+            io.sockets.emit('updateScales',docs);
+        })
+    });
+
 });
 
 
