@@ -76,5 +76,13 @@ angular
                     }
                 }
             })
+            .state('scale',{
+                url:'/scales/:id',
+                views:{
+                    '@': {
+                    templateUrl: 'view/scale.view.html'
+                    }
+                }
+            })
     }]);
     

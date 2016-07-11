@@ -1,6 +1,6 @@
 
 module.exports = {
-    init:function(db,Datastore,s7client,directory){
+    init:function(db,Datastore,s7client,directory,socket){
         var scales = [];
         var limit = 3600;
 

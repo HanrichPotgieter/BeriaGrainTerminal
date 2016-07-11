@@ -4,7 +4,7 @@
     </md-toolbar>
     <md-card-content class="listRemovePadding">
         <md-list>
-            <md-list-item ng-repeat="scale in scales" ng-click="null">
+            <md-list-item ng-repeat="scale in scales" ng-click="loadScale(scale)">
                 <div>
                     <p>{{scale.name}} : {{scale.description}}</p>
                 </div>
