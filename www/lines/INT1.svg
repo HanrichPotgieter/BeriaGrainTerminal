@@ -512,6 +512,62 @@
          transform="scale(0.4,0.4)"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6990-2"
+       style="overflow:visible">
+      <path
+         id="path6992-1"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#c0c0c0;fill-rule:evenodd;stroke:#c0c0c0;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9299"
+       style="overflow:visible">
+      <path
+         id="path9301"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#c0c0c0;fill-rule:evenodd;stroke:#c0c0c0;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9303"
+       style="overflow:visible">
+      <path
+         id="path9305"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#c0c0c0;fill-rule:evenodd;stroke:#c0c0c0;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker9307"
+       style="overflow:visible">
+      <path
+         id="path9309"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#c0c0c0;fill-rule:evenodd;stroke:#c0c0c0;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -520,9 +576,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.107189"
-     inkscape:cx="913.61513"
-     inkscape:cy="548.62435"
+     inkscape:zoom="3.2588551"
+     inkscape:cx="566.06893"
+     inkscape:cy="586.5932"
      inkscape:document-units="px"
      inkscape:current-layer="svg7214"
      showgrid="true"
@@ -639,7 +695,7 @@
         &quot;pos&quot;:&quot;41&quot;,
         &quot;offset&quot;:&quot;5&quot;,
         &quot;description&quot;:&quot;Speed Monitor&quot;
-        },
+        }
         ]}</desc>
     <g
        transform="translate(-2168.5,154.74894)"
@@ -683,64 +739,6 @@
        id="path5178-6-3-6-6-1-1"
        inkscape:connector-curvature="0" />
   </g>
-  <g
-     id="g4779">
-    <desc
-       id="desc4785">{&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7056&quot;,
-       &quot;DB&quot;:&quot;160&quot;,
-       &quot;OFFSET&quot;:&quot;210&quot;,
-       &quot;description&quot;:&quot;Belt Conveyor Direction&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;30&quot;,
-        &quot;offset&quot;:&quot;4&quot;,
-        &quot;description&quot;:&quot;Forward&quot;
-        },
- {
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;30&quot;,
-        &quot;offset&quot;:&quot;5&quot;,
-        &quot;description&quot;:&quot;Reverse&quot;
-        }
-        ]}</desc>
-    <path
-       inkscape:connector-curvature="0"
-       id="path13529"
-       d="m 556.25,340.24296 -26.384,0"
-       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
-       class="dynRevFast"
-       sodipodi:nodetypes="cc" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path13531"
-       d="m 565.25,340.24296 -26.384,0"
-       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
-       class="dynRevSlow"
-       sodipodi:nodetypes="cc" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path13535"
-       d="m 575.75,340.24296 25.8843,0"
-       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
-       class="dynFwdFast"
-       sodipodi:nodetypes="cc" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path13537"
-       d="m 565.75,340.24296 25.8843,0"
-       style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990)"
-       class="dynFwdSlow"
-       sodipodi:nodetypes="cc" />
-  </g>
-  <circle
-     style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-     id="path13729"
-     cx="641.25"
-     cy="350.74893"
-     r="4" />
   <rect
      y="351.24893"
      x="484.75"
@@ -980,76 +978,6 @@
        id="path9574-6"
        d="m 312,2321.75 0,28 c 0,0 11.05216,-0.3469 15.5,-1.5 3.9808,-1.032 15.52253,-5.8018 23.5,-8 7.72092,-2.1275 15.8713,-2.5624 23.5,-5 5.19072,-1.6586 15,-6.5 15,-6.5 l 0,-7"
        style="color:#000000;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-  </g>
-  <g
-     id="g4695">
-    <desc
-       id="desc4704"> {&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
-       &quot;type&quot;:&quot;FB12&quot;,
-       &quot;ptype&quot;:&quot;7056&quot;,
-       &quot;DB&quot;:&quot;160&quot;,
-       &quot;OFFSET&quot;:&quot;70&quot;,
-       &quot;description&quot;:&quot;Forward/Reverse Belt Conveyor&quot;,
-       &quot;ios&quot;:[
-        {
-        &quot;type&quot;:&quot;I&quot;,
-        &quot;pos&quot;:&quot;41&quot;,
-        &quot;offset&quot;:&quot;1&quot;,
-        &quot;description&quot;:&quot;Conveyor Running&quot;
-        },
-	{
-        &quot;type&quot;:&quot;Q&quot;,
-        &quot;pos&quot;:&quot;30&quot;,
-        &quot;offset&quot;:&quot;1&quot;,
-        &quot;description&quot;:&quot;Conveyor Start&quot;
-        }
-        ]}</desc>
-    <path
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1"
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
-       id="path13539"
-       d="m 489.25,346.74894 -3e-5,8 152.00003,0 0,-8 z" />
-    <circle
-       r="4"
-       cy="350.74893"
-       cx="489.25"
-       id="path13744"
-       style="fill:#c0c0c0;stroke:#000000;stroke-width:1" />
-    <g
-       onclick="this.visualization.click(event)"
-       transform="matrix(0.5333273,0,0,0.53335145,266.45318,168.34261)"
-       id="g13769"
-       Library="GM_2.2.1616.0"
-       Symbol="v0.0">
-      <g
-         id="g13773"
-         style="fill:#c0c0c0;stroke:#000000;stroke-width:1.87497878"
-         class="dynShape">
-        <path
-           style="stroke-width:1.87497878"
-           sodipodi:type="arc"
-           id="path13783"
-           sodipodi:cx="592"
-           sodipodi:cy="152"
-           sodipodi:rx="7.5"
-           sodipodi:ry="7.5"
-           d="m 599.5,152 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z"
-           transform="translate(110.75191,190)" />
-      </g>
-      <text
-         sodipodi:linespacing="125%"
-         id="text13785"
-         y="344.75"
-         x="699.50165"
-         style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial"
-         xml:space="preserve"><tspan
-           style="font-size:8px"
-           y="344.75"
-           x="699.50165"
-           id="tspan13787"
-           sodipodi:role="line">M</tspan></text>
-    </g>
   </g>
   <path
      style="color:#000000;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -10400,5 +10328,100 @@ state=$'parent.name'.VisuStatus;</desc>
        id="4105-4-6-3-9-7-5-7-8-4"
        style="visibility:hidden;opacity:0.5;fill:#808080;stroke:none"
        transform="scale(1,-1)" />
+  </g>
+  <g
+     Symbol="v0.0"
+     Library="GM_2.2.1616.0"
+     id="g13516"
+     transform="translate(-60.721682,-234.92885)"
+     onclick="this.visualization.click(event)">
+    <desc
+       id="desc13518">       {&quot;name&quot;:&quot;=A-1006-MXZ01&quot;,
+       &quot;type&quot;:&quot;FB12&quot;,
+       &quot;ptype&quot;:&quot;7056&quot;,
+       &quot;DB&quot;:&quot;160&quot;,
+       &quot;OFFSET&quot;:&quot;70&quot;,
+       &quot;description&quot;:&quot;Forw/Reve Belt Conveyor&quot;,
+       &quot;ios&quot;:[
+        {
+        &quot;type&quot;:&quot;I&quot;,
+        &quot;pos&quot;:&quot;41&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Running&quot;
+        },
+	{
+        &quot;type&quot;:&quot;Q&quot;,
+        &quot;pos&quot;:&quot;30&quot;,
+        &quot;offset&quot;:&quot;1&quot;,
+        &quot;description&quot;:&quot;Conveyor Start&quot;
+        }
+        ]}</desc>
+    <g
+       class="dynShape"
+       id="g13520"
+       style="fill:#c0c0c0;stroke:#000000;stroke-width:1">
+      <path
+         sodipodi:nodetypes="cc"
+         class="dynRevFast"
+         style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990-2)"
+         d="m 616.5,575.99402 -26.384,0"
+         id="path13529-5"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         class="dynRevSlow"
+         style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990-2)"
+         d="m 625.5,575.99402 -26.384,0"
+         id="path13531-4"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         class="dynFwdFast"
+         style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990-2)"
+         d="m 636,575.99402 25.8843,0"
+         id="path13535-6"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cc"
+         class="dynFwdSlow"
+         style="color:#000000;visibility:hidden;fill:none;stroke:#c0c0c0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-end:url(#marker6990-2)"
+         d="m 626,575.99402 25.8843,0"
+         id="path13537-5"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 549.5,582.5 -3e-5,8 152.00003,0 0,-8 z"
+         id="path13539-8"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc"
+         style="stroke-width:1" />
+      <circle
+         r="4"
+         cy="622.5"
+         cx="3397.5"
+         transform="translate(-2848,-36)"
+         id="path13744-5" />
+      <circle
+         r="4"
+         cy="622.5"
+         cx="3397.5"
+         id="path13729-1"
+         transform="translate(-2696,-36)" />
+    </g>
+    <rect
+       class="dynCon1"
+       style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none"
+       id="rect13558-7"
+       width="16"
+       height="5"
+       x="545"
+       y="587" />
+    <rect
+       class="dynCon2"
+       y="587"
+       x="693"
+       height="5"
+       width="13"
+       id="rect13560-1"
+       style="visibility:hidden;opacity:0.4;fill:#008200;stroke:none" />
   </g>
 </svg>

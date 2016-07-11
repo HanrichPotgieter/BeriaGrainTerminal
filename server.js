@@ -13,7 +13,7 @@ var io = require('socket.io')(server);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(morgan('dev'));
-app.use(express.static('www'));
+app.use(express.static(__dirname +'/www'));
 
 app.get('/', function (req, res) {
   res.sendfile(__dirname+'/www/index.html');
@@ -247,7 +247,7 @@ app.post('/getValue', function(req, res){
     }
 });
 // This needs to go into a seprate module
-
+var updatingStarted = false;
 io.on('connection', function(socket){
     var elements = [];
     var updateElements = function(){
@@ -281,10 +281,17 @@ io.on('connection', function(socket){
         }  
 
         socket.emit('updateElements',elements); 
-
-        setTimeout(updateElements,2000);
+        (function(){
+            setTimeout(updateElements,2000);
+        }
+        )();
     } 
-    updateElements();
+    //Make sure the update service is only started once.
+    if(!updatingStarted){
+        updateElements();
+        updatingStarted = true;
+    }
+
     var containsElement = function(tmp){
         for(y in elements){
             if(elements[y].name === tmp.name){
