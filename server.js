@@ -9,6 +9,9 @@ var ping = require('ping');
 var bufferrReverse = require("buffer-reverse");
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
+var Datastore = require('nedb');
+
+ db = new Datastore({ filename: '/database/data', autoload: true });
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -248,11 +251,14 @@ app.post('/getValue', function(req, res){
 });
 // This needs to go into a seprate module
 var updatingStarted = false;
+var elements = [];
+db.find({},function(err,docs){
+    elements = docs;
+});
 io.on('connection', function(socket){
-    var elements = [];
-    var updateElements = function(){
-        console.log('Updating elements');
 
+    var updateElements = function(){
+        console.log('Updating '+elements.length+' elements' );
         var counter = 0;
         for(x in elements){
             (function(item){
@@ -264,7 +270,6 @@ io.on('connection', function(socket){
                         }
                         else
                             var status = data.readUIntBE(0, 2);
-   
                             elementInfo.getStatus(item,status,function(data){
                                 item.data = data;
                             });
@@ -303,6 +308,15 @@ io.on('connection', function(socket){
 
     socket.on('addElement', function(element){
         if(!containsElement(element)){
+            db.find(element,function(err,docs){
+                if(err)
+                    return console.log(err);
+                if(docs.length ==0){
+                    db.insert(element,function(err){
+                        if(err) return console.log(err);
+                    })
+                }
+            })
             elements.push(element);
         }
     });

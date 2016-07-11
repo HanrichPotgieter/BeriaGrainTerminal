@@ -152,10 +152,13 @@ angular
                 var element= JSON.parse(this.textContent);
                 for(x in data){
                     if(data[x].name == element.name){
+
                         var b = JSON.parse(JSON.stringify(data[x]));
                         //Removing unesessary stuff for comaprison.
                         delete b['data'];
                         delete b['node'];
+                        delete b['_id'];
+                        //debugger;
                         if(JSON.stringify(b) == JSON.stringify(element)){
                             (function(x,element,data,item){
                                 updateElement(item,x,data,element);
